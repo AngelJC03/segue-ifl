@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import './Hamburger.css'; // Import the CSS file for hamburger menu styling
 
 function Hamburger({ click, checkboxRef, handleToggle }) {

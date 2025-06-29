@@ -1,24 +1,34 @@
-import React, { useState, useRef } from 'react';
+// import React from 'react';
+import { useState, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { FaAngleDown } from 'react-icons/fa';
 import './Navbar.css'; // Import the CSS file for styling
-import logo from '../../assets/images/navbar-photos/temp-segue-logo.png';
+// import logo from '../../assets/images/navbar-photos/temp-segue-logo.png';
 import Sidebar from './Sidebar'; // Import the Sidebar component
 import Hamburger from './Hamburger'; // Import the Hamburger component
-import { Button } from './Button'; // Import the Button component if needed
+// import { Button } from './Button'; // Import the Button component if needed
 
 
 function Navbar() {
 
-    const [button, setButton] = useState(true);
-    const handleClick = () => {setClick(!click);}
-    const showButton= () => {
-        if (window.innerWidth <= 960) {
-            setButton(false);
-        } else {
-            setButton(true);
-        }
-    }
+    //OLD CODE (MIGHT BE UNNEEDED) 
+    //
+    //
+    //
+    //
+    // const [button, setButton] = useState(true);
+    // const handleClick = () => {setClick(!click);}
+    // const showButton= () => {
+    //     if (window.innerWidth <= 960) {
+    //         setButton(false);
+    //     } else {
+    //         setButton(true);
+    //     }
+    // }
+    //
+    //
+    //
+    //
 
     const [click, setClick] = useState(false);
 

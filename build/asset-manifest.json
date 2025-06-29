@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e06a1a47.css",
+    "main.js": "/static/js/main.286d3c34.js",
+    "static/js/453.8cc86eb2.chunk.js": "/static/js/453.8cc86eb2.chunk.js",
+    "static/media/hero-image5.JPG": "/static/media/hero-image5.e8f32629be95de2c24d5.JPG",
+    "static/media/hero-image1.jpg": "/static/media/hero-image1.58df2f670b66d9cce6b7.jpg",
+    "static/media/hero-image4.jpg": "/static/media/hero-image4.9c31c8399d339a5f4743.jpg",
+    "static/media/hero-image6.jpg": "/static/media/hero-image6.ec483529931173ee3469.jpg",
+    "static/media/hero-image2.jpg": "/static/media/hero-image2.6f465a5323f1d15b80af.jpg",
+    "static/media/hero-image3.jpg": "/static/media/hero-image3.cf6ac1dd226b43881ce9.jpg",
+    "static/media/Gill-Sans-Bold.otf": "/static/media/Gill-Sans-Bold.6110e26abc5eece5ce42.otf",
+    "static/media/Gill-Sans-Light.otf": "/static/media/Gill-Sans-Light.7c646be8fc05ea0651f1.otf",
+    "static/media/temp-segue-logo.png": "/static/media/temp-segue-logo.b8f419211be5924e7012.png",
+    "index.html": "/index.html",
+    "main.e06a1a47.css.map": "/static/css/main.e06a1a47.css.map",
+    "main.286d3c34.js.map": "/static/js/main.286d3c34.js.map",
+    "453.8cc86eb2.chunk.js.map": "/static/js/453.8cc86eb2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e06a1a47.css",
+    "static/js/main.286d3c34.js"
+  ]
+}

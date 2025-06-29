@@ -1,5 +1,6 @@
 // HeroCarousel.jsx
-import React, { useEffect, useState } from 'react';
+// import React from 'react';
+import { useEffect, useState } from 'react';
 import './HeroSection.css';
 import { Button } from '../navbar/Button'; // Import the Button component if needed
 // Importing images for the carousel

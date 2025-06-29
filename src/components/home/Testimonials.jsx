@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react';
+// import React, { useEffect, useState } from 'react';
 import './Testimonials.css'; // Import the testimonials CSS
-import { Button } from '../navbar/Button'; // Import the Button component if needed
+// import { Button } from '../navbar/Button'; // Import the Button component if needed
 // Importing images for the carousel
 
 function Testimonials() {

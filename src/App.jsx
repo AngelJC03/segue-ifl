@@ -1,12 +1,9 @@
 import './App.css';
-import { useState } from 'react';
+// import { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/home';
 
 function App() {
-
-  const [count, setState] = useState(0);
-
 
   return (
     <div className="App">

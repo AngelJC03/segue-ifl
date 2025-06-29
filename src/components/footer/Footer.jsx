@@ -1,4 +1,4 @@
-import react from 'react';
+// import react from 'react';
 import './Footer.css'; // Import the footer CSS
 import { Link } from 'react-router-dom';
 import image from '../../assets/images/logo-photos/temp-segue-logo.png'; // Import the logo image

@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react';
+// import React, { useEffect, useState } from 'react';
 import './HomeNews.css'; // Import the testimonials CSS
-import { Button } from '../navbar/Button'; //
+// import { Button } from '../navbar/Button'; //
 
 function HomeNews() {
     return (
