@@ -1,0 +1,118 @@
+.hero-carousel {
+  display: flex;
+  width: 100%;
+  height: 600px;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Container for image stack */
+.carousel-image-wrapper {
+  position: relative;
+  width: 60%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* Keep fade transition */
+.carousel-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; /* now relative to the wrapper */
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 1.2s ease-in-out;
+  z-index: 0;
+}
+
+.carousel-image.active {
+  opacity: 1;
+  z-index: 1;
+}
+
+/* Text content beside the image */
+.hero-text {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;  /* horizontal centering */
+  justify-content: center; /* vertical centering */
+  padding: 0;
+  font-size: .87rem;
+  background-color: white;
+  color: #000;
+  z-index: 2;
+  text-align: center;
+}
+
+.hero-text h1,
+.hero-text p {
+  margin: 0; 
+  padding: 0.25rem 0; 
+}
+
+.hero-logo {
+  width: 150px;
+  margin-bottom: 1rem;
+}
+
+/* Responsive stack layout */
+@media (max-width: 1000px) {
+  .hero-carousel {
+    flex-direction: column;
+    margin: 0 auto;
+    height: 700px; /* Maintain height for larger screens */
+  }
+
+  .carousel-image-wrapper,
+  .carousel-image {
+    width: 100%;
+    height: 500px;
+  }
+
+  .hero-text {
+    width: 100%;
+    text-align: center;
+    font-size: 0.9rem;
+    height: 250px; /* Allow text to expand */
+  }
+}
+
+@media (max-width: 600px) {
+  .hero-carousel {
+    width: 100vw;
+    height: 600px;
+  }
+
+  .carousel-image-wrapper,
+  .carousel-image {
+    width: 100vw;
+    height: 350px;
+  }
+
+  .hero-text {
+    width: 100%;
+    height: 250px;
+    font-size: 0.6rem;
+  }
+
+}
+
+@media (max-width: 450px) {
+  .hero-carousel {
+    width: 100vw;
+    height: 500px;
+  }
+  .carousel-image-wrapper,
+  .carousel-image {
+    height: 250px;
+  }
+
+  .hero-text {
+    font-size: 0.5rem;
+  }
+}

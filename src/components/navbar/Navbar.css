@@ -1,0 +1,167 @@
+.navbar {
+    display: flex;
+    height: 120px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(128,0,0,255);
+    position: sticky;
+    z-index: 1000;
+}
+
+.navbar-container {
+    display: flex; 
+    align-items: center; /* vertically center */
+    top: 0;
+    width: 100%;
+    justify-content: center;
+}
+
+.navbar-logo {
+    width: 150px;
+    margin: 5px 0;
+    margin-left: 5px;
+}
+
+.nav-menu {
+    font-size: 1.2rem;
+    display: flex; 
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 15px;
+    flex-wrap: nowrap;
+}
+
+.nav-links {
+    display: flex;
+    text-decoration: none;
+}
+
+.nav-links-mobile {
+    white-space: nowrap;
+    text-decoration: none;
+    color: rgb(226, 225, 225);
+}
+
+.nav-links:hover,
+.nav-links:focus,
+.nav-links-mobile:hover,
+.nav-links-mobile:focus {
+  text-decoration: underline;
+}
+
+.nav-link-with-icon {
+  display: flex;
+  align-items: center;
+  gap: 5px; /* spacing between text and arrow */
+}
+
+.dropdown-arrow {
+  font-size: 1rem;
+  position: relative;
+  top: 2px; 
+  transition: transform 0.3s ease;
+}
+
+.nav-item:hover .dropdown-arrow {
+  transform: rotate(180deg);
+}
+
+.contact-sil {
+    position: relative;
+    top: 1px;
+}
+
+/* Special style for contact link */
+.contact-sil .nav-links-mobile {
+  color: #ffcc00;
+}
+
+
+@media (max-width: 1250px) {
+    .nav-menu {
+        font-size: 1.2rem;
+        gap: 10px;
+    }
+    .dropdown-arrow {
+        font-size: 0.8rem;
+        top: 0px; 
+    }
+}
+
+@media (max-width: 1150px) {
+    .nav-menu {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 1060px) {
+    .nav-menu {
+        font-size: 1rem;
+    }
+    .dropdown-arrow {
+        font-size: 0.8rem;
+         top: 1px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .nav-menu {
+        display: none;
+    }
+    .nav-links-mobile {
+        white-space: normal;
+    }
+}
+
+/* Position dropdown */
+.nav-item {
+  position: relative;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: -10%;
+  transform: translateY(-10px); /* starts above */
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  max-width: 280px;
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  z-index: 999;
+
+  list-style: none;
+  padding: 0;         /* 💥 This removes the leftover indent */
+  margin: 0;          /* 💥 This ensures it's flush with the parent */
+}
+
+.dropdown-link {
+  display: block;
+  padding: 1rem 1rem; /* vertical padding, horizontal padding */
+  color: #333;
+  text-decoration: none;
+  white-space: nowrap;
+  text-align: left; /* left-align text within each item */
+  border-bottom: 1px solid #e0e0e0; /* light gray divider */
+}
+
+.nav-item:hover .dropdown-menu {
+  opacity: 1;
+  transform: translateY(0); /* drops into place */
+  pointer-events: auto;
+}
+
+.dropdown-link:hover {
+  background-color: #f0f0f0;
+}
+
+/* Show on hover (desktop) */
+.nav-item:hover .dropdown-menu {
+  display: flex;
+}

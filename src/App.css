@@ -1,0 +1,20 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: rgba(128,0, 0, 255); /* Default background color */
+    font-family: 'roboto', sans-serif; /* Default font family */
+}
+
+@font-face {
+    font-family: "gill-sans-bold";
+    src: url('../src/assets/fonts/gill-sans-2/Gill-Sans-Bold.otf') format('opentype'); /* Path to your font */
+    font-weight: normal; /* Optional: specify font weight */
+    font-style: normal;  /* Optional: specify font style */
+}
+@font-face {
+    font-family: "gill-sans-light";
+    src: url('../src/assets/fonts/gill-sans-2/Gill-Sans-Light.otf') format('opentype'); /* Path to your font */
+    font-weight: normal; /* Optional: specify font weight */
+    font-style: normal;  /* Optional: specify font style */
+}
