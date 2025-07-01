@@ -6,6 +6,8 @@
     background-color: rgba(128,0,0,255);
     position: sticky;
     z-index: 1000;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
 }
 
 .navbar-container {

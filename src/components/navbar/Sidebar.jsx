@@ -28,13 +28,13 @@ function Sidebar({ isOpen, onClose }) {
       path: '/',
       submenu: [
         { label: 'Curriculum Overview', path: '/#' },
-        { label: '2025-2026 Academic Calendar', path: '/#' },
+        { label: '2025-2026 Calendar', path: '/#' },
         { label: 'Library Expectations', path: '/#' },
         { label: 'Individual Schools', path: '/#' },
       ],
     },
     {
-      label: 'For The Families',
+      label: 'Family Resources',
       path: '/',
       submenu: [
         { label: 'Uniform Policy', path: '/#' },
@@ -45,7 +45,7 @@ function Sidebar({ isOpen, onClose }) {
       ],
     },
     {
-      label: 'Student Lift',
+      label: 'Student Life',
       path: '/',
       submenu: [
         { label: 'School Policies and Safety', path: '/#' },
@@ -120,7 +120,7 @@ function Sidebar({ isOpen, onClose }) {
 
           <li className="sidebar-item">
             <Link to="/" onClick={onClose} className="sidebar-link">
-              <span>Contact SIL</span>
+              <span>Legacy High School</span>
             </Link>
           </li>
         </ul>

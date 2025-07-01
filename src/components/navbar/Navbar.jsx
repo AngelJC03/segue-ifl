@@ -86,7 +86,8 @@ function Navbar() {
                     </div>
                     <ul className={`dropdown-menu ${activeMenu === 'academics' ? 'show' : ''}`}>
                         <li><Link to="/#" className="dropdown-link">Curriculum Overview</Link></li>
-                        <li><Link to="/#" className="dropdown-link">2025-2026 Academic Calendar</Link></li>
+                        <li><Link to="/#" className="dropdown-link">Teachers & Staff</Link></li>
+                        <li><Link to="/#" className="dropdown-link">2025-2026 Calendar</Link></li>
                         <li><Link to="/#" className="dropdown-link">Library Expectations</Link></li>
                         <li><Link to="/#" className="dropdown-link">Individual Schools</Link></li>
                     </ul>
@@ -95,7 +96,7 @@ function Navbar() {
                 <li className={`nav-item dropdown ${activeMenu === 'families' ? 'active' : ''}`}>
                     <div className="nav-link-with-icon" onClick={() => toggleDropdown('families')}>
                         <Link to="/" className="nav-links-mobile">
-                            For The Families <FaAngleDown className={`dropdown-arrow ${activeMenu === 'families' ? 'rotate' : ''}`} />
+                            Family Resources <FaAngleDown className={`dropdown-arrow ${activeMenu === 'families' ? 'rotate' : ''}`} />
                         </Link>
                     </div>
                     <ul className={`dropdown-menu ${activeMenu === 'families' ? 'show' : ''}`}>
@@ -114,7 +115,7 @@ function Navbar() {
                         </Link>
                     </div>
                     <ul className={`dropdown-menu ${activeMenu === 'student' ? 'show' : ''}`}>
-                        <li><Link to="/#" className="dropdown-link">School Poligies and Safety</Link></li>
+                        <li><Link to="/#" className="dropdown-link">School Policies and Safety</Link></li>
                         <li><Link to="/#" className="dropdown-link">After School Enrichment</Link></li>
                         <li><Link to="/#" className="dropdown-link">Fitness & Wellness Programs</Link></li>
                         <li><Link to="/#" className="dropdown-link">Cheer & Sports Clinics</Link></li>
@@ -151,7 +152,7 @@ function Navbar() {
 
                 <li className="nav-item contact-sil">
                     <Link to="/" className="nav-links-mobile" onClick={() => setClick(closeMobileMenu)}>
-                        Contact SIL
+                        Legacy High School
                     </Link>
                 </li>
                 </ul>

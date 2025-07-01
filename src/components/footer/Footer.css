@@ -9,6 +9,10 @@
     position: relative; /* To allow absolute positioning of the text */
 }
 
+.footer-container a {
+    color: rgb(117, 232, 216);
+}
+
 .footer-sections {
     width: 100%;
     display: flex;
@@ -18,8 +22,21 @@
 }
 
 .footer-logo {
-    width: 33%;
-    text-align: left;
+    width: 33%; /* Adjust the size of the logo */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.footer-segue-logo {
+    width: 100%; /* Adjust the size of the logo */
+    margin-top: 20px; /* Add some spacing above the logos */
+    max-width: 300px; /* Set a maximum width for the logo */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.footer-americorps-logo {
+    width: 100%; /* Adjust the size of the logo */
+    max-width: 350px; /* Set a maximum width for the logo */
+    height: auto; /* Maintain aspect ratio */
 }
 
 .footer-contacts {
@@ -42,6 +59,15 @@
     }
     .footer-sections {
         flex-direction: column; /* Stack sections vertically on smaller screens */
+    }
+
+    .footer-segue-logo {
+        margin-top: 20px; /* Add some spacing above the logos */
+    }
+
+    .footer-americorps-logo {
+        margin-top: 20px; /* Add some spacing above the logos */
+        max-width: 350px; /* Adjust size for smaller screens */
     }
     
     .footer-contacts, 
