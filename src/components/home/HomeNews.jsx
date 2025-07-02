@@ -9,7 +9,7 @@ function HomeNews() {
             <div className="home-news-section">
                 {/* <h2>Latest News</h2>
                 <p>This is where the latest news will go.</p> */}
-                <img src={testImage} alt="Test Image" className="home-news-image" />
+                <img src={testImage} alt="newsArticles Test" className="home-news-image" />
             </div>
             <div className="facebook-livefeed-container">
                 <h2>Facebook Live Feed</h2>
