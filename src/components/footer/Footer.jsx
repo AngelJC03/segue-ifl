@@ -9,6 +9,15 @@ function Footer() {
     return (
         <div className="footer-container">
             <div className="footer-sections">
+                <div className="footer-contacts">
+                    <h1>Contact Us</h1>
+                    <p>Email: <a href="mailto:information@segueifl.org">information@segueifl.org</a></p>
+                    <p>Phone Number: <a href="tel:+1234567890">+1 (401) 721-0964</a></p>
+                    <p>
+                        Address: <a href="https://www.google.com/maps/search/?api=1&query=325+Cowden+St,+Central+Falls,+RI+02863" target="_blank" rel="noreferrer">325 Cowden St, Central Falls, RI 02863 </a>
+                    </p>
+                    <p>Follow us on social media:</p>
+                </div>
                 <div className="footer-logo">
                     <Link to="/" className="footer-segue-logo">
                         <img src={SegueLogo} alt="Segue Logo" className="footer-segue-logo" />
@@ -16,24 +25,16 @@ function Footer() {
                     <Link to="/" className="footer-americorps-logo">
                         <img src={AmeriCorpsLogo} alt="AmeriCorps Logo" className="footer-americorps-logo" />
                     </Link>
-                </div>
-                <div className="footer-contacts">
-                    <h1>Contact Us</h1>
-                    <p><a href="mailto:example@example.com">Angelo.Garcia@segueifl.org</a></p>
-                    <p><a href="tel:+1234567890">+1 (401) 721-0964</a></p>
-                    <p>
-                        Address: <a href="https://www.google.com/maps/search/?api=1&query=325+Cowden+St,+Central+Falls,+RI+02863" target="_blank" rel="noopener">325 Cowden St, Central Falls, RI 02863 </a>
-                    </p>
-                    <p>Follow us on social media:</p>
-                </div>
-                <div className="footer-schools-list">
-                    <h1>Schools</h1>
-                    <p><a href="https://segueifl.org">Segue IFL</a></p>
-                    <p><a href="/">Legacy Schools</a></p>
                     <Link to="/schools" className="footer-legacyhs-logo">
                         <img src={LegacyHSLogo} alt="Legacy High School Logo" className="footer-legacyhs-logo" />
                     </Link>
                 </div>
+                {/* <div className="footer-schools-list">
+                    <h1>Schools</h1>
+                    <p><a href="https://segueifl.org">Segue IFL</a></p>
+                    <p><a href="/">Legacy Schools</a></p>
+                
+                </div> */}
             </div>
         </div>
     )

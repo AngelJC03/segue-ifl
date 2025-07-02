@@ -18,9 +18,25 @@ html, body {
     font-weight: normal; /* Optional: specify font weight */
     font-style: normal;  /* Optional: specify font style */
 }
+
 @font-face {
     font-family: "gill-sans-light";
     src: url('../src/assets/fonts/gill-sans-2/Gill-Sans-Light.otf') format('opentype'); /* Path to your font */
     font-weight: normal; /* Optional: specify font weight */
     font-style: normal;  /* Optional: specify font style */
+}
+
+@font-face {
+    font-family: 'Impact Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Impact Regular'), url('./assets/fonts/impact-webfont/unicode.impact.woff') format('woff');
+}
+    
+
+@font-face {
+    font-family: 'Impacted Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Impacted Regular'), url('./assets/fonts/impact-webfont/Impacted.woff') format('woff');
 }

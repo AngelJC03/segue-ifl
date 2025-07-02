@@ -2,7 +2,6 @@
 // import React from 'react';
 import { useEffect, useState } from 'react';
 import './HeroSection.css';
-import { Button } from '../navbar/Button'; // Import the Button component if needed
 // Importing images for the carousel
 import image1 from '../../assets/images/hero-photos/hero-image1.jpg';
 import image2 from '../../assets/images/hero-photos/hero-image2.jpg';
@@ -10,7 +9,8 @@ import image3 from '../../assets/images/hero-photos/hero-image3.jpg';
 import image4 from '../../assets/images/hero-photos/hero-image4.jpg';
 import image5 from '../../assets/images/hero-photos/hero-image5.JPG';
 import image6 from '../../assets/images/hero-photos/hero-image6.jpg';
-import image from '../../assets/images/logo-photos/temp-segue-logo.png';
+import heroTextImage from '../../assets/images/logo-photos/hero-text-image.jpg';
+
 
 const images = [
     image1,
@@ -45,13 +45,14 @@ function HeroCarousel() {
           ))}
       </div>
       <div className="hero-text">
-          <img src={image} alt="Segue Logo" className="hero-logo" />
-          <h1>Welcome to Segue Institute for Learning</h1>
-          <p><strong>Where Every Student is "At Promise"</strong></p>
-          <br />
-          <Button buttonStyle="btn--primary" buttonSize="btn--large" onClick={() => window.location.href = '/our-mission'}>
-              Learn More
-          </Button>
+          <h1>
+            {/* <span className="welcometo">Welcome To</span> <br /> 
+            SEGUE <br />
+            INSTITUTE <br />
+            FOR LEARNING */}
+            <img src={heroTextImage} alt="Segue Hero Text" className="hero-text-image" />
+          </h1>
+          {/* <img src={image} alt="Segue Logo" className="hero-logo" /> */}
       </div>
     </div>
 

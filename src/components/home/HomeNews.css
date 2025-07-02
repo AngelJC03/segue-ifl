@@ -17,6 +17,12 @@
     color: rgb(0, 0, 0);
 }
 
+.home-news-image {
+    width: 100%;
+    height: auto;
+    max-height: 60vh; /* Limit height to prevent overflow */
+}
+
 .facebook-livefeed-container {
     width: 30%;
     height: 100%;
