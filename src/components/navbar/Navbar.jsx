@@ -11,25 +11,6 @@ import Hamburger from './Hamburger'; // Import the Hamburger component
 
 function Navbar() {
 
-    //OLD CODE (MIGHT BE UNNEEDED) 
-    //
-    //
-    //
-    //
-    // const [button, setButton] = useState(true);
-    // const handleClick = () => {setClick(!click);}
-    // const showButton= () => {
-    //     if (window.innerWidth <= 960) {
-    //         setButton(false);
-    //     } else {
-    //         setButton(true);
-    //     }
-    // }
-    //
-    //
-    //
-    //
-
     const [click, setClick] = useState(false);
 
     const [activeMenu, setActiveMenu] = useState(null); 
@@ -55,9 +36,6 @@ function Navbar() {
   return (
     <>
         <nav className="navbar navbar-expand-lg navbar-light"> 
-            {/* <a href='/' className="">
-                <img src={logo} alt="Logo" className="navbar-logo" />
-            </a> */}
 
             <div className="navbar-container">
 
@@ -71,7 +49,7 @@ function Navbar() {
                         </Link>
                     </div>
                     <ul className={`dropdown-menu ${activeMenu === 'about' ? 'show' : ''}`}>
-                        <li><Link to="/#" className="dropdown-link">Our Mission</Link></li>
+                        <li><Link to="/" className="dropdown-link">Our Mission</Link></li>
                         <li><Link to="/#" className="dropdown-link">The Segue Pledge</Link></li>
                         <li><Link to="/#" className="dropdown-link">Founder's Message</Link></li>
                         <li><Link to="/#" className="dropdown-link">Segue Board</Link></li>

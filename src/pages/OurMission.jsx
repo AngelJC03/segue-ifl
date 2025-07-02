@@ -5,7 +5,7 @@ import Sidebar from '../components/navbar/Sidebar';
 import Footer from '../components/footer/Footer'; // Import Footer component
 
 
-function AboutUs() {
+function OurMission() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
   const toggleSidebar = () => setSidebarOpen(!sidebarOpen);
@@ -19,4 +19,4 @@ function AboutUs() {
   );
 }
 
-export default AboutUs;
+export default OurMission;
