@@ -15,9 +15,9 @@ function Sidebar({ isOpen, onClose }) {
     const mainLinks = [
     {
       label: 'About Us',
-      path: '/',
+      path: '',
       submenu: [
-        { label: 'Our Mission', path: '/#' },
+        { label: 'Our Mission', path: '/OurMission' },
         { label: 'The Segue Pledge', path: '/#' },
         { label: "Founder's Message", path: '/#' },
         { label: 'Segue Board', path: '/#' },
@@ -25,7 +25,7 @@ function Sidebar({ isOpen, onClose }) {
     },
     {
       label: 'Academics',
-      path: '/',
+      path: '',
       submenu: [
         { label: 'Curriculum Overview', path: '/#' },
         { label: '2025-2026 Calendar', path: '/#' },
@@ -35,7 +35,7 @@ function Sidebar({ isOpen, onClose }) {
     },
     {
       label: 'Family Resources',
-      path: '/',
+      path: '',
       submenu: [
         { label: 'Uniform Policy', path: '/#' },
         { label: 'After School Programs', path: '/#' },
@@ -46,7 +46,7 @@ function Sidebar({ isOpen, onClose }) {
     },
     {
       label: 'Student Life',
-      path: '/',
+      path: '',
       submenu: [
         { label: 'School Policies and Safety', path: '/#' },
         { label: 'After School Enrichment', path: '/#' },
@@ -57,7 +57,7 @@ function Sidebar({ isOpen, onClose }) {
     },
     {
       label: 'Enroll',
-      path: '/',
+      path: '',
       submenu: [
         { label: 'How to Enroll', path: '/#' },
         { label: 'Eligibility', path: '/#' },
@@ -67,7 +67,7 @@ function Sidebar({ isOpen, onClose }) {
     },
     {
       label: 'News and Events',
-      path: '/',
+      path: '',
       submenu: [
         { label: 'School Announcements', path: '/#' },
         { label: 'Event Calendar', path: '/#' },
@@ -80,7 +80,7 @@ function Sidebar({ isOpen, onClose }) {
   return (
     <>
       <div className={`sidebar ${isOpen ? 'sidebar-open' : ''}`}>
-        <Link to="/" className="sidebar-logo-container" onClick={onClose}>
+        <Link to="/Home" className="sidebar-logo-container" onClick={onClose}>
           <img src={logo} alt="Logo" className="sidebar-logo" />
         </Link>
 

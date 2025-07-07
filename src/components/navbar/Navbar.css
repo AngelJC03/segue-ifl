@@ -5,6 +5,7 @@
     align-items: center;
     background-color: rgba(128,0,0,255);
     position: sticky;
+    top: 0;
     z-index: 1000;
 }
 
@@ -67,14 +68,20 @@
   transform: rotate(180deg);
 }
 
-.contact-sil {
+.home {
+    position: relative;
+    bottom: 1px;
+    right: 5px;
+}
+
+.legacyHS-nav {
     position: relative;
     top: 1px;
 }
 
 /* Special style for contact link */
-.contact-sil .nav-links-mobile {
-  color: #ffcc00;
+.legacyHS-nav .nav-links-mobile {
+  color: #ffffff;
 }
 
 @media (min-width: 768px) {

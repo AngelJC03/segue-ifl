@@ -42,14 +42,19 @@ function Navbar() {
                 <Hamburger click={click} checkboxRef={checkboxRef} handleToggle={handleToggle} />
 
                 <ul className="nav-menu">
+                    <li className="nav-item home">
+                    <Link to="/Home" className="nav-links-mobile" onClick={() => setClick(closeMobileMenu)}>
+                        Home
+                    </Link>
+                </li>
                 <li className={`nav-item dropdown ${activeMenu === 'about' ? 'active' : ''}`}>
                     <div className="nav-link-with-icon" onClick={() => toggleDropdown('about')}>
-                        <Link to="/" className="nav-links-mobile">
+                        <Link to="" className="nav-links-mobile">
                             About Us <FaAngleDown className={`dropdown-arrow ${activeMenu === 'about' ? 'rotate' : ''}`} />
                         </Link>
                     </div>
                     <ul className={`dropdown-menu ${activeMenu === 'about' ? 'show' : ''}`}>
-                        <li><Link to="/" className="dropdown-link">Our Mission</Link></li>
+                        <li><Link to="/OurMission" className="dropdown-link">Our Mission</Link></li>
                         <li><Link to="/#" className="dropdown-link">The Segue Pledge</Link></li>
                         <li><Link to="/#" className="dropdown-link">Founder's Message</Link></li>
                         <li><Link to="/#" className="dropdown-link">Segue Board</Link></li>
@@ -58,7 +63,7 @@ function Navbar() {
 
                 <li className={`nav-item dropdown ${activeMenu === 'academics' ? 'active' : ''}`}>
                     <div className="nav-link-with-icon" onClick={() => toggleDropdown('academics')}>
-                        <Link to="/" className="nav-links-mobile">
+                        <Link to="" className="nav-links-mobile">
                             Academics <FaAngleDown className={`dropdown-arrow ${activeMenu === 'academics' ? 'rotate' : ''}`} />
                         </Link>
                     </div>
@@ -73,7 +78,7 @@ function Navbar() {
 
                 <li className={`nav-item dropdown ${activeMenu === 'families' ? 'active' : ''}`}>
                     <div className="nav-link-with-icon" onClick={() => toggleDropdown('families')}>
-                        <Link to="/" className="nav-links-mobile">
+                        <Link to="" className="nav-links-mobile">
                             Family Resources <FaAngleDown className={`dropdown-arrow ${activeMenu === 'families' ? 'rotate' : ''}`} />
                         </Link>
                     </div>
@@ -88,7 +93,7 @@ function Navbar() {
 
                 <li className={`nav-item dropdown ${activeMenu === 'student' ? 'active' : ''}`}>
                     <div className="nav-link-with-icon" onClick={() => toggleDropdown('student')}>
-                        <Link to="/" className="nav-links-mobile">
+                        <Link to="" className="nav-links-mobile">
                             Student Life <FaAngleDown className={`dropdown-arrow ${activeMenu === 'student' ? 'rotate' : ''}`} />
                         </Link>
                     </div>
@@ -103,7 +108,7 @@ function Navbar() {
 
                 <li className={`nav-item dropdown ${activeMenu === 'enroll' ? 'active' : ''}`}>
                     <div className="nav-link-with-icon" onClick={() => toggleDropdown('enroll')}>
-                        <Link to="/" className="nav-links-mobile">
+                        <Link to="" className="nav-links-mobile">
                             Enroll <FaAngleDown className={`dropdown-arrow ${activeMenu === 'enroll' ? 'rotate' : ''}`} />
                         </Link>
                     </div>
@@ -117,7 +122,7 @@ function Navbar() {
 
                 <li className={`nav-item dropdown ${activeMenu === 'news' ? 'active' : ''}`}>
                     <div className="nav-link-with-icon" onClick={() => toggleDropdown('news')}>
-                        <Link to="/" className="nav-links-mobile">
+                        <Link to="" className="nav-links-mobile">
                             News and Events <FaAngleDown className={`dropdown-arrow ${activeMenu === 'news' ? 'rotate' : ''}`} />
                         </Link>
                     </div>
@@ -128,7 +133,7 @@ function Navbar() {
                     </ul>
                 </li>
 
-                <li className="nav-item contact-sil">
+                <li className="nav-item legacyHS-nav">
                     <Link to="/" className="nav-links-mobile" onClick={() => setClick(closeMobileMenu)}>
                         Legacy High School
                     </Link>

@@ -1,0 +1,84 @@
+.our-mission-container {
+    width: 100%;
+    height: auto;
+    padding: 20px 0;
+    background-color: rgba(255, 255, 255, 1);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    align-items: center;
+}
+
+.page-title {
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'impact', sans-serif;
+    font-size: 2.5rem;
+    text-align: left;
+}
+
+.our-mission-content {
+    width: 80%;
+    margin: 0 0 0 50px;
+    text-align: left;
+}
+
+.our-mission-content img {
+    float: right;
+    margin-left: 20px;
+    bottom: 100px;
+    width: 700px;
+    height: auto;
+}
+
+.our-mission-content p {
+    width: 80%;
+    margin: 10px auto;
+    font-size: 1.8rem;
+    line-height: 1.6;
+    text-align: left;
+}
+
+@media (max-width: 1400px) {
+  .our-mission-container {
+    margin: 0 auto;
+    text-align: center; /* Add this to center inline content */
+  }
+
+  .our-mission-content {
+    margin: 0 auto;          /* Center the whole content block */
+    text-align: center;      /* Center its content */
+  }
+
+  .our-mission-content img {
+    float: none;
+    display: block;          /* Required for margin auto to work */
+    margin: 20px auto;       /* Centers the image */
+    width: 90%;              /* Make it responsive */
+    max-width: 700px;        /* Cap the size on large screens */
+  }
+
+  .our-mission-content p {
+    width: 90%;
+    margin: 10px auto;
+    text-align: center;
+    font-size: 1.2rem; /* Adjust font size for smaller screens */
+  }
+}
+
+@media (max-width: 768px) {
+    .page-title {
+        font-size: 1.6rem; /* Reduce font size for smaller screens */
+        text-align: center; /* Center the title on small screens */
+    }
+
+    .our-mission-content p {
+        font-size: 1.2rem; /* Further reduce font size for readability */
+        line-height: 1.4; /* Adjust line height for better spacing */
+    }
+
+    .our-mission-content img {
+        width: 100%; /* Make image full width on small screens */
+        height: auto; /* Maintain aspect ratio */
+        margin: 10px auto; /* Center the image with margin */
+    }
+}
