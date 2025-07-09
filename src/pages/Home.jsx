@@ -7,6 +7,7 @@ import FoundersMessage from '../components/home/FoundersMessage';
 import HomeNews from '../components/home/HomeNews';
 // import Calendar from '../components/home/Calendar';
 import Footer from '../components/footer/Footer'; // Import Footer component
+import FadeIn from '../components/internal/fadeinsection/FadeIn.jsx';
 
 function Home() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -16,10 +17,12 @@ function Home() {
   return (
     <>
       <Navbar toggleSidebar={toggleSidebar} />
+      <FadeIn>
       <Sidebar isOpen={sidebarOpen} toggleSidebar={toggleSidebar} />
       <Herosection />
       <FoundersMessage />
       <HomeNews />
+      </FadeIn>
       <Footer />
     </>
   );

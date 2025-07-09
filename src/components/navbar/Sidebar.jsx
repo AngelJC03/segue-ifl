@@ -18,9 +18,9 @@ function Sidebar({ isOpen, onClose }) {
       path: '',
       submenu: [
         { label: 'Our Mission', path: '/OurMission' },
-        { label: 'The Segue Pledge', path: '/#' },
-        { label: "Founder's Message", path: '/#' },
-        { label: 'Segue Board', path: '/#' },
+        { label: 'The Segue Pledge', path: '/SeguePledge' },
+        { label: "Founder's Message", path: '/FoundersMessage' },
+        { label: 'Segue Board', path: '/SegueBoard' },
       ],
     },
     {

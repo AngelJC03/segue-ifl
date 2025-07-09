@@ -55,9 +55,9 @@ function Navbar() {
                     </div>
                     <ul className={`dropdown-menu ${activeMenu === 'about' ? 'show' : ''}`}>
                         <li><Link to="/OurMission" className="dropdown-link">Our Mission</Link></li>
-                        <li><Link to="/#" className="dropdown-link">The Segue Pledge</Link></li>
-                        <li><Link to="/#" className="dropdown-link">Founder's Message</Link></li>
-                        <li><Link to="/#" className="dropdown-link">Segue Board</Link></li>
+                        <li><Link to="/SeguePledge" className="dropdown-link">The Segue Pledge</Link></li>
+                        <li><Link to="/FoundersMessage" className="dropdown-link">Founder's Message</Link></li>
+                        <li><Link to="/SegueBoard" className="dropdown-link">Segue Board</Link></li>
                     </ul>
                 </li>
 
