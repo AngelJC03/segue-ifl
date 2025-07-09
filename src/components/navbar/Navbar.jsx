@@ -1,12 +1,9 @@
-// import React from 'react';
 import { useState, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { FaAngleDown } from 'react-icons/fa';
 import './Navbar.css'; // Import the CSS file for styling
-// import logo from '../../assets/images/navbar-photos/temp-segue-logo.png';
 import Sidebar from './Sidebar'; // Import the Sidebar component
 import Hamburger from './Hamburger'; // Import the Hamburger component
-// import { Button } from './Button'; // Import the Button component if needed
 
 
 function Navbar() {
@@ -56,7 +53,7 @@ function Navbar() {
                     <ul className={`dropdown-menu ${activeMenu === 'about' ? 'show' : ''}`}>
                         <li><Link to="/OurMission" className="dropdown-link">Our Mission</Link></li>
                         <li><Link to="/SeguePledge" className="dropdown-link">The Segue Pledge</Link></li>
-                        <li><Link to="/FoundersMessage" className="dropdown-link">Founder's Message</Link></li>
+                        <li><Link to="/FoundersMessage" className="dropdown-link">Founders' Message</Link></li>
                         <li><Link to="/SegueBoard" className="dropdown-link">Segue Board</Link></li>
                     </ul>
                 </li>
@@ -139,7 +136,6 @@ function Navbar() {
                     </Link>
                 </li>
                 </ul>
-
             </div>
         </nav>
 

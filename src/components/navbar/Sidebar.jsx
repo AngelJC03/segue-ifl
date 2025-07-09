@@ -19,7 +19,7 @@ function Sidebar({ isOpen, onClose }) {
       submenu: [
         { label: 'Our Mission', path: '/OurMission' },
         { label: 'The Segue Pledge', path: '/SeguePledge' },
-        { label: "Founder's Message", path: '/FoundersMessage' },
+        { label: "Founders' Message", path: '/FoundersMessage' },
         { label: 'Segue Board', path: '/SegueBoard' },
       ],
     },

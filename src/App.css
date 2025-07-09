@@ -41,6 +41,13 @@ html, body {
     src: local('Impacted Regular'), url('./assets/fonts/impact-webfont/Impacted.woff') format('woff');
 }
 
+@font-face {
+    font-family: 'PlayBill';
+    font-style: normal;
+    font-weight: normal;
+    src: local('PlayBill'), url('./assets/fonts/playbill-webfont/Playbill.woff') format('woff');
+}
+
 .fade-in {
   opacity: 0;
   transform: translateY(20px);

@@ -1,12 +1,12 @@
 // import { React } from 'react';
 import './OurMissionBody.css';
 import image from '../../../assets/images/Internal Pages Images/OurMissionImage.jpg';
-import FadeIn from '../fadeinsection/FadeIn.jsx';
+import FadeIn from '../../fadeinsection/FadeIn.jsx';
 
 function OurMissionBody() {
     return (
         <div className="our-mission-container">
-            <div className="page-title">
+            <div className="our-mission-page-title">
                 <h1> Our Mission </h1>
             </div>
             <FadeIn>

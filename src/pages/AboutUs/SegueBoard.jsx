@@ -2,9 +2,9 @@
 import { useState } from 'react';
 import Navbar from '../../components/navbar/Navbar';
 import Sidebar from '../../components/navbar/Sidebar';
-import Footer from '../../components/footer/Footer'; // Import Footer component
+import Footer from '../../components/footer/Footer'; 
 
-function OurMission() {
+function SegueBoard() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
   const toggleSidebar = () => setSidebarOpen(!sidebarOpen);
@@ -18,4 +18,4 @@ function OurMission() {
   );
 }
 
-export default OurMission;
+export default SegueBoard;
