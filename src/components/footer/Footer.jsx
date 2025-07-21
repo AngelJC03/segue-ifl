@@ -2,7 +2,6 @@
 import './Footer.css'; // Import the footer CSS
 import { Link } from 'react-router-dom';
 import SegueLogo from '../../assets/images/logo-photos/temp-segue-logo.png'; // Import the logo image
-import AmeriCorpsLogo from '../../assets/images/logo-photos/AmeriCorps-logo.png'; // Import the AmeriCorps logo
 import LegacyHSLogo from '../../assets/images/logo-photos/LegacyHighSchool-logo.jpg'; // Import the Legacy HS logo
 
 function Footer() {
@@ -21,9 +20,6 @@ function Footer() {
                 <div className="footer-logo">
                     <Link to="/" className="footer-segue-logo">
                         <img src={SegueLogo} alt="Segue Logo" className="footer-segue-logo" />
-                    </Link>
-                    <Link to="/" className="footer-americorps-logo">
-                        <img src={AmeriCorpsLogo} alt="AmeriCorps Logo" className="footer-americorps-logo" />
                     </Link>
                     <Link to="/schools" className="footer-legacyhs-logo">
                         <img src={LegacyHSLogo} alt="Legacy High School Logo" className="footer-legacyhs-logo" />

@@ -3,12 +3,15 @@
 import { useEffect, useState } from 'react';
 import './HeroSection.css';
 // Importing images for the carousel
-import image1 from '../../assets/images/hero-photos/hero-image1.jpg';
-import image2 from '../../assets/images/hero-photos/hero-image2.jpg';
+import image8 from '../../assets/images/hero-photos/hero-image1.jpg';
+import image9 from '../../assets/images/hero-photos/hero-image2.jpg';
 import image3 from '../../assets/images/hero-photos/hero-image3.jpg';
 import image4 from '../../assets/images/hero-photos/hero-image4.jpg';
 import image5 from '../../assets/images/hero-photos/hero-image5.JPG';
 import image6 from '../../assets/images/hero-photos/hero-image6.jpg';
+import image7 from '../../assets/images/hero-photos/falcon-welcome.png';
+import image1 from '../../assets/images/hero-photos/segue-ifl-logo.png';
+import image2 from '../../assets/images/logo-photos/LegacyHighSchool-logo.png';
 import heroTextImage from '../../assets/images/logo-photos/hero-text-image.jpg';
 
 
@@ -18,7 +21,10 @@ const images = [
     image3,
     image4,
     image5,
-    image6
+    image6,
+    image7,
+    image8,
+    image9
 ];
 
 function HeroCarousel() {
@@ -45,14 +51,11 @@ function HeroCarousel() {
           ))}
       </div>
       <div className="hero-text">
-          <h1>
-            {/* <span className="welcometo">Welcome To</span> <br /> 
-            SEGUE <br />
-            INSTITUTE <br />
-            FOR LEARNING */}
             <img src={heroTextImage} alt="Segue Hero Text" className="hero-text-image" />
-          </h1>
-          {/* <img src={image} alt="Segue Logo" className="hero-logo" /> */}
+            <h1>
+              An Independent Public Charter School District<br/>
+            </h1>
+            <p>Established 2009</p>
       </div>
     </div>
 

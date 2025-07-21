@@ -8,6 +8,7 @@
     text-align: center;
     background-color: white;
     margin-top: 20px;
+    font-family: 'Garamond', serif;
 }
 
 .segue-pledge-page-title {
@@ -29,7 +30,7 @@
 }
 
 .segue-pledge-text {
-  font-size: 32px;
+  font-size: 2rem;
   width: 100%;
   max-width: 900px;
   line-height: 2.5;

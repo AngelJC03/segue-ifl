@@ -42,13 +42,14 @@
   flex-direction: column;
   justify-content: center; /* vertical centering */
   padding: 0;
-  font-size: 2rem;
+  font-size: 1rem;
   background-color: white;
   color: #000;
   z-index: 2;
   text-align: left;
   line-height: 0.9; /* smaller number = less space between lines */
   letter-spacing: 1px;
+  text-align: center;
 }
 
 .welcometo {
@@ -59,12 +60,11 @@
 .hero-text h1 {
   margin: 0 auto;
   padding: 0.25rem 0; 
+  font-size: 1.2rem;
 }
 
-@media (max-width: 1150px) {
-  .hero-text-image {
-    width: 400px;
-  }
+.hero-text-image {
+  width: 100%;
 }
 
 /* Responsive stack layout */

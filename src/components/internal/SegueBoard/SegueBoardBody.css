@@ -1,0 +1,26 @@
+.segue-board-container {
+    width: 100%;
+    height: auto;
+    padding: 20px 0;
+    background-color: rgba(255, 255, 255, 1);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    align-items: center;
+    font-family: 'Garamond', serif;
+}
+
+.segue-board-page-title {
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'impact', sans-serif;
+    font-size: 3.0rem;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.segue-board-content {
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+    align-items: center;
+}
