@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
 html, body {
     margin: auto;
     padding: 0;
     height: 100%;
     background-color: rgba(128,0, 0, 255); /* Default background color */
-    font-family: 'Garamond', serif;
+    font-family: 'Montserrat', sans-serif;
     max-width: 1750px;
 }
 

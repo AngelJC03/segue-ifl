@@ -65,11 +65,12 @@ function Navbar() {
                         </Link>
                     </div>
                     <ul className={`dropdown-menu ${activeMenu === 'academics' ? 'show' : ''}`}>
-                        <li><Link to="/#" className="dropdown-link">Curriculum Overview</Link></li>
-                        <li><Link to="/#" className="dropdown-link">Teachers & Staff</Link></li>
-                        <li><Link to="/#" className="dropdown-link">2025-2026 Calendar</Link></li>
-                        <li><Link to="/#" className="dropdown-link">Library Expectations</Link></li>
-                        <li><Link to="/#" className="dropdown-link">Individual Schools</Link></li>
+                        <li><Link to="/CurriculumOverview" className="dropdown-link">Curriculum Overview</Link></li>
+                        <li><Link to="/TeachersAndStaff" className="dropdown-link">Teachers & Staff</Link></li>
+                        <li><Link to="/Calendar2526" className="dropdown-link">2025-2026 Calendar</Link></li>
+                        <li><Link to="/LibraryExpectations" className="dropdown-link">Library Expectations</Link></li>
+                        <li><Link to="/IndividualSchools" className="dropdown-link">Individual Schools</Link></li>
+                        <li><Link to="/#" className="dropdown-link">Power School Login</Link></li>
                     </ul>
                 </li>
 
@@ -85,6 +86,7 @@ function Navbar() {
                         <li><Link to="/#" className="dropdown-link">School Lunch</Link></li>
                         <li><Link to="/#" className="dropdown-link">Transportation</Link></li>
                         <li><Link to="/#" className="dropdown-link">School Handbook</Link></li>
+                        <li><Link to="/#" className="dropdown-link">Power School Login</Link></li>
                     </ul>
                 </li>
 

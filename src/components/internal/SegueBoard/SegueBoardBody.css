@@ -6,13 +6,12 @@
     color: rgb(0, 0, 0);
     text-align: center;
     align-items: center;
-    font-family: 'Garamond', serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .segue-board-page-title {
     width: 80%;
     margin: 0 auto;
-    font-family: 'impact', sans-serif;
     font-size: 3.0rem;
     text-align: left;
     margin-bottom: 20px;

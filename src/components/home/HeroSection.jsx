@@ -52,10 +52,6 @@ function HeroCarousel() {
       </div>
       <div className="hero-text">
             <img src={heroTextImage} alt="Segue Hero Text" className="hero-text-image" />
-            <h1>
-              An Independent Public Charter School District<br/>
-            </h1>
-            <p>Established 2009</p>
       </div>
     </div>
 

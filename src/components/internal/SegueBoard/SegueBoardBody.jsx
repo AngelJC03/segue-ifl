@@ -101,7 +101,7 @@ function SegueBoardBody() {
                     imageSrc={testImage}
                     name={member.name}
                     term={member.term}
-                    email={member.email}
+                    email={<a href={`mailto:${member.email}`}>E-mail</a>}
                   >
                     {member.bio}
                   </BoardMemberCard>

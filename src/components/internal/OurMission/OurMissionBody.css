@@ -6,36 +6,35 @@
     color: rgb(0, 0, 0);
     text-align: center;
     align-items: center;
-    font-family: 'Garamond', serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .our-mission-page-title {
     width: 80%;
     margin: 0 auto;
-    font-family: 'impact', sans-serif;
     font-size: 3.0rem;
     text-align: left;
 }
 
 .our-mission-content {
-    width: 80%;
-    margin: 0 0 0 50px;
+    width: 100%;
     text-align: left;
+    font-size: 1.6rem;
+    height: auto;
+    padding-bottom: 80px;
 }
 
 .our-mission-content img {
     float: right;
-    margin-left: 20px;
-    bottom: 100px;
-    width: 700px;
+    margin-left: 60px;
+    width: 500px;
     height: auto;
 }
 
 .our-mission-content p {
     width: 80%;
     margin: 10px auto;
-    font-size: 1.8rem;
-    line-height: 1.6;
+    font-size: 1.6rem;
     text-align: left;
 }
 
@@ -54,7 +53,7 @@
     float: none;
     display: block;          /* Required for margin auto to work */
     margin: 20px auto;       /* Centers the image */
-    width: 90%;              /* Make it responsive */
+    width: 60%;              /* Make it responsive */
     max-width: 700px;        /* Cap the size on large screens */
   }
 
@@ -78,7 +77,7 @@
     }
 
     .our-mission-content img {
-        width: 100%; /* Make image full width on small screens */
+        width: 70%; /* Make image full width on small screens */
         height: auto; /* Maintain aspect ratio */
         margin: 10px auto; /* Center the image with margin */
     }

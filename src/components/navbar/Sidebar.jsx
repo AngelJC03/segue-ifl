@@ -27,10 +27,11 @@ function Sidebar({ isOpen, onClose }) {
       label: 'Academics',
       path: '',
       submenu: [
-        { label: 'Curriculum Overview', path: '/#' },
-        { label: '2025-2026 Calendar', path: '/#' },
-        { label: 'Library Expectations', path: '/#' },
-        { label: 'Individual Schools', path: '/#' },
+        { label: 'Curriculum Overview', path: '/CurriculumOverview' },
+        { label: '2025-2026 Calendar', path: '/Calendar2526' },
+        { label: 'Teachers & Staff', path: '/TeachersAndStaff' },
+        { label: 'Library Expectations', path: '/LibraryExpectations' },
+        { label: 'Individual Schools', path: '/IndividualSchools' },
       ],
     },
     {

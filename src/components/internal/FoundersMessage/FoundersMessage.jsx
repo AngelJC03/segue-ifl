@@ -20,7 +20,7 @@ function FoundersMessageBody() {
                             equity and community-driven education. Since opening in 2009, Segue 
                             has provided K–8 students with wrap-around services, civic engagement 
                             opportunities, and culturally responsive teaching. In 2024, their mission 
-                            expanded with the launch of Segue Legacy Academy, a high school designed 
+                            expanded with the launch of Legacy High School, designed 
                             to prepare students for careers in education. Deeply rooted in 
                             Central Falls, both Mr. Garcia and Dr. Lourenco believe every 
                             student deserves to be seen, heard, and empowered—not just taught.
@@ -75,7 +75,10 @@ function FoundersMessageBody() {
 
 
                             <p>
-                                Together, we are building something lasting. Together, we are creating a legacy.
+                                Together, we are building something lasting.
+                            </p>
+                            <p>
+                                 Together, we are creating a legacy.
                             </p>
 
                             <blockquote className="founders-signoff">

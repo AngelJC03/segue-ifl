@@ -60,11 +60,20 @@
 .hero-text h1 {
   margin: 0 auto;
   padding: 0.25rem 0; 
-  font-size: 1.2rem;
+  width: 90%;
+  font-size: 1.8rem;
+}
+
+.hero-text p {
+  margin: 0 auto;
+  padding: 0.25rem 0; 
+  width: 90%;
+  font-size: 1.8rem;
 }
 
 .hero-text-image {
-  width: 100%;
+  width: 90%;
+  margin: 0 auto;
 }
 
 /* Responsive stack layout */

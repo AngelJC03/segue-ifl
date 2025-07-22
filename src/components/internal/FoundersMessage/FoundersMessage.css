@@ -6,13 +6,12 @@
     color: rgb(0, 0, 0);
     text-align: center;
     align-items: center;
-    font-family: 'Garamond', serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .founders-message-page-title {
     width: 80%;
     margin: 0 auto;
-    font-family: 'impact', sans-serif;
     font-size: 3.0rem;
     text-align: left;
     margin-bottom: 20px;
@@ -26,14 +25,14 @@
 }
 
 .top-half {
+    flex-direction: column;
     width: 80%;
     height: auto;
     margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
-    text-indent: 2em;
+    gap: 60px;
     margin-bottom: 20px;
     font-size: 1.6rem;
 }
@@ -63,9 +62,7 @@
 
 .bottom-half h1 {
   text-align: center;
-  font-family: 'impact', sans-serif;
   margin-bottom: 1.5rem;
-  font-weight: 700;
   color: #1a1a1a;
 }
 
@@ -79,14 +76,6 @@
   text-align: right;
   color: #666;
   font-weight: 500;
-}
-
-.founders-selfie {
-  float: right;
-  width: 400px;          /* size the image */
-  margin: 0 0 1em 1em;   /* space around it: bottom + left */
-  border-radius: 8px;    /* optional: rounded corners */
-  object-fit: cover;     /* keep aspect ratio */
 }
 
 .violinboy-image {
@@ -112,13 +101,8 @@
         width: 90%;
         max-width: none;
     }
-
-    .top-half {
-        flex-direction: column;
-        align-items: center;
-    }
     .top-half,
     .bottom-half {
-      font-size: 1.1rem;
+      font-size: 1.2rem;
     }
 }

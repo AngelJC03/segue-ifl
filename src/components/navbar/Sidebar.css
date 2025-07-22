@@ -13,6 +13,7 @@
   padding-top: 0; /* remove default spacing */
   display: flex;
   flex-direction: column;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .sidebar.sidebar-open {
