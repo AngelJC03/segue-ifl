@@ -11,7 +11,7 @@ import image5 from '../../assets/images/hero-photos/hero-image5.JPG';
 import image6 from '../../assets/images/hero-photos/hero-image6.jpg';
 import image7 from '../../assets/images/hero-photos/falcon-welcome.png';
 import image1 from '../../assets/images/hero-photos/segue-ifl-logo.png';
-import image2 from '../../assets/images/logo-photos/LegacyHighSchool-logo.png';
+import image2 from '../../assets/images/hero-photos/LegacyHighSchool-logo.png';
 import heroTextImage from '../../assets/images/logo-photos/hero-text-image.jpg';
 
 
