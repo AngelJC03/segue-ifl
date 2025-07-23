@@ -15,7 +15,7 @@ exports.handler = async function (event, context) {
 
     // Spreadsheet ID from env vars
     const spreadsheetId = process.env.SPREADSHEET_ID;
-    const range = 'Sheet1!A1:D100'; // Adjust your sheet name and range
+    const range = 'Sheet1!A1:E100'; // Adjust your sheet name and range
 
     const response = await sheets.spreadsheets.values.get({
       spreadsheetId,
