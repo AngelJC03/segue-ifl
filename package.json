@@ -8,6 +8,7 @@
     "@testing-library/react": "^16.3.0",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.3.7",
+    "googleapis": "^154.0.0",
     "jquery": "^3.7.1",
     "less": "^4.3.0",
     "less-loader": "^12.3.0",
@@ -44,5 +45,17 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "description": "Welcome to the official repository for the **Segue Institute for Learning (IFL)** website. This React-based web application showcases Segue's mission, leadership, and community-driven impact. It serves as a central hub for students, families, board members, and partners to stay informed and connected.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AngelJC03/segue-ifl.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AngelJC03/segue-ifl/issues"
   }
 }
