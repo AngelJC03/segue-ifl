@@ -8,29 +8,29 @@ function HomeNews() {
 
     useEffect(() => {
         fetch(API)
-        .then(response => response.json())
-        .then(data => {
-            if (!Array.isArray(data) || data.length < 2) {
-            setNews([]);
-            return;
-            }
+            .then(response => response.json())
+            .then(data => {
+                if (!Array.isArray(data) || data.length < 2) {
+                    setNews([]);
+                    return;
+                }
 
-            const headers = data[0];
-            const rows = data.slice(1, 5);  // first 4 entries after header
+                const headers = data[0];
+                const rows = data.slice(1, 5);  // first 4 entries after header
 
-            const processed = rows.map(row => {
-            const obj = {};
-            headers.forEach((key, i) => {
-                obj[key] = row[i] ?? "";
+                const processed = rows.map(row => {
+                    const obj = {};
+                    headers.forEach((key, i) => {
+                        obj[key] = row[i] ?? "";
+                    });
+                    return obj;
+                });
+
+                setNews(processed);
+            })
+            .catch(error => {
+                console.error('Error fetching data:', error);
             });
-            return obj;
-            });
-
-            setNews(processed);
-        })
-        .catch(error => {
-            console.error('Error fetching data:', error);
-        });
     }, []);
 
     return (
@@ -39,9 +39,25 @@ function HomeNews() {
                 <h2>Latest News</h2>
                 {news.map((item, index) => (
                     <div key={index} className="home-news-text">
+                        {item["Photo URL"] && (
+                            <img
+                                src={item["Photo URL"]}
+                                alt={item.Title}
+                                className="news-image"
+                            />
+                        )}
                         <h3>{item.Title}</h3>
                         <p>{item.Description}</p>
                         <p><strong>Date:</strong> {item.Date}</p>
+                        {item["Article Link"] && (
+                            <a
+                                href={item["Article Link"]}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                Read more
+                            </a>
+                        )}
                     </div>
                 ))}
             </div>
@@ -56,7 +72,6 @@ function HomeNews() {
                 <div className="home-news-text">
                     this is a test for the facebook section
                 </div>
-
             </div>
         </div>
     );
