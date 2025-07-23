@@ -8,7 +8,6 @@
     "@testing-library/react": "^16.3.0",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.3.7",
-    "googleapis": "^154.0.0",
     "jquery": "^3.7.1",
     "less": "^4.3.0",
     "less-loader": "^12.3.0",
@@ -45,18 +44,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/AngelJC03/segue-ifl.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/AngelJC03/segue-ifl/issues"
-  },
-  "homepage": "https://github.com/AngelJC03/segue-ifl#readme"
+  }
 }
