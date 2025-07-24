@@ -7,3 +7,17 @@
     font-family: 'Montserrat', sans-serif;
 
 }
+
+
+.home-news-container h2 {
+    margin: 10px;
+    color: rgb(128, 0, 0);
+    font-weight: bold;
+    border-bottom: 2px solid hsl(0, 0%, 80%);
+}
+
+
+.home-news-container h3 {
+    color: rgb(128, 0, 0);
+    font-weight: bold;
+}

@@ -50,7 +50,7 @@ function FacebookFeed() {
     return (
         <div className="facebook-livefeed-container">
             <h2>Facebook Feed</h2>
-            {facebookPosts.length === 0 && <h2 style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '200px' }}>Loading Posts...</h2>}
+            {facebookPosts.length === 0 && <h3 style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '200px' }}>Loading Posts...</h3>}
             {facebookPosts.map(post => (
                 <a
                     href="https://www.facebook.com/SegueIFL"

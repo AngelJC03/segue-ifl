@@ -12,13 +12,6 @@
     color: rgb(0, 0, 0);
 }
 
-.home-news-container h2 {
-    margin: 10px;
-    color: rgb(128, 0, 0);
-    font-weight: bold;
-    border-bottom: 2px solid hsl(0, 0%, 80%);
-}
-
 .home-news-image {
     width: 100%;
     height: auto;

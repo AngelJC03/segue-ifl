@@ -42,7 +42,7 @@ function GoogleNewsFeed() {
     return (
         <div className="home-news-section">
             <h2>Latest News</h2>
-            {news.length === 0 && <h2 style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '200px' }}>Loading News...</h2>}
+            {news.length === 0 && <h3 style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '200px' }}>Loading News...</h3>}
             {news.map((item, index) => (
                 <div key={index} className="home-news-entry">
                     {item['Photo URL'] && (
