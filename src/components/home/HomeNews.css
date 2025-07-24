@@ -54,28 +54,6 @@
     margin: 10px;
 }
 
-
-
-@media (max-width: 768px) {
-    .home-news-container {
-        flex-direction: column;
-        height: auto;
-    }
-
-    .facebook-livefeed-container {
-        width: 100%;
-        height: auto;
-        border-left: none;
-    }
-
-    .home-news-section,
-    .facebook-livefeed-container {
-        width: 100%;
-    }
-}
-
-/***** THIS IS FOR TESTING, CAN AND WILL BE REMOVED LATER *****/
-
 .home-news-entry {
   width: 100%;
   height: auto;
@@ -96,4 +74,26 @@
 
 .news-text {
   flex: 1;                    
+}
+
+@media (max-width: 768px) {
+    .home-news-container {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .facebook-livefeed-container {
+        width: 100%;
+        height: auto;
+        border-left: none;
+    }
+
+    .home-news-section,
+    .facebook-livefeed-container {
+        width: 100%;
+    }
+    .home-news-entry {
+        flex-direction: column; /* Stack image and text vertically */
+        align-items: center;    /* Center align for smaller screens */
+    }
 }

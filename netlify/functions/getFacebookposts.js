@@ -1,6 +1,6 @@
-const fetch = require('node-fetch'); // if not available, install node-fetch
-
 exports.handler = async function(event, context) {
+  const fetch = (await import('node-fetch')).default; // dynamic import for node-fetch ESM
+
   const PAGE_ID = process.env.FB_PAGE_ID; // set in your Netlify environment variables
   const ACCESS_TOKEN = process.env.FB_PAGE_ACCESS_TOKEN; // your Page Access Token, also in env vars
 

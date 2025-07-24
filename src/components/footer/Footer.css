@@ -63,7 +63,7 @@
     .footer-container {
         width: 100%;
         flex-direction: column; /* Stack sections vertically on smaller screens */
-        height: auto + 100px; /* Allow height to adjust based on content */
+        height: auto; /* Allow height to adjust based on content */
     }
     .footer-sections {
         flex-direction: column; /* Stack sections vertically on smaller screens */
