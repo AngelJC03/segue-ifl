@@ -70,7 +70,7 @@ function Navbar() {
                         <li><Link to="/Calendar2526" className="dropdown-link">2025-2026 Calendar</Link></li>
                         <li><Link to="/LibraryExpectations" className="dropdown-link">Library Expectations</Link></li>
                         <li><Link to="/IndividualSchools" className="dropdown-link">Individual Schools</Link></li>
-                        <li><Link to="/#" className="dropdown-link">Power School Login</Link></li>
+                        <li><a href="https://segueifl.powerschool.com/public/" className="dropdown-link">Power School Login</a></li>
                     </ul>
                 </li>
 
@@ -86,7 +86,6 @@ function Navbar() {
                         <li><Link to="/#" className="dropdown-link">School Lunch</Link></li>
                         <li><Link to="/#" className="dropdown-link">Transportation</Link></li>
                         <li><Link to="/#" className="dropdown-link">School Handbook</Link></li>
-                        <li><Link to="/#" className="dropdown-link">Power School Login</Link></li>
                     </ul>
                 </li>
 

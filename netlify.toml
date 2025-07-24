@@ -1,0 +1,6 @@
+[dev]
+command = "npm start"           # starts your React app
+targetPort = 3000               # where React runs locally
+port = 8888                     # where Netlify Dev will run (you'll visit this)
+framework = "#custom"           # prevent Netlify from auto-detecting React
+functions = "netlify/functions" # where your Netlify functions live

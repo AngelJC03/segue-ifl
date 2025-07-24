@@ -1,6 +1,6 @@
 .footer-container {
     width: 100%;
-    height: 40vh;
+    height: 50vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -63,7 +63,7 @@
     .footer-container {
         width: 100%;
         flex-direction: column; /* Stack sections vertically on smaller screens */
-        height: auto; /* Allow height to adjust based on content */
+        height: auto + 100px; /* Allow height to adjust based on content */
     }
     .footer-sections {
         flex-direction: column; /* Stack sections vertically on smaller screens */

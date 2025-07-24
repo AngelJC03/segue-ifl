@@ -32,6 +32,7 @@ function Sidebar({ isOpen, onClose }) {
         { label: 'Teachers & Staff', path: '/TeachersAndStaff' },
         { label: 'Library Expectations', path: '/LibraryExpectations' },
         { label: 'Individual Schools', path: '/IndividualSchools' },
+        { label: 'Power School Login', path: 'https://segueifl.powerschool.com/public/' },
       ],
     },
     {

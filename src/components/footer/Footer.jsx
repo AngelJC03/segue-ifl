@@ -3,6 +3,7 @@ import './Footer.css'; // Import the footer CSS
 import { Link } from 'react-router-dom';
 import SegueLogo from '../../assets/images/logo-photos/temp-segue-logo.png'; // Import the logo image
 import LegacyHSLogo from '../../assets/images/logo-photos/LegacyHighSchool-logo.jpg'; // Import the Legacy HS logo
+import facebookIcon from '../../assets/images/footer-photos/icons8-facebook-48.png'; // Import the Facebook icon
 
 function Footer() {
     return (
@@ -16,6 +17,11 @@ function Footer() {
                         Address: <a href="https://www.google.com/maps/search/?api=1&query=325+Cowden+St,+Central+Falls,+RI+02863" target="_blank" rel="noreferrer">325 Cowden St, Central Falls, RI 02863 </a>
                     </p>
                     <p>Follow us on social media:</p>
+                    <div className="social-icons">
+                        <a href="https://www.facebook.com/SegueIFL" target="_blank" rel="noreferrer">
+                            <img src={facebookIcon} alt="Facebook Icon" />
+                        </a>
+                    </div>
                 </div>
                 <div className="footer-logo">
                     <Link to="/" className="footer-segue-logo">
@@ -25,12 +31,6 @@ function Footer() {
                         <img src={LegacyHSLogo} alt="Legacy High School Logo" className="footer-legacyhs-logo" />
                     </Link>
                 </div>
-                {/* <div className="footer-schools-list">
-                    <h1>Schools</h1>
-                    <p><a href="https://segueifl.org">Segue IFL</a></p>
-                    <p><a href="/">Legacy Schools</a></p>
-                
-                </div> */}
             </div>
         </div>
     )

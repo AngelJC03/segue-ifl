@@ -1,6 +1,6 @@
 .home-news-container {
     width: 100%;
-    height: 100vh; /* Full height of the viewport */
+    height: auto; /* Full height of the viewport */
     align-items: flex-start;  /* align children at top */
     display: flex;
     background-color: rgb(255, 255, 255);
@@ -11,7 +11,7 @@
 .home-news-section {
     flex-grow: 1;
     overflow-y: auto;
-    max-height: 100vh; /* Limit height to prevent overflow */
+    max-height: auto; /* Limit height to prevent overflow */
     height: auto;
     width: 70%;
     display: flex;
@@ -20,6 +20,13 @@
     justify-content: center;
     background-color: rgba(255, 255, 255, 0.8);
     color: rgb(0, 0, 0);
+}
+
+.home-news-container h2 {
+    margin: 10px;
+    color: rgb(128, 0, 0);
+    font-weight: bold;
+    border-bottom: 2px solid hsl(0, 0%, 80%);
 }
 
 .home-news-image {
@@ -31,9 +38,8 @@
 .facebook-livefeed-container {
     flex-grow: 1;
     width: 30%;
-    min-height: 100vh;
     height: auto;
-    max-height: 70vh; /* Limit height to prevent overflow */
+    max-height: auto; /* Limit height to prevent overflow */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -58,7 +64,7 @@
 
     .facebook-livefeed-container {
         width: 100%;
-        min-height: 0;
+        height: auto;
         border-left: none;
     }
 
@@ -70,10 +76,24 @@
 
 /***** THIS IS FOR TESTING, CAN AND WILL BE REMOVED LATER *****/
 
-.home-news-text {
-    width: 100%;
-  height: 200px;
-  border-top: 2px solid #000;    /* top border */
+.home-news-entry {
+  width: 100%;
+  height: auto;
   padding: 20px;                 /* some space inside */
   box-sizing: border-box;        /* so padding doesn't add to height */
+  display: flex;                 /* place children side by side */
+  gap: 20px;                    /* space between image and text */
+  align-items: flex-start;       /* align top */
+}
+
+.news-image {
+  width: 175px;
+  height: 175px;
+  object-fit: cover;
+  border-radius: 8px;
+  flex-shrink: 0;               
+}
+
+.news-text {
+  flex: 1;                    
 }
