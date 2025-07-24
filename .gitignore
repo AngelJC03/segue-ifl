@@ -3,3 +3,4 @@ trash/
 
 # Local Netlify folder
 .netlify
+.env
