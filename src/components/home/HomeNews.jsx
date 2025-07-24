@@ -39,18 +39,6 @@ function HomeNews() {
             });
     }, []);
 
-    //test facebook function
-    useEffect(() => {
-        fetch('/.netlify/functions/getFacebookposts')
-            .then(response => response.json())
-            .then(data => {
-                console.log('Facebook posts:', data);
-            })
-            .catch(error => {
-                console.error('Error fetching Facebook posts:', error);
-            });
-    }, []);
-
     return (
         <div className="home-news-container">
             <div className="home-news-section">
