@@ -2,9 +2,9 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import './SegueBoardBody.css';
-import FadeIn from '../../fadeinsection/FadeIn.jsx';
+import FadeIn from '../../../fadeinsection/FadeIn.jsx';
 import BoardMemberCard from './BoardMemberCard';
-import testImage from '../../../assets/images/testFolder/plageholder.jpg';
+import testImage from '../../../../assets/images/testFolder/plageholder.jpg';
 
 const boardMembers = [
   {

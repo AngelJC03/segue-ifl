@@ -6,6 +6,8 @@ exports.handler = async function(event, context) {
 
   const url = `https://graph.facebook.com/v19.0/${PAGE_ID}/posts?fields=message,created_time,attachments&access_token=${ACCESS_TOKEN}`;
 
+  console.log(url);
+
   try {
     const response = await fetch(url);
     if (!response.ok) {

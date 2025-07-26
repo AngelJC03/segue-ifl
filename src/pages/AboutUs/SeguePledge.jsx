@@ -3,7 +3,7 @@ import { useState } from 'react';
 import Navbar from '../../components/navbar/Navbar';
 import Sidebar from '../../components/navbar/Sidebar';
 import Footer from '../../components/footer/Footer'; 
-import SeguePledgeBody from '../../components/internal/SeguePledge/SeguePledgeBody'; 
+import SeguePledgeBody from '../../components/internal/AboutUs/SeguePledge/SeguePledgeBody'; 
 
 function SeguePledge() {
   const [sidebarOpen, setSidebarOpen] = useState(false);

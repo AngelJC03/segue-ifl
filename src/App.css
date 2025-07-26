@@ -4,7 +4,7 @@ html, body {
     margin: auto;
     padding: 0;
     height: 100%;
-    background-color: rgba(128,0, 0, 255); /* Default background color */
+    background-color: white; /* Default background color */
     font-family: 'Montserrat', sans-serif;
     max-width: 1750px;
 }

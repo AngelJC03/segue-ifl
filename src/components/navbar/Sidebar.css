@@ -126,3 +126,9 @@
 .sidebar-arrow.rotate {
   transform: rotate(90deg);
 }
+
+@media (max-width: 1000px) {
+  .sidebar {
+    display: flex;
+  }
+}

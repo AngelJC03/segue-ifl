@@ -9,7 +9,6 @@ import Hamburger from './Hamburger'; // Import the Hamburger component
 function Navbar() {
 
     const [click, setClick] = useState(false);
-
     const [activeMenu, setActiveMenu] = useState(null); 
     const closeMobileMenu = () => {setClick(false);}  
 

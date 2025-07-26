@@ -14,8 +14,11 @@
 .segue-pledge-page-title {
     width: 80%;
     margin: 0 auto;
-    font-size: 3.0rem;
     text-align: left;
+}
+
+.segue-pledge-page-title h1{
+    font-size: 3.0rem;
 }
 
 

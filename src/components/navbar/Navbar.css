@@ -86,13 +86,6 @@
   color: #ffffff;
 }
 
-@media (min-width: 768px) {
-    .navbar {
-      border-left: 2px solid black;
-      border-right: 2px solid black;
-    }
-}
-
 @media (max-width: 1250px) {
     .nav-menu {
         font-size: 1.2rem;
@@ -126,6 +119,19 @@
     }
     .nav-links-mobile {
         white-space: normal;
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar {
+      border-left: 2px solid black;
+      border-right: 2px solid black;
+    }
+}
+
+@media (min-width: 1000px) {
+    .sidebar {
+        display: none !important;
     }
 }
 

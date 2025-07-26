@@ -12,9 +12,12 @@
 .segue-board-page-title {
     width: 80%;
     margin: 0 auto;
-    font-size: 3.0rem;
     text-align: left;
     margin-bottom: 20px;
+}
+
+.segue-board-page-title h1{
+    font-size: 3.0rem;
 }
 
 .segue-board-content {

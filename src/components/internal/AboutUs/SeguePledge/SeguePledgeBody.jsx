@@ -1,7 +1,7 @@
 // import { React } from 'react';
 import './SeguePledgeBody.css';
-import FadeIn from '../../fadeinsection/FadeIn.jsx';
-import image from '../../../assets/images/logo-photos/temp-segue-logo.png'; // Adjust the path as necessary
+import FadeIn from '../../../fadeinsection/FadeIn.jsx';
+import image from '../../../../assets/images/logo-photos/temp-segue-logo.png'; // Adjust the path as necessary
 
 function SeguePledgeBody() {
     return (

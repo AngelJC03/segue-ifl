@@ -1,7 +1,7 @@
 // import { React } from 'react';
 import './OurMissionBody.css';
-import image from '../../../assets/images/Internal Pages Images/GarciaGrad.jpg';
-import FadeIn from '../../fadeinsection/FadeIn.jsx';
+import image from '../../../../assets/images/Internal Pages Images/GarciaGrad.jpg';
+import FadeIn from '../../../fadeinsection/FadeIn.jsx';
 
 function OurMissionBody() {
     return (
