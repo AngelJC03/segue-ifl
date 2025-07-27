@@ -1,4 +1,4 @@
-.curriculum-overview-container {
+.academic-calendar-container {
     width: 100%;
     height: auto;
     padding-top: 20px;
@@ -13,18 +13,18 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.curriculum-overview-page-title {
+.academic-calendar-page-title {
     width: 80%;
     margin: 0 auto;
     text-align: left;
     margin-bottom: 20px;
 }
 
-.curriculum-overview-page-title h1 {
+.academic-calendar-page-title h1 {
     font-size: 3.0rem;
 }
 
-.curriculum-overview-content {
+.academic-calendar-content {
     width: 80%;
     margin: 0 auto;
     text-align: left;
@@ -33,15 +33,15 @@
     padding-bottom: 80px;
 }
 
-.curriculum-overview-content p {
+.academic-calendar-content p {
     width: 80%;
-    margin: 0px auto;
+    margin: 10px auto;
     font-size: 1.6rem;
     text-align: left;
 }
 
 @media (max-width: 1400px) {
-    .curriculum-overview-content {
+    .academic-calendar-content {
         height: auto;
     }
 }

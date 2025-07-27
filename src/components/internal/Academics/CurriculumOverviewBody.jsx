@@ -1,6 +1,7 @@
 // import { React } from 'react';
 import './CurriculumOverviewBody.css';
 import FadeIn from '../../fadeinsection/FadeIn'
+import CenteredLogo from '../../CenteredLogo';
 
 function CurriculumOverviewBody() {
     return (
@@ -13,6 +14,7 @@ function CurriculumOverviewBody() {
                         Our curriculum is designed to challenge, inspire, and support all learners. We focus on literacy, math, science, and social
 studies, while integrating critical thinking, problem-solving, and effective communication across all content areas.
                     </p>
+                    <CenteredLogo />
                 </FadeIn>
             </div>
     )

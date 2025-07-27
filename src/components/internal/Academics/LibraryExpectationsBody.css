@@ -1,4 +1,4 @@
-.curriculum-overview-container {
+.library-expectations-container {
     width: 100%;
     height: auto;
     padding-top: 20px;
@@ -13,35 +13,56 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.curriculum-overview-page-title {
+.library-expectations-page-title {
     width: 80%;
     margin: 0 auto;
     text-align: left;
     margin-bottom: 20px;
 }
 
-.curriculum-overview-page-title h1 {
+.library-expectations-page-title h1 {
     font-size: 3.0rem;
 }
 
-.curriculum-overview-content {
+.library-expectations-content {
     width: 80%;
+    height: auto;
     margin: 0 auto;
     text-align: left;
     font-size: 1.6rem;
-    height: 30vh;
     padding-bottom: 80px;
 }
 
-.curriculum-overview-content p {
+.library-expectations-content p {
     width: 80%;
-    margin: 0px auto;
+    margin: 10px auto;
     font-size: 1.6rem;
     text-align: left;
 }
 
+.library-expectations-content {
+  padding: 1rem 2rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.expectation-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.expectation-list > li {
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+}
+
+.expectation-list ul {
+  margin-top: 0.5rem;
+  margin-left: 1.5rem;
+  font-weight: normal;
+}
+
 @media (max-width: 1400px) {
-    .curriculum-overview-content {
+    .library-expectations-content {
         height: auto;
     }
 }

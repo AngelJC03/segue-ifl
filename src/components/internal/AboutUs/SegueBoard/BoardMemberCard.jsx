@@ -36,8 +36,10 @@ const BoardMemberCard = ({ name, term, email, imageSrc, children }) => {
           </div>
         )}
 
-        <Card.Link href={`mailto:${email}`} className="text-primary fs-5">
-          {email}
+        <Card.Link href={`mailto:${email}`}>
+          <Button variant="primary" className="w-100">
+            E-mail {name}
+          </Button>
         </Card.Link>
       </Card.Body>
     </Card>

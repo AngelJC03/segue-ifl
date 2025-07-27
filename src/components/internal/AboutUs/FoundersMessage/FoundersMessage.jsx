@@ -4,6 +4,7 @@ import FadeIn from '../../../fadeinsection/FadeIn.jsx';
 import image1 from '../../../../assets/images/FoundersMessage-photos/Garcia&Lorenco.jpg';
 import image2 from '../../../../assets/images/FoundersMessage-photos/ClassroomPic.jpg'; // This image is not used in the component, but can be used if needed
 import image3 from '../../../../assets/images/FoundersMessage-photos/ViolinBoy.jpg'; // This image is not used in the component, but can be used if needed
+import CenteredLogo from '../../../CenteredLogo.jsx';
 
 function FoundersMessageBody() {
     return (
@@ -86,10 +87,10 @@ function FoundersMessageBody() {
                                 Segue Institute for Learning
                             </blockquote>
                         </div>
+                        <CenteredLogo />
                     </div>
                     </FadeIn>
                 </div>
-
         </div>
     )
 

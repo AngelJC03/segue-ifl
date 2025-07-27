@@ -5,6 +5,7 @@
   aspect-ratio: 16 / 9;
   overflow: hidden;
   position: relative;
+  background-color: white;
 }
 
 /* Container for image stack */

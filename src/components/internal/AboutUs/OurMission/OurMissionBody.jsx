@@ -2,6 +2,7 @@
 import './OurMissionBody.css';
 import image from '../../../../assets/images/Internal Pages Images/GarciaGrad.jpg';
 import FadeIn from '../../../fadeinsection/FadeIn.jsx';
+import CenteredLogo from '../../../CenteredLogo.jsx';
 
 function OurMissionBody() {
     return (
@@ -28,6 +29,7 @@ function OurMissionBody() {
                     to view themselves as citizens of change in their homes and community.
                 </p>
             </div>
+            <CenteredLogo />
             </FadeIn>
         </div>
     )

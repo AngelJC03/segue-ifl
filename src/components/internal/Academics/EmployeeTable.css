@@ -1,0 +1,103 @@
+.employee-table {
+  width: 100%;
+  padding: 1rem;
+  position: relative;
+}
+
+.employee-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 2.5rem; /* spacing for bottom controls */
+}
+
+@media screen and (min-width: 768px) {
+    .employee-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.employee-card {
+  display: flex;
+  flex-direction: row;
+  background: #f9f9f9;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.employee-photo {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+.employee-details h3 {
+  margin: 0;
+}
+
+.employee-details p {
+  margin: 2px 0;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* Pagination */
+.pagination-controls {
+  display: flex;
+  gap: 0.5rem;
+  margin: 0.5rem 0;
+  flex-wrap: wrap;
+}
+
+.pagination-controls button {
+  padding: 0.4rem 0.7rem;
+  border: 1px solid #ccc;
+  background: white;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  transition: all 0.2s;
+}
+
+.pagination-controls button:hover {
+  background: #f0f0f0;
+}
+
+.pagination-controls button.active {
+  background: #007bff;
+  color: white;
+  border-color: #007bff;
+}
+
+/* Positioning */
+.pagination-controls.top-left {
+  justify-content: flex-start;
+}
+
+.pagination-controls.bottom-right {
+  justify-content: flex-end;
+  margin-top: 2rem;
+}
+
+@media (max-width: 800px) {
+  .employee-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .employee-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .employee-photo {
+    margin-bottom: 1rem;
+  }
+  #department-select {
+    width: 250px;
+  }
+}
