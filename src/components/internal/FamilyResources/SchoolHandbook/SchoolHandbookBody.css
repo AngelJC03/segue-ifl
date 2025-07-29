@@ -1,0 +1,47 @@
+.school-handbook-container {
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 200px;
+    background-color: rgba(255, 255, 255, 1);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.school-handbook-page-title {
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.school-handbook-page-title h1 {
+    font-size: 3.0rem;
+}
+
+.school-handbook-content {
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 1.6rem;
+    height: 30vh;
+    padding-bottom: 80px;
+}
+
+.school-handbook-content p {
+    width: 80%;
+    margin: 10px auto;
+    font-size: 1.6rem;
+    text-align: left;
+}
+
+@media (max-width: 1400px) {
+    .school-handbook-content {
+        height: auto;
+    }
+}

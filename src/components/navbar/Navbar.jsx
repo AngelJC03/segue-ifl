@@ -80,11 +80,11 @@ function Navbar() {
                         </Link>
                     </div>
                     <ul className={`dropdown-menu ${activeMenu === 'families' ? 'show' : ''}`}>
-                        <li><Link to="/#" className="dropdown-link">Uniform Policy</Link></li>
-                        <li><Link to="/#" className="dropdown-link">After School Programs</Link></li>
-                        <li><Link to="/#" className="dropdown-link">School Lunch</Link></li>
-                        <li><Link to="/#" className="dropdown-link">Transportation</Link></li>
-                        <li><Link to="/#" className="dropdown-link">School Handbook</Link></li>
+                        <li><Link to="/UniformPolicy" className="dropdown-link">Uniform Policy</Link></li>
+                        <li><Link to="/AfterSchoolPrograms" className="dropdown-link">After School Programs</Link></li>
+                        <li><Link to="/SchoolLunch" className="dropdown-link">School Lunch</Link></li>
+                        <li><Link to="/Transportation" className="dropdown-link">Transportation</Link></li>
+                        <li><Link to="/SchoolHandbook" className="dropdown-link">School Handbook</Link></li>
                     </ul>
                 </li>
 
@@ -95,11 +95,11 @@ function Navbar() {
                         </Link>
                     </div>
                     <ul className={`dropdown-menu ${activeMenu === 'student' ? 'show' : ''}`}>
-                        <li><Link to="/#" className="dropdown-link">School Policies and Safety</Link></li>
-                        <li><Link to="/#" className="dropdown-link">After School Enrichment</Link></li>
-                        <li><Link to="/#" className="dropdown-link">Fitness & Wellness Programs</Link></li>
-                        <li><Link to="/#" className="dropdown-link">Cheer & Sports Clinics</Link></li>
-                        <li><Link to="/#" className="dropdown-link">Student-Led Activities</Link></li>
+                        <li><Link to="/SchoolPoliciesAndSafety" className="dropdown-link">School Policies and Safety</Link></li>
+                        <li><Link to="/AfterSchoolEnrichmentPrograms" className="dropdown-link">After School Enrichment</Link></li>
+                        <li><Link to="/FitnessAndWellnessPrograms" className="dropdown-link">Fitness & Wellness Programs</Link></li>
+                        <li><Link to="/CheerAndSportsClinics" className="dropdown-link">Cheer & Sports Clinics</Link></li>
+                        <li><Link to="/StudentLedActivities" className="dropdown-link">Student-Led Activities</Link></li>
                     </ul>
                 </li>
 
@@ -110,10 +110,10 @@ function Navbar() {
                         </Link>
                     </div>
                     <ul className={`dropdown-menu ${activeMenu === 'enroll' ? 'show' : ''}`}>
-                        <li><Link to="/#" className="dropdown-link">How to Enroll</Link></li>
-                        <li><Link to="/#" className="dropdown-link">Eligibility</Link></li>
-                        <li><Link to="/#" className="dropdown-link">Forms & Deadlines</Link></li>
-                        <li><Link to="/#" className="dropdown-link">Admissions and Lottery</Link></li>
+                        <li><Link to="/HowToEnroll" className="dropdown-link">How to Enroll</Link></li>
+                        <li><Link to="/Eligibility" className="dropdown-link">Eligibility</Link></li>
+                        <li><Link to="/FormsAndDeadlines" className="dropdown-link">Forms & Deadlines</Link></li>
+                        <li><Link to="/AdmissionsAndLottery" className="dropdown-link">Admissions and Lottery</Link></li>
                     </ul>
                 </li>
 
@@ -124,9 +124,9 @@ function Navbar() {
                         </Link>
                     </div>
                     <ul className={`dropdown-menu ${activeMenu === 'news' ? 'show' : ''}`}>
-                        <li><Link to="/#" className="dropdown-link">School Announcements</Link></li>
-                        <li><Link to="/#" className="dropdown-link">Event Calendar</Link></li>
-                        <li><Link to="/#" className="dropdown-link">Photo Gallery</Link></li>
+                        <li><Link to="/SchoolAnnouncements" className="dropdown-link">School Announcements</Link></li>
+                        <li><Link to="/EventsCalendar" className="dropdown-link">Event Calendar</Link></li>
+                        <li><Link to="/PhotoGallery" className="dropdown-link">Photo Gallery</Link></li>
                     </ul>
                 </li>
 
