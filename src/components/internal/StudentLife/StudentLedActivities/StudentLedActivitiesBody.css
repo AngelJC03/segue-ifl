@@ -34,10 +34,27 @@
 }
 
 .student-led-activities-content p {
-    width: 80%;
+    width: 100%;
     margin: 10px auto;
     font-size: 1.6rem;
     text-align: left;
+}
+
+.student-led-list {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 1rem;
+}
+
+.student-led-list li::before {
+    content: '★ ';
+    color: #f5a623; /* gold star */
+    font-weight: bold;
+    margin-right: 0.3rem;
+}
+
+.student-led-list li {
+    margin-bottom: 1rem;
 }
 
 @media (max-width: 1400px) {
@@ -50,7 +67,7 @@
     .student-led-activities-page-title h1 {
         font-size: 2.0rem;
     }
-    .student-led-activities-content {
-        font-size: 1.2rem;
+    .student-led-activities-content, .student-led-activities-content p {
+        font-size: 1.0rem;
     }
 }

@@ -36,7 +36,7 @@
 
 /* Text content beside the image */
 .hero-text {
-  font-family: 'impacted regular', Impact, sans-serif;
+  font-family: Impact, sans-serif;
   width: 40%;
   height: 100%;
   display: flex;
@@ -50,7 +50,7 @@
   text-align: left;
   line-height: 0.9; /* smaller number = less space between lines */
   letter-spacing: 1px;
-  text-align: center;
+  text-align: left;
 }
 
 .welcometo {
@@ -62,14 +62,29 @@
   margin: 0 auto;
   padding: 0.25rem 0; 
   width: 90%;
-  font-size: 1.8rem;
+  font-size: 2.85rem;
+  line-height: 0.5;
 }
 
-.hero-text p {
+.hero-text h2 {
   margin: 0 auto;
   padding: 0.25rem 0; 
   width: 90%;
-  font-size: 1.8rem;
+  font-size: 6rem;
+  line-height: 0.85;
+  font-weight: bold;
+}
+
+.hero-text h3 {
+  margin: 0 auto;
+  width: 90%;
+  font-size: 1.6rem;
+  text-align: left;
+}
+
+.hero-text p {
+  width: 83.1%;
+  text-align: center;
 }
 
 .hero-text-image {

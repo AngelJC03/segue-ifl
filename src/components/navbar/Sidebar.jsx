@@ -31,7 +31,7 @@ function Sidebar({ isOpen, onClose }) {
         { label: '2025-2026 Calendar', path: '/Calendar2526' },
         { label: 'Teachers & Staff', path: '/TeachersAndStaff' },
         { label: 'Library Expectations', path: '/LibraryExpectations' },
-        { label: 'Individual Schools', path: '/IndividualSchools' },
+        { label: 'Photo Gallery', path: '/PhotoGallery' },
         { label: 'Power School Login', path: 'https://segueifl.powerschool.com/public/' },
       ],
     },
@@ -73,7 +73,6 @@ function Sidebar({ isOpen, onClose }) {
       submenu: [
         { label: 'School Announcements', path: '/SchoolAnnouncements' },
         { label: 'Event Calendar', path: '/EventsCalendar' },
-        { label: 'Photo Gallery', path: '/PhotoGallery' },
       ],
     },
   ];

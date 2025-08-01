@@ -1,6 +1,7 @@
 .fitness-and-wellness-programs-container {
     width: 100%;
     height: auto;
+    min-height: 30vh;
     padding-top: 20px;
     padding-bottom: 200px;
     background-color: rgba(255, 255, 255, 1);
@@ -25,11 +26,11 @@
 }
 
 .fitness-and-wellness-programs-content {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     text-align: left;
     font-size: 1.6rem;
-    height: 30vh;
+    height: auto;
     padding-bottom: 80px;
 }
 
@@ -39,6 +40,19 @@
     font-size: 1.6rem;
     text-align: left;
 }
+
+.program-box {
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    margin: 1.5rem 0;
+}
+
+.program-box h3 {
+    margin-bottom: 0.5rem;
+}
+
 
 @media (max-width: 1400px) {
     .fitness-and-wellness-programs-content {
@@ -50,7 +64,7 @@
     .fitness-and-wellness-programs-page-title h1 {
         font-size: 2.0rem;
     }
-    .fitness-and-wellness-programs-content {
-        font-size: 1.2rem;
+    .fitness-and-wellness-programs-content p {
+        font-size: 1.0rem;
     }
 }

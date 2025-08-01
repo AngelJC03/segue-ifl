@@ -33,14 +33,6 @@ html, body {
     font-weight: normal;
     src: local('Impact Regular'), url('./assets/fonts/impact-webfont/unicode.impact.woff') format('woff');
 }
-    
-
-@font-face {
-    font-family: 'Impacted Regular';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Impacted Regular'), url('./assets/fonts/impact-webfont/Impacted.woff') format('woff');
-}
 
 @font-face {
     font-family: 'PlayBill';

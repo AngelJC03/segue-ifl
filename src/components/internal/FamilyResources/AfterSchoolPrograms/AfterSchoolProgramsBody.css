@@ -40,6 +40,14 @@
     text-align: left;
 }
 
+.expectation-list > li::before {
+  content: '★';
+  color: #f5a623; /* gold star */
+  position: absolute;
+  font-weight: bold;
+}
+
+
 @media (max-width: 1400px) {
     .after-school-programs-content {
         height: auto;
@@ -50,7 +58,7 @@
     .after-school-programs-page-title h1 {
         font-size: 2.0rem;
     }
-    .after-school-programs-content {
-        font-size: 1.2rem;
+    .after-school-programs-content, .after-school-programs-content p {
+        font-size: 1.0rem;
     }
 }

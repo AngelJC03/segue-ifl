@@ -7,7 +7,6 @@ import SeguePledge from './pages/AboutUs/SeguePledge';
 import FoundersMessage from './pages/AboutUs/FoundersMessage';
 import SegueBoard from './pages/AboutUs/SegueBoard';
 import Calender2526 from './pages/Academics/Calendar2526';
-import IndividualSchools from './pages/Academics/IndividualSchools';
 import CurriculumOverview from './pages/Academics/CurriculumOverview';
 import LibraryExpectations from './pages/Academics/LibraryExpectations';
 import TeachersAndStaff from './pages/Academics/TeachersAndStaff';
@@ -21,7 +20,7 @@ import SchoolLunch from './pages/FamilyResources/SchoolLunch';
 import Transportation from './pages/FamilyResources/Transportation';
 import UniformPolicy from './pages/FamilyResources/UniformPolicy';
 import EventsCalendar from './pages/NewsAndEvents/EventsCalendar';
-import PhotoGallery from './pages/NewsAndEvents/PhotoGallery';
+import PhotoGallery from './pages/StudentLife/PhotoGallery';
 import SchoolAnnouncements from './pages/NewsAndEvents/SchoolAnnouncements';
 import AfterSchoolEnrichmentPrograms from './pages/StudentLife/AfterSchoolEnrichmentPrograms';
 import CheerAndSportsClinics from './pages/StudentLife/CheerAndSportsClinics';
@@ -43,7 +42,6 @@ function App() {
           <Route path="/FoundersMessage" element={<FoundersMessage />} />
           <Route path="/SegueBoard" element={<SegueBoard />} />
           <Route path="/Calendar2526" element={<Calender2526 />} />
-          <Route path="/IndividualSchools" element={<IndividualSchools />} />
           <Route path="/CurriculumOverview" element={<CurriculumOverview />} />
           <Route path="/LibraryExpectations" element={<LibraryExpectations />} />
           <Route path="/TeachersAndStaff" element={<TeachersAndStaff />} />

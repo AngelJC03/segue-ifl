@@ -9,7 +9,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: left; /* changed from center to left for alignment consistency */
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -29,15 +29,33 @@
     margin: 0 auto;
     text-align: left;
     font-size: 1.6rem;
-    height: 30vh;
+    height: auto; 
     padding-bottom: 80px;
 }
 
 .cheer-and-sports-clinics-content p {
-    width: 80%;
+    width: 100%;
     margin: 10px auto;
     font-size: 1.6rem;
     text-align: left;
+}
+
+.clinic-benefits-list {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 1.5rem;
+}
+
+.clinic-benefits-list > li {
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+}
+
+.clinic-benefits-list > li::before {
+    content: '★ ';
+    color: #f5a623;
+    font-weight: bold;
+    margin-right: 0.3rem;
 }
 
 @media (max-width: 1400px) {
@@ -50,7 +68,7 @@
     .cheer-and-sports-clinics-page-title h1 {
         font-size: 2.0rem;
     }
-    .cheer-and-sports-clinics-content {
-        font-size: 1.2rem;
+    .cheer-and-sports-clinics-content, .cheer-and-sports-clinics-content p {
+        font-size: 1.0rem;
     }
 }

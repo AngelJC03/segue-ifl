@@ -15,10 +15,3 @@
     src: local('Impact Regular'), url('unicode.impact.woff') format('woff');
     }
     
-
-    @font-face {
-    font-family: 'Impacted Regular';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Impacted Regular'), url('Impacted.woff') format('woff');
-    }

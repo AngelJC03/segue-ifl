@@ -49,6 +49,13 @@
   padding-left: 0;
 }
 
+.expectation-list > li > strong::before {
+    content: '★ ';
+    color: #f5a623; /* or use 'inherit' or 'black' if you want */
+    font-weight: bold;
+    margin-right: 0.3rem;
+}
+
 .expectation-list > li {
   margin-bottom: 1.5rem;
   font-weight: bold;

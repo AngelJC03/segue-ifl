@@ -29,7 +29,7 @@
     margin: 0 auto;
     text-align: left;
     font-size: 1.6rem;
-    height: 30vh;
+    height: auto;
     padding-bottom: 80px;
 }
 
@@ -51,6 +51,6 @@
         font-size: 2.0rem;
     }
     .school-policies-and-safety-content {
-        font-size: 1.2rem;
+        font-size: 1.0rem;
     }
 }

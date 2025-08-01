@@ -6,13 +6,13 @@ function UniformPolicyBody() {
     return (
         <div className="uniform-policy-container">
             <div className="uniform-policy-page-title">
-                <h1> Uniform Policy </h1>
+                <h1>Uniform Policy</h1>
             </div>
             <FadeIn>
                 <div className="uniform-policy-content">
                     <ul className="expectation-list">
                         <li>
-                            ★ Formal Uniform (Non-Gym Days)
+                            <strong>Formal Uniform (Non-Gym Days)</strong>
                             <ul>
                                 <li>Maroon Segue polo (short or long sleeve)</li>
                                 <li>Black or khaki pants, shorts, or skirt</li>
@@ -27,7 +27,7 @@ function UniformPolicyBody() {
                     </div>
                     <ul className="expectation-list">
                         <li>
-                            ★ PE Uniform (Gym Days)
+                            <strong>PE Uniform (Gym Days)</strong>
                             <ul>
                                 <li>Grey or maroon Segue T-shirt</li>
                                 <li>Maroon Segue-issued sweatpants and sweatshirt</li>

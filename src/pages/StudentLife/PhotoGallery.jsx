@@ -3,7 +3,7 @@ import { useState } from 'react';
 import Navbar from '../../components/navbar/Navbar';
 import Sidebar from '../../components/navbar/Sidebar';
 import Footer from '../../components/footer/Footer'; 
-import PhotoGalleryBody from '../../components/internal/NewsAndEvents/PhotoGallery/PhotoGalleryBody';
+import PhotoGalleryBody from '../../components/internal/StudentLife/PhotoGallery/PhotoGalleryBody';
 
 function PhotoGallery() {
   const [sidebarOpen, setSidebarOpen] = useState(false);

@@ -68,7 +68,7 @@ function Navbar() {
                         <li><Link to="/TeachersAndStaff" className="dropdown-link">Teachers & Staff</Link></li>
                         <li><Link to="/Calendar2526" className="dropdown-link">2025-2026 Calendar</Link></li>
                         <li><Link to="/LibraryExpectations" className="dropdown-link">Library Expectations</Link></li>
-                        <li><Link to="/IndividualSchools" className="dropdown-link">Individual Schools</Link></li>
+                        <li><Link to="/PhotoGallery" className="dropdown-link">Photo Gallery</Link></li>
                         <li><a href="https://segueifl.powerschool.com/public/" className="dropdown-link">Power School Login</a></li>
                     </ul>
                 </li>
@@ -126,7 +126,6 @@ function Navbar() {
                     <ul className={`dropdown-menu ${activeMenu === 'news' ? 'show' : ''}`}>
                         <li><Link to="/SchoolAnnouncements" className="dropdown-link">School Announcements</Link></li>
                         <li><Link to="/EventsCalendar" className="dropdown-link">Event Calendar</Link></li>
-                        <li><Link to="/PhotoGallery" className="dropdown-link">Photo Gallery</Link></li>
                     </ul>
                 </li>
 
