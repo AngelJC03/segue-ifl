@@ -104,3 +104,12 @@
         margin: 10px auto; /* Center the image with margin */
     }
 }
+
+@media (max-width: 450px) {
+    .our-mission-page-title h1 {
+        font-size: 2.0rem;
+    }
+    .our-mission-content {
+        font-size: 1.2rem;
+    }
+}

@@ -9,7 +9,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: left;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -29,7 +29,7 @@
     margin: 0 auto;
     text-align: left;
     font-size: 1.6rem;
-    height: 30vh;
+    height: auto;
     padding-bottom: 80px;
 }
 
@@ -40,8 +40,23 @@
     text-align: left;
 }
 
+.uniform-policy-prohibited {
+    font-size: 1.6rem;
+    text-align: left;
+    margin: 20px auto;
+}
+
 @media (max-width: 1400px) {
     .uniform-policy-content {
         height: auto;
+    }
+}
+
+@media (max-width: 450px) {
+    .uniform-policy-page-title h1 {
+        font-size: 2.0rem;
+    }
+    .uniform-policy-content {
+        font-size: 1.2rem;
     }
 }

@@ -3,6 +3,7 @@ import { useState } from 'react';
 import Navbar from '../../components/navbar/Navbar';
 import Sidebar from '../../components/navbar/Sidebar';
 import Footer from '../../components/footer/Footer'; 
+import SchoolPoliciesAndSafetyBody from '../../components/internal/StudentLife/SchoolPoliciesAndSafety/SchoolPoliciesAndSafetyBody';
 
 function SchoolPoliciesAndSafety() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -13,6 +14,7 @@ function SchoolPoliciesAndSafety() {
     <>
       <Navbar toggleSidebar={toggleSidebar} />
       <Sidebar isOpen={sidebarOpen} toggleSidebar={toggleSidebar} />
+      <SchoolPoliciesAndSafetyBody />
       <Footer />
     </>
   );

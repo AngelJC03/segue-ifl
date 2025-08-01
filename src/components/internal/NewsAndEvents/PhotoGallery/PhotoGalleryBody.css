@@ -29,7 +29,7 @@
     margin: 0 auto;
     text-align: left;
     font-size: 1.6rem;
-    height: 30vh;
+    height: auto;
     padding-bottom: 80px;
 }
 
@@ -40,8 +40,48 @@
     text-align: left;
 }
 
+.gallery-dropdown {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.gallery-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.gallery-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.show-more-button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #2e7d32;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
 @media (max-width: 1400px) {
     .photo-gallery-content {
         height: auto;
     }
 }
+
+@media (max-width: 450px) {
+    .photo-gallery-page-title h1 {
+        font-size: 2.0rem;
+    }
+    .photo-gallery-content {
+        font-size: 1.2rem;
+    }
+}
+

@@ -110,3 +110,12 @@
       font-size: 1.2rem;
     }
 }
+
+@media (max-width: 450px) {
+    .founders-message-page-title h1 {
+        font-size: 2.0rem;
+    }
+    .founders-message-content {
+        font-size: 1.2rem;
+    }
+}

@@ -8,6 +8,7 @@
     top: 0;
     z-index: 1000;
     font-family: 'Montserrat', sans-serif;
+    shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .navbar-container {
@@ -119,13 +120,6 @@
     }
     .nav-links-mobile {
         white-space: normal;
-    }
-}
-
-@media (min-width: 768px) {
-    .navbar {
-      border-left: 2px solid black;
-      border-right: 2px solid black;
     }
 }
 

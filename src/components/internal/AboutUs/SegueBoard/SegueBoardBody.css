@@ -26,3 +26,12 @@
     text-align: left;
     align-items: center;
 }
+
+@media (max-width: 450px) {
+    .segue-board-page-title h1 {
+        font-size: 2.0rem;
+    }
+    .segue-board-content {
+        font-size: 1.2rem;
+    }
+}

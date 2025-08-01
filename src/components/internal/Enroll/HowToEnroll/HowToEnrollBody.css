@@ -1,0 +1,57 @@
+.how-to-enroll-container {
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 200px;
+    background-color: rgba(255, 255, 255, 1);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.how-to-enroll-page-title {
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.how-to-enroll-page-title h1 {
+    font-size: 3.0rem;
+}
+
+.how-to-enroll-content {
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 1.6rem;
+    height: auto;
+    max-height: 30vh;
+    padding-bottom: 80px;
+}
+
+.how-to-enroll-content p {
+    width: 80%;
+    margin: 10px auto;
+    font-size: 1.6rem;
+    text-align: left;
+}
+
+@media (max-width: 1400px) {
+    .how-to-enroll-content {
+        height: auto;
+    }
+}
+
+@media (max-width: 450px) {
+    .how-to-enroll-page-title h1 {
+        font-size: 2.0rem;
+    }
+    .how-to-enroll-content {
+        font-size: 1.2rem;
+    }
+}

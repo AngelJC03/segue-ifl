@@ -28,6 +28,7 @@ import CheerAndSportsClinics from './pages/StudentLife/CheerAndSportsClinics';
 import FitnessAndWellnessPrograms from './pages/StudentLife/FitnessAndWellnessPrograms';
 import SchoolPoliciesAndSafety from './pages/StudentLife/SchoolPoliciesAndSafety';
 import StudentLedActivities from './pages/StudentLife/StudentLedActivities';
+import LegacyHighSchool from './pages/LegacyHS/LegacyHighSchool';
 
 function App() {
 
@@ -63,6 +64,7 @@ function App() {
           <Route path="/FitnessAndWellnessPrograms" element={<FitnessAndWellnessPrograms />} />
           <Route path="/SchoolPoliciesAndSafety" element={<SchoolPoliciesAndSafety />} />
           <Route path="/StudentLedActivities" element={<StudentLedActivities />} />
+          <Route path="/LegacyHighSchool" element={<LegacyHighSchool />} />
         </Routes>
       </Router>
 

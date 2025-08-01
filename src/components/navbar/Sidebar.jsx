@@ -39,41 +39,41 @@ function Sidebar({ isOpen, onClose }) {
       label: 'Family Resources',
       path: '',
       submenu: [
-        { label: 'Uniform Policy', path: '/#' },
-        { label: 'After School Programs', path: '/#' },
-        { label: 'School Lunch', path: '/#' },
-        { label: 'Transportation', path: '/#' },
-        { label: 'School Handbook', path: '/#' },
+        { label: 'Uniform Policy', path: '/UniformPolicy' },
+        { label: 'After School Programs', path: '/AfterSchoolPrograms' },
+        { label: 'School Lunch', path: '/SchoolLunch' },
+        { label: 'Transportation', path: '/Transportation' },
+        { label: 'School Handbook', path: '/SchoolHandbook' },
       ],
     },
     {
       label: 'Student Life',
       path: '',
       submenu: [
-        { label: 'School Policies and Safety', path: '/#' },
-        { label: 'After School Enrichment', path: '/#' },
-        { label: 'Fitness & Wellness Programs', path: '/#' },
-        { label: 'Cheer & Sports Clinics', path: '/#' },
-        { label: 'Student-Led Activities', path: '/#' },
+        { label: 'School Policies and Safety', path: '/SchoolPoliciesAndSafety' },
+        { label: 'After School Enrichment', path: '/AfterSchoolEnrichmentPrograms' },
+        { label: 'Fitness & Wellness Programs', path: '/FitnessAndWellnessPrograms' },
+        { label: 'Cheer & Sports Clinics', path: '/CheerAndSportsClinics' },
+        { label: 'Student-Led Activities', path: '/StudentLedActivities' },
       ],
     },
     {
       label: 'Enroll',
       path: '',
       submenu: [
-        { label: 'How to Enroll', path: '/#' },
-        { label: 'Eligibility', path: '/#' },
-        { label: 'Forms & Deadlines', path: '/#' },
-        { label: 'Admissions and Lottery', path: '/#' },
+        { label: 'How to Enroll', path: '/HowToEnroll' },
+        { label: 'Eligibility', path: '/Eligibility' },
+        { label: 'Forms & Deadlines', path: '/FormsAndDeadlines' },
+        { label: 'Admissions and Lottery', path: '/AdmissionsAndLottery' },
       ],
     },
     {
       label: 'News and Events',
       path: '',
       submenu: [
-        { label: 'School Announcements', path: '/#' },
-        { label: 'Event Calendar', path: '/#' },
-        { label: 'Photo Gallery', path: '/#' },
+        { label: 'School Announcements', path: '/SchoolAnnouncements' },
+        { label: 'Event Calendar', path: '/EventsCalendar' },
+        { label: 'Photo Gallery', path: '/PhotoGallery' },
       ],
     },
   ];
@@ -121,7 +121,7 @@ function Sidebar({ isOpen, onClose }) {
           ))}
 
           <li className="sidebar-item">
-            <Link to="/" onClick={onClose} className="sidebar-link">
+            <Link to="/LegacyHighSchool" onClick={onClose} className="sidebar-link">
               <span>Legacy High School</span>
             </Link>
           </li>

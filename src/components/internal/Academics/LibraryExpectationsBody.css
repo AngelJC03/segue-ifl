@@ -9,7 +9,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: left;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -41,7 +41,6 @@
 }
 
 .library-expectations-content {
-  padding: 1rem 2rem;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -64,5 +63,13 @@
 @media (max-width: 1400px) {
     .library-expectations-content {
         height: auto;
+    }
+}
+@media (max-width: 450px) {
+    .library-expectations-page-title h1 {
+        font-size: 2.0rem;
+    }
+    .library-expectations-content {
+        font-size: 1.2rem;
     }
 }

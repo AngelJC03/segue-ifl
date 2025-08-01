@@ -131,7 +131,7 @@ function Navbar() {
                 </li>
 
                 <li className="nav-item legacyHS-nav">
-                    <Link to="/" className="nav-links-mobile" onClick={() => setClick(closeMobileMenu)}>
+                    <Link to="/LegacyHighSchool" className="nav-links-mobile" onClick={() => setClick(closeMobileMenu)}>
                         Legacy High School
                     </Link>
                 </li>

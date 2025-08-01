@@ -1,7 +1,7 @@
 // import { React } from 'react';
 import './AdmissionsAndLotteryBody.css';
-import FadeIn from '../../fadeinsection/FadeIn';
-import CenteredLogo from '../../CenteredLogo';
+import FadeIn from '../../../fadeinsection/FadeIn';
+import CenteredLogo from '../../../CenteredLogo';
 
 function AdmissionsAndLotteryBody() {
     return (

@@ -3,6 +3,7 @@ import { useState } from 'react';
 import Navbar from '../../components/navbar/Navbar';
 import Sidebar from '../../components/navbar/Sidebar';
 import Footer from '../../components/footer/Footer'; 
+import HowToEnrollBody from '../../components/internal/Enroll/HowToEnroll/HowToEnrollBody';
 
 function HowToEnroll() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -13,6 +14,7 @@ function HowToEnroll() {
     <>
       <Navbar toggleSidebar={toggleSidebar} />
       <Sidebar isOpen={sidebarOpen} toggleSidebar={toggleSidebar} />
+      <HowToEnrollBody />
       <Footer />
     </>
   );

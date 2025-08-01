@@ -1,5 +1,5 @@
 // import { React } from 'react';
-import './EligibilitBody.css';
+import './EligibilityBody.css';
 import FadeIn from '../../../fadeinsection/FadeIn';
 import CenteredLogo from '../../../CenteredLogo';
 

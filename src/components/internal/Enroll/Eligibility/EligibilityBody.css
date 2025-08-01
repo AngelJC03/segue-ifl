@@ -45,3 +45,12 @@
         height: auto;
     }
 }
+
+@media (max-width: 450px) {
+    .eligibility-page-title h1 {
+        font-size: 2.0rem;
+    }
+    .eligibility-content {
+        font-size: 1.2rem;
+    }
+}

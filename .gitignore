@@ -1,5 +1,6 @@
 node_modules/
 trash/
+public/assets/Photo-Gallery-Pics/
 
 # Local Netlify folder
 .netlify

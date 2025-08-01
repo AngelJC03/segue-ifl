@@ -9,9 +9,12 @@ function IndividualSchoolsBody() {
                 <h1> Individual Schools </h1>
             </div>
             <FadeIn>
-                <p className="individual-schools-content">
-                    LIST/DETAILS OF INDIVIDUAL SCHOOLS WILL GO HERE. 
-                </p>
+                <div className="individual-schools-content">
+                    <p>
+                        LIST/DETAILS OF <br/>
+                        INDIVIDUAL SCHOOLS WILL GO HERE.
+                    </p>
+                </div>
                 <CenteredLogo />
             </FadeIn>
         </div>

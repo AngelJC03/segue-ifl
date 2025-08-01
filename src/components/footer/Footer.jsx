@@ -11,10 +11,19 @@ function Footer() {
             <div className="footer-sections">
                 <div className="footer-contacts">
                     <h1>Contact Us</h1>
-                    <p>Email: <a href="mailto:information@segueifl.org">information@segueifl.org</a></p>
-                    <p>Phone Number: <a href="tel:+1234567890">+1 (401) 721-0964</a></p>
+                    <p><strong>Segue Institute for Learning</strong></p>
                     <p>
-                        Address: <a href="https://www.google.com/maps/search/?api=1&query=325+Cowden+St,+Central+Falls,+RI+02863" target="_blank" rel="noreferrer">325 Cowden St, Central Falls, RI 02863 </a>
+                        Address: <a href="https://www.google.com/maps/search/?api=1&query=325+Cowden+St,+Central+Falls,+RI+02863" target="_blank" rel="noreferrer">
+                            325 Cowden Street, Central Falls, RI 02863
+                        </a>
+                    </p>
+                    <p>Phone: <a href="tel:+14017210964">(401) 721-0964</a></p>
+                    <p>Fax: (401) 721-0984</p>
+                    <p>
+                        Website: <a href="https://www.segueifl.org" target="_blank" rel="noreferrer">www.segueifl.org</a>
+                    </p>
+                    <p>
+                        Email: <a href="mailto:information@segueifl.org">information@segueifl.org</a>
                     </p>
                     <p>Follow us on social media:</p>
                     <div className="social-icons">
