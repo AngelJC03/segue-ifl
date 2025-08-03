@@ -49,7 +49,7 @@
     .teachers-and-staff-page-title h1 {
         font-size: 2.0rem;
     }
-    .teachers-and-staff-content {
-        font-size: 1.2rem;
+    .teachers-and-staff-content, .teachers-and-staff-content p {
+        font-size: 1.0rem;
     }
 }

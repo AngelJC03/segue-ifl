@@ -68,7 +68,6 @@ function Navbar() {
                         <li><Link to="/TeachersAndStaff" className="dropdown-link">Teachers & Staff</Link></li>
                         <li><Link to="/Calendar2526" className="dropdown-link">2025-2026 Calendar</Link></li>
                         <li><Link to="/LibraryExpectations" className="dropdown-link">Library Expectations</Link></li>
-                        <li><Link to="/PhotoGallery" className="dropdown-link">Photo Gallery</Link></li>
                         <li><a href="https://segueifl.powerschool.com/public/" className="dropdown-link">Power School Login</a></li>
                     </ul>
                 </li>
@@ -100,6 +99,7 @@ function Navbar() {
                         <li><Link to="/FitnessAndWellnessPrograms" className="dropdown-link">Fitness & Wellness Programs</Link></li>
                         <li><Link to="/CheerAndSportsClinics" className="dropdown-link">Cheer & Sports Clinics</Link></li>
                         <li><Link to="/StudentLedActivities" className="dropdown-link">Student-Led Activities</Link></li>
+                        <li><Link to="/PhotoGallery" className="dropdown-link">Photo Gallery</Link></li>
                     </ul>
                 </li>
 
@@ -114,6 +114,7 @@ function Navbar() {
                         <li><Link to="/Eligibility" className="dropdown-link">Eligibility</Link></li>
                         <li><Link to="/FormsAndDeadlines" className="dropdown-link">Forms & Deadlines</Link></li>
                         <li><Link to="/AdmissionsAndLottery" className="dropdown-link">Admissions and Lottery</Link></li>
+                        <li><Link to="/EnrollmentPolicies" className="dropdown-link">Enrollment Policies</Link></li>
                     </ul>
                 </li>
 

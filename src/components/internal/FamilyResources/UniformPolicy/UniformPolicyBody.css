@@ -66,7 +66,7 @@
     .uniform-policy-page-title h1 {
         font-size: 2.0rem;
     }
-    .uniform-policy-content {
-        font-size: 1.2rem;
+    .uniform-policy-content, .uniform-policy-content p, .uniform-policy-prohibited {
+        font-size: 1.0rem;
     }
 }

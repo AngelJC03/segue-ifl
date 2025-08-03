@@ -49,7 +49,7 @@
     .curriculum-overview-page-title h1 {
         font-size: 2.0rem;
     }
-    .curriculum-overview-content {
-        font-size: 1.2rem;
+    .curriculum-overview-content, .curriculum-overview-content p {
+        font-size: 1.0rem;
     }
 }

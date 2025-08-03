@@ -29,13 +29,13 @@
     margin: 0 auto;
     text-align: left;
     font-size: 1.6rem;
-    height: 30vh;
+    height: auto;
+    min-height: 30vh;
     padding-bottom: 80px;
 }
 
 .forms-and-deadlines-content p {
-    width: 80%;
-    margin: 10px auto;
+    width: 100%;
     font-size: 1.6rem;
     text-align: left;
 }
@@ -46,11 +46,20 @@
     }
 }
 
+@media (max-width: 768px) {
+    .forms-and-deadlines-page-title h1 {
+        font-size: 2.0rem;
+    }
+    .forms-and-deadlines-content, .forms-and-deadlines-content p {
+        font-size: 1.0rem;
+    }
+}
+
 @media (max-width: 450px) {
     .forms-and-deadlines-page-title h1 {
         font-size: 2.0rem;
     }
-    .forms-and-deadlines-content {
-        font-size: 1.2rem;
+    .forms-and-deadlines-content,   .forms-and-deadlines-content p {
+        font-size: 0.9rem;
     }
 }

@@ -28,6 +28,7 @@ import FitnessAndWellnessPrograms from './pages/StudentLife/FitnessAndWellnessPr
 import SchoolPoliciesAndSafety from './pages/StudentLife/SchoolPoliciesAndSafety';
 import StudentLedActivities from './pages/StudentLife/StudentLedActivities';
 import LegacyHighSchool from './pages/LegacyHS/LegacyHighSchool';
+import EnrollmentPolicies from './pages/Enroll/EnrollmentPolicies';
 
 function App() {
 
@@ -48,6 +49,7 @@ function App() {
           <Route path="/AdmissionsAndLottery" element={<AdmissionsAndLottery />} />
           <Route path="/Eligibility" element={<Eligibility />} />
           <Route path="/HowToEnroll" element={<HowToEnroll />} />
+          <Route path="/EnrollmentPolicies" element={<EnrollmentPolicies />} />
           <Route path="/FormsAndDeadlines" element={<FormsAndDeadlines />} />
           <Route path="/SchoolHandbook" element={<SchoolHandbook />} />
           <Route path="/AfterSchoolPrograms" element={<AfterSchoolPrograms />} />

@@ -31,7 +31,6 @@ function Sidebar({ isOpen, onClose }) {
         { label: '2025-2026 Calendar', path: '/Calendar2526' },
         { label: 'Teachers & Staff', path: '/TeachersAndStaff' },
         { label: 'Library Expectations', path: '/LibraryExpectations' },
-        { label: 'Photo Gallery', path: '/PhotoGallery' },
         { label: 'Power School Login', path: 'https://segueifl.powerschool.com/public/' },
       ],
     },
@@ -55,6 +54,7 @@ function Sidebar({ isOpen, onClose }) {
         { label: 'Fitness & Wellness Programs', path: '/FitnessAndWellnessPrograms' },
         { label: 'Cheer & Sports Clinics', path: '/CheerAndSportsClinics' },
         { label: 'Student-Led Activities', path: '/StudentLedActivities' },
+        { label: 'Photo Gallery', path: '/PhotoGallery' },
       ],
     },
     {
@@ -65,6 +65,7 @@ function Sidebar({ isOpen, onClose }) {
         { label: 'Eligibility', path: '/Eligibility' },
         { label: 'Forms & Deadlines', path: '/FormsAndDeadlines' },
         { label: 'Admissions and Lottery', path: '/AdmissionsAndLottery' },
+        { label: 'Enrollment Policies', path: '/EnrollmentPolicies' },
       ],
     },
     {

@@ -76,7 +76,7 @@
     .library-expectations-page-title h1 {
         font-size: 2.0rem;
     }
-    .library-expectations-content {
-        font-size: 1.2rem;
+    .library-expectations-content, .library-expectations-content p {
+        font-size: 1.0rem;
     }
 }

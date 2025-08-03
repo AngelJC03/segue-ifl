@@ -50,7 +50,7 @@
     .academic-calendar-page-title h1 {
         font-size: 2.0rem;
     }
-    .academic-calendar-content {
-        font-size: 1.2rem;
+    .academic-calendar-content, .academic-calendar-content p {
+        font-size: 1.0rem;
     }
 }

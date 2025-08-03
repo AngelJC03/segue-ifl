@@ -1,6 +1,7 @@
-.how-to-enroll-container {
+.enrollment-policies-container {
     width: 100%;
     height: auto;
+    min-height: 30vh;
     padding-top: 20px;
     padding-bottom: 200px;
     background-color: white;
@@ -13,80 +14,67 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.how-to-enroll-page-title {
+.enrollment-policies-page-title {
     width: 80%;
     margin: 0 auto;
     text-align: left;
     margin-bottom: 20px;
 }
 
-.how-to-enroll-page-title h1 {
-    font-size: 3.0rem;
+.enrollment-policies-page-title h1 {
+    font-size: 3rem;
 }
 
-.how-to-enroll-content {
+.enrollment-policies-content {
     width: 80%;
     margin: 0 auto;
     text-align: left;
     font-size: 1.6rem;
+    line-height: 2.4rem;
 }
 
-.enrollment-steps {
+.lottery-exemptions-list {
     list-style: none;
     padding-left: 0;
 }
 
-.enrollment-steps > li::before {
+.lottery-exemptions-list {
+    list-style: none;
+    padding-left: 1.5em;
+    margin-top: 10px;
+}
+
+.lottery-exemptions-list li::before {
     content: '★';
     color: #f4c542;
     font-weight: bold;
     display: inline-block;
     width: 1.2em;
+    margin: 15px 0;
     margin-left: -1.2em;
 }
 
-.enrollment-steps li {
-    margin-bottom: 20px;
-}
-
-.enrollment-steps ul {
-    padding-left: 1.5em;
-    margin-top: 10px;
-}
-
-.checklist-section {
-    margin-top: 40px;
-}
-
-.checklist {
-    list-style: none;
-    padding-left: 0;
-    font-size: 1.4rem;
-}
-
-.checklist li {
-    margin-bottom: 10px;
-}
-
-.checklist input[type='checkbox'] {
-    margin-right: 10px;
-    transform: scale(1.4);
-}
 
 @media (max-width: 1400px) {
-    .how-to-enroll-content {
+    .enrollment-policies-content {
         height: auto;
     }
 }
 
-@media (max-width: 450px) {
-    .how-to-enroll-page-title h1 {
+@media (max-width: 768px) {
+    .admissions-and-lottery-page-title h1 {
         font-size: 2.0rem;
     }
-    .how-to-enroll-content, .how-to-enroll-content p {
+    .admissions-and-lottery-content, .enrollment-policies-content p {
         font-size: 1.0rem;
     }
-    .checklist {
-        font-size: 1.0rem;
+}
+
+@media (max-width: 450px) {
+    .enrollment-policies-page-title h1 {
+        font-size: 2.0rem;
+    }
+    .enrollment-policies-content, .enrollment-policies-content p {
+        font-size: 0.9rem;
     }
 }

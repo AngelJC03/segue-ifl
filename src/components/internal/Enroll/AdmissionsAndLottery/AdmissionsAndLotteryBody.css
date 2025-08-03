@@ -1,10 +1,10 @@
 .admissions-and-lottery-container {
     width: 100%;
     height: auto;
-    padding-top: 20px;
+    min-height: 30vh;
     padding-bottom: 200px;
-    background-color: rgba(255, 255, 255, 1);
-    color: rgb(0, 0, 0);
+    background-color: white;
+    color: black;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -21,7 +21,7 @@
 }
 
 .admissions-and-lottery-page-title h1 {
-    font-size: 3.0rem;
+    font-size: 3rem;
 }
 
 .admissions-and-lottery-content {
@@ -29,15 +29,23 @@
     margin: 0 auto;
     text-align: left;
     font-size: 1.6rem;
-    height: 30vh;
-    padding-bottom: 80px;
+    line-height: 2.4rem;
 }
 
-.admissions-and-lottery-content p {
-    width: 80%;
-    margin: 10px auto;
-    font-size: 1.6rem;
-    text-align: left;
+.admissions-list {
+    list-style: none;
+    padding-left: 1.5em;
+    margin-top: 10px;
+}
+
+.admissions-list li::before {
+    content: '★';
+    color: #f4c542;
+    font-weight: bold;
+    display: inline-block;
+    width: 1.2em;
+    margin: 5px 0;
+    margin-left: -1.2em;
 }
 
 @media (max-width: 1400px) {
@@ -50,7 +58,7 @@
     .admissions-and-lottery-page-title h1 {
         font-size: 2.0rem;
     }
-    .admissions-and-lottery-content {
-        font-size: 1.2rem;
+    .admissions-and-lottery-content, .admissions-and-lottery-content p {
+        font-size: 1.0rem;
     }
 }
