@@ -69,3 +69,8 @@
     border-radius: 8px;
     margin-top: 1rem;
 }
+
+.centered-fb-feed-container {
+    color: #1877F2;
+    font-weight: bold;
+}

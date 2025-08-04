@@ -13,7 +13,7 @@
 }
 
 .home-news-section h2 {
-    margin: 10px;
+    margin: 50px;
     color: rgb(128, 0, 0);
     font-weight: bold;
     border-bottom: 2px solid hsl(0, 0%, 80%);
@@ -48,6 +48,11 @@
 
 .news-text {
     flex: 1;                    
+}
+
+.home-news-section h3 {
+    color: rgb(128, 0, 0);
+    font-weight: bold;
 }
 
 @media (max-width: 768px) {
