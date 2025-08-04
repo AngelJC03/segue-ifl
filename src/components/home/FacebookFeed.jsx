@@ -1,6 +1,7 @@
 // components/FacebookFeed.jsx
 import React, { useEffect, useState } from 'react';
 import './FacebookFeed.css';
+import facebookPFP from '../../assets/images/hero-photos/hero-image1.jpg'; // Adjust the path as necessary
 
 function FacebookFeed() {
     const FBAPI = '/.netlify/functions/getFacebookPosts';
@@ -62,21 +63,30 @@ function FacebookFeed() {
                 >
                     <strong>
                         <div className="fb-post">
-                            <small className="fb-post-date">
-                                {new Date(post.created_time).toLocaleString(undefined, {
-                                    year: 'numeric',
-                                    month: 'numeric',
-                                    day: 'numeric',
-                                    hour: 'numeric',
-                                    minute: 'numeric',
-                                    hour12: true,
-                                })}
-                            </small>
+                            <div className="fb-post-header">
+                            <img src={facebookPFP} alt="Segue logo" className="fb-profile-photo" />
+                            <div className="fb-profile-info">
+                                <div className="fb-page-name">Segue Institute for Learning</div>
+                                <small className="fb-post-date">
+                                    {new Date(post.created_time).toLocaleString(undefined, {
+                                        year: 'numeric',
+                                        month: 'numeric',
+                                        day: 'numeric',
+                                        hour: 'numeric',
+                                        minute: 'numeric',
+                                        hour12: true,
+                                    })}
+                                </small>
+                            </div>
+                        </div>
 
+                        <div className="fb-post-content">
                             {post.image && (
                                 <img src={post.image} alt="Facebook Post" className="fb-post-image" />
                             )}
                             {post.message && <p>{truncateText(post.message, 200)}</p>}
+                        </div>
+                        
                         </div>
                     </strong>
                 </a>
