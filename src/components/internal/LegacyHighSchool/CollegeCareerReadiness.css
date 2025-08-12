@@ -1,0 +1,52 @@
+.college-career-readiness-container {
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 1.6rem;
+    height: auto;
+    padding-bottom: 80px;
+}
+
+.college-career-readiness-text {
+    padding: 20px;
+    text-align: center;
+}
+
+.college-career-readiness-grid {
+    display: grid;
+    grid-template-columns: 1fr; /* Text | Image */
+    gap: 20px;
+    align-items: center;
+}
+
+.college-career-readiness-text p {
+    font-size: 1.6rem;
+    margin: 0 auto;
+}
+
+.college-career-readiness-image {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    border-radius: 8px;
+}
+
+.college-career-readiness-image img {
+    width: 50%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Mobile: stack vertically */
+@media (max-width: 1000px) {
+    .college-career-readiness-grid {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    
+    .college-career-readiness-text p {
+        text-align: center;
+        font-size: 1.2rem;
+    }
+}

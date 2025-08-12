@@ -68,7 +68,7 @@ function Navbar() {
                         <li><Link to="/TeachersAndStaff" className="dropdown-link">Teachers & Staff</Link></li>
                         <li><Link to="/Calendar2526" className="dropdown-link">2025-2026 Calendar</Link></li>
                         <li><Link to="/LibraryExpectations" className="dropdown-link">Library Expectations</Link></li>
-                        <li><a href="https://segueifl.powerschool.com/public/" className="dropdown-link">Power School Login</a></li>
+                        <li><a href="https://segueifl.powerschool.com/public/" target="_blank" rel="noopener noreferrer" className="dropdown-link">Power School Login</a></li>
                     </ul>
                 </li>
 

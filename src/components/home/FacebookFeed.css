@@ -8,10 +8,10 @@
     align-items: center;
     justify-content: flex-start;
     color: rgb(0, 0, 0);
-    padding: 1rem;
 }
 
 .facebook-livefeed-container h2 {
+    text-align: center;
     margin: 50px;
     color: #1877F2;
     font-weight: bold;

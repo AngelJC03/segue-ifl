@@ -110,9 +110,21 @@ function Sidebar({ isOpen, onClose }) {
                 <ul className="sidebar-submenu">
                   {submenu.map((item, idx) => (
                     <li key={idx} className="sidebar-subitem">
-                      <Link to={item.path} onClick={onClose} className="sidebar-sublink">
-                        {item.label}
-                      </Link>
+                      {item.path.startsWith("http") ? (
+                        <a
+                          href={item.path}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="sidebar-sublink"
+                          onClick={onClose}
+                        >
+                          {item.label}
+                        </a>
+                      ) : (
+                        <Link to={item.path} onClick={onClose} className="sidebar-sublink">
+                          {item.label}
+                        </Link>
+                      )}
                     </li>
                   ))}
                 </ul>

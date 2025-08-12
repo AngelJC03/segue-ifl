@@ -1,0 +1,15 @@
+.curriculum-approach-container {
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 1.6rem;
+    height: auto;
+    padding-bottom: 80px;
+
+}
+
+@media (max-width: 1000px) {
+    .curriculum-approach-container p {
+        font-size: 1.2rem;
+    }
+}

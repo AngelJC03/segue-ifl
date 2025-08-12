@@ -1,0 +1,42 @@
+.community-partnerships-container {
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 1.6rem;
+    height: auto;
+    padding-bottom: 80px;
+}
+
+.star-list {
+  list-style: none;
+  padding-left: 0;
+  font-size: 1.6rem;
+  line-height: 1.8;
+}
+
+.star-list li {
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 10px;
+}
+
+.star-list > li > strong::before {
+  content: '★ ';
+  color: #f5a623; /* golden star color */
+  font-weight: bold;
+  margin-right: 0.3rem;
+}
+
+@media (max-width: 1000px) {
+    .community-partnerships-container {
+        font-size: 1.2rem;
+    }
+    
+    .star-list li {
+        padding-left: 20px;
+    }
+    
+    .star-list li {
+        font-size: 1.2rem;
+    }
+}
