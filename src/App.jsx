@@ -29,6 +29,7 @@ import SchoolPoliciesAndSafety from './pages/StudentLife/SchoolPoliciesAndSafety
 import StudentLedActivities from './pages/StudentLife/StudentLedActivities';
 import LegacyHighSchool from './pages/LegacyHS/LegacyHighSchool';
 import EnrollmentPolicies from './pages/Enroll/EnrollmentPolicies';
+import NewsArticles from './pages/NewsAndEvents/NewsArticles';
 
 function App() {
 
@@ -65,6 +66,7 @@ function App() {
           <Route path="/SchoolPoliciesAndSafety" element={<SchoolPoliciesAndSafety />} />
           <Route path="/StudentLedActivities" element={<StudentLedActivities />} />
           <Route path="/LegacyHighSchool" element={<LegacyHighSchool />} />
+          <Route path="/NewsArticles" element={<NewsArticles />} />
         </Routes>
       </Router>
 
