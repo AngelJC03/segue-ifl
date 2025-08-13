@@ -1,10 +1,10 @@
 .community-partnerships-container {
-    width: 100%;
+    width: 80%;
     margin: 0 auto;
     text-align: left;
     font-size: 1.6rem;
     height: auto;
-    padding-bottom: 80px;
+    padding: 20px;
 }
 
 .star-list {
@@ -22,7 +22,7 @@
 
 .star-list > li > strong::before {
   content: '★ ';
-  color: #f5a623; /* golden star color */
+  color: #f5a623; 
   font-weight: bold;
   margin-right: 0.3rem;
 }

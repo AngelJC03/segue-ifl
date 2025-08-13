@@ -2,7 +2,7 @@
     width: 100%;
     height: auto;
     padding-top: 20px;
-    padding-bottom: 200px;
+    padding-bottom: 20px;
     background-color: rgba(255, 255, 255, 1);
     color: rgb(0, 0, 0);
     text-align: center;
@@ -29,7 +29,15 @@
     text-align: left;
     font-size: 1.6rem;
     height: auto;
-    padding-bottom: 80px;
+    padding: 20px;
+}
+
+.curriculum-approach-content {
+    background-color: #febd5a;
+}
+
+.community-partnerships-content {
+    background-color: #a5837f;
 }
 
 @media (max-width: 1400px) {

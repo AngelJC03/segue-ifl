@@ -1,11 +1,11 @@
 .curriculum-approach-container {
-    width: 100%;
+    width: 80%;
     margin: 0 auto;
     text-align: left;
     font-size: 1.6rem;
     height: auto;
-    padding-bottom: 80px;
-
+    align-items: center;
+    padding: 20px;
 }
 
 @media (max-width: 1000px) {

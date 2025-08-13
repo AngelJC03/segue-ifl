@@ -29,8 +29,8 @@ function OurMissionBody() {
                     to view themselves as citizens of change in their homes and community.
                 </p>
             </div>
-            <CenteredLogo />
             </FadeIn>
+            <CenteredLogo />
         </div>
     )
 

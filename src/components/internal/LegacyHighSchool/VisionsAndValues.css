@@ -4,7 +4,7 @@
     text-align: left;
     font-size: 1.6rem;
     height: auto;
-    padding-bottom: 80px;
+    padding: 20px;
 }
 
 .vision-values-grid {
@@ -23,6 +23,7 @@
   justify-content: center;
   height: auto;
   border-radius: 8px;
+  padding: 20px;
 }
 
 .vision-values-image img {
@@ -30,7 +31,6 @@
     height: auto;
     max-width: 50%;
     border-radius: 8px;
-    margin-bottom: 20px;
 }
 
 /* Mobile: stack vertically */

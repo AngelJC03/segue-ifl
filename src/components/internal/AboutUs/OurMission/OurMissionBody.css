@@ -2,7 +2,7 @@
     width: 100%;
     height: auto;
     padding-top: 20px;
-    padding-bottom: 200px;
+    padding-bottom: 20px;
     background-color: rgba(255, 255, 255, 1);
     color: rgb(0, 0, 0);
     text-align: center;
@@ -30,7 +30,7 @@
     text-align: left;
     font-size: 1.6rem;
     height: auto;
-    padding-bottom: 80px;
+    padding-bottom: 20px;
 }
 
 .our-mission-content img {
@@ -47,28 +47,9 @@
     text-align: left;
 }
 
-@media (max-width: 1750px) {
-  .our-mission-container {
-    padding-bottom: 150px; /* Adjust padding for smaller screens */
-  }
-}
-
-@media (max-width: 1600px) {
-  .our-mission-container {
-    padding-bottom: 50px; /* Further adjust padding for even smaller screens */
-  }
-}
-
-@media (max-width: 1400px) {
-  .our-mission-container {
-    margin: 0 auto;
-    text-align: center; /* Add this to center inline content */
-    padding-bottom: 0;
-  }
-
+@media (max-width: 1000px) {
   .our-mission-content {
     margin: 0 auto;          /* Center the whole content block */
-    text-align: center;      /* Center its content */
   }
 
   .our-mission-content img {
@@ -77,6 +58,7 @@
     margin: 20px auto;       /* Centers the image */
     width: 60%;              /* Make it responsive */
     max-width: 700px;        /* Cap the size on large screens */
+    border-radius: 10px; /* Optional: add some styling */
   }
 
   .our-mission-content p {

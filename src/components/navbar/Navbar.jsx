@@ -127,6 +127,7 @@ function Navbar() {
                     <ul className={`dropdown-menu ${activeMenu === 'news' ? 'show' : ''}`}>
                         <li><Link to="/SchoolAnnouncements" className="dropdown-link">School Announcements</Link></li>
                         <li><Link to="/EventsCalendar" className="dropdown-link">Event Calendar</Link></li>
+                        <li><Link to="NewsArticles" className="dropdown-link">News Articles</Link></li>
                     </ul>
                 </li>
 

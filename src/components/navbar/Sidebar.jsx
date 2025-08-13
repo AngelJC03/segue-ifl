@@ -74,6 +74,7 @@ function Sidebar({ isOpen, onClose }) {
       submenu: [
         { label: 'School Announcements', path: '/SchoolAnnouncements' },
         { label: 'Event Calendar', path: '/EventsCalendar' },
+        { label: 'News Articles', path: '/NewsArticles' },
       ],
     },
   ];
