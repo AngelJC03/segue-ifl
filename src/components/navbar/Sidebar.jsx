@@ -17,20 +17,19 @@ function Sidebar({ isOpen, onClose }) {
       label: 'About Us',
       path: '',
       submenu: [
-        { label: 'Our Mission', path: '/OurMission' },
+        { label: 'District Mission', path: '/DistrictMission' },
         { label: 'The Segue Pledge', path: '/SeguePledge' },
         { label: "Founders' Message", path: '/FoundersMessage' },
         { label: 'Segue Board', path: '/SegueBoard' },
+        { label: 'Teachers & Staff', path: '/TeachersAndStaff' },
       ],
     },
     {
       label: 'Academics',
       path: '',
       submenu: [
-        { label: 'Curriculum Overview', path: '/CurriculumOverview' },
         { label: '2025-2026 Calendar', path: '/Calendar2526' },
-        { label: 'Teachers & Staff', path: '/TeachersAndStaff' },
-        { label: 'Library Expectations', path: '/LibraryExpectations' },
+        { label: 'Ride Standardized Test Results', path: 'https://ride.ri.gov/StudentsFamilies/Assessment/Pages/Standardized-Testing.aspx' },
         { label: 'Power School Login', path: 'https://segueifl.powerschool.com/public/' },
       ],
     },
@@ -38,23 +37,11 @@ function Sidebar({ isOpen, onClose }) {
       label: 'Family Resources',
       path: '',
       submenu: [
-        { label: 'Uniform Policy', path: '/UniformPolicy' },
-        { label: 'After School Programs', path: '/AfterSchoolPrograms' },
-        { label: 'School Lunch', path: '/SchoolLunch' },
+        { label: 'School Policies and Safety', path: '/K8SchoolPoliciesAndSafety' },
         { label: 'Transportation', path: '/Transportation' },
-        { label: 'School Handbook', path: '/SchoolHandbook' },
-      ],
-    },
-    {
-      label: 'Student Life',
-      path: '',
-      submenu: [
-        { label: 'School Policies and Safety', path: '/SchoolPoliciesAndSafety' },
-        { label: 'After School Enrichment', path: '/AfterSchoolEnrichmentPrograms' },
-        { label: 'Fitness & Wellness Programs', path: '/FitnessAndWellnessPrograms' },
-        { label: 'Cheer & Sports Clinics', path: '/CheerAndSportsClinics' },
-        { label: 'Student-Led Activities', path: '/StudentLedActivities' },
-        { label: 'Photo Gallery', path: '/PhotoGallery' },
+        { label: 'Parent & Student Handbook', path: '/ParentAndStudentHandbook' },
+        { label: 'F.E.C (Family Engagement Committee)', path: '/' },
+        { label: 'McKinney Vento A.C.T', path: '/' },
       ],
     },
     {
@@ -72,10 +59,25 @@ function Sidebar({ isOpen, onClose }) {
       label: 'News and Events',
       path: '',
       submenu: [
-        { label: 'School Announcements', path: '/SchoolAnnouncements' },
         { label: 'Event Calendar', path: '/EventsCalendar' },
         { label: 'News Articles', path: '/NewsArticles' },
       ],
+    },
+    {
+      label: 'Segue K-8',
+      submenu: [
+        { label: 'Curriculum Overview', path: '/CurriculumOverview' },
+        { label: 'Uniform Policy', path: '/UniformPolicy' },
+        { label: 'Library Expectations', path: '/LibraryExpectations' },
+        { label: 'After School Enrichment', path: '/K8AfterSchoolEnrichment' },
+        { label: 'Fitness & Wellness Programs', path: '/K8FitnessAndWellnessPrograms' },
+        { label: 'Student-Led Activities', path: '/StudentLedActivities' },
+        { label: 'School Announcements', path: '/SchoolAnnouncements' },
+      ],
+    },
+    {
+      label: 'Legacy High School',
+      submenu: [],
     },
   ];
 
@@ -132,12 +134,6 @@ function Sidebar({ isOpen, onClose }) {
               )}
             </li>
           ))}
-
-          <li className="sidebar-item">
-            <Link to="/LegacyHighSchool" onClick={onClose} className="sidebar-link">
-              <span>Legacy High School</span>
-            </Link>
-          </li>
         </ul>
 
         </div>

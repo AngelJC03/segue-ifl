@@ -50,10 +50,11 @@ function Navbar() {
                         </Link>
                     </div>
                     <ul className={`dropdown-menu ${activeMenu === 'about' ? 'show' : ''}`}>
-                        <li><Link to="/OurMission" className="dropdown-link">Our Mission</Link></li>
+                        <li><Link to="/DistrictMission" className="dropdown-link">District Mission</Link></li>
                         <li><Link to="/SeguePledge" className="dropdown-link">The Segue Pledge</Link></li>
                         <li><Link to="/FoundersMessage" className="dropdown-link">Founders' Message</Link></li>
                         <li><Link to="/SegueBoard" className="dropdown-link">Segue Board</Link></li>
+                        <li><Link to="/TeachersAndStaff" className="dropdown-link">Teachers & Staff</Link></li>
                     </ul>
                 </li>
 
@@ -64,10 +65,8 @@ function Navbar() {
                         </Link>
                     </div>
                     <ul className={`dropdown-menu ${activeMenu === 'academics' ? 'show' : ''}`}>
-                        <li><Link to="/CurriculumOverview" className="dropdown-link">Curriculum Overview</Link></li>
-                        <li><Link to="/TeachersAndStaff" className="dropdown-link">Teachers & Staff</Link></li>
                         <li><Link to="/Calendar2526" className="dropdown-link">2025-2026 Calendar</Link></li>
-                        <li><Link to="/LibraryExpectations" className="dropdown-link">Library Expectations</Link></li>
+                        <li><a href="/home" target="_blank" rel="noopener noreferrer" className="dropdown-link">Ride Standardized Test Results</a></li>
                         <li><a href="https://segueifl.powerschool.com/public/" target="_blank" rel="noopener noreferrer" className="dropdown-link">Power School Login</a></li>
                     </ul>
                 </li>
@@ -79,27 +78,11 @@ function Navbar() {
                         </Link>
                     </div>
                     <ul className={`dropdown-menu ${activeMenu === 'families' ? 'show' : ''}`}>
-                        <li><Link to="/UniformPolicy" className="dropdown-link">Uniform Policy</Link></li>
-                        <li><Link to="/AfterSchoolPrograms" className="dropdown-link">After School Programs</Link></li>
-                        <li><Link to="/SchoolLunch" className="dropdown-link">School Lunch</Link></li>
                         <li><Link to="/Transportation" className="dropdown-link">Transportation</Link></li>
-                        <li><Link to="/SchoolHandbook" className="dropdown-link">School Handbook</Link></li>
-                    </ul>
-                </li>
-
-                <li className={`nav-item dropdown ${activeMenu === 'student' ? 'active' : ''}`}>
-                    <div className="nav-link-with-icon" onClick={() => toggleDropdown('student')}>
-                        <Link to="" className="nav-links-mobile">
-                            Student Life <FaAngleDown className={`dropdown-arrow ${activeMenu === 'student' ? 'rotate' : ''}`} />
-                        </Link>
-                    </div>
-                    <ul className={`dropdown-menu ${activeMenu === 'student' ? 'show' : ''}`}>
+                        <li><Link to="/ParentAndStudentHandbook" className="dropdown-link">Parent & Student Handbook</Link></li>
                         <li><Link to="/SchoolPoliciesAndSafety" className="dropdown-link">School Policies and Safety</Link></li>
-                        <li><Link to="/AfterSchoolEnrichmentPrograms" className="dropdown-link">After School Enrichment</Link></li>
-                        <li><Link to="/FitnessAndWellnessPrograms" className="dropdown-link">Fitness & Wellness Programs</Link></li>
-                        <li><Link to="/CheerAndSportsClinics" className="dropdown-link">Cheer & Sports Clinics</Link></li>
-                        <li><Link to="/StudentLedActivities" className="dropdown-link">Student-Led Activities</Link></li>
-                        <li><Link to="/PhotoGallery" className="dropdown-link">Photo Gallery</Link></li>
+                        <li><Link to="/FamilyEngagementCommittee" className="dropdown-link">F.E.C (Family Engagement Committee)</Link></li>
+                        <li><Link to="/McKinneyVentoACT" className="dropdown-link">McKinney Vento A.C.T</Link></li>
                     </ul>
                 </li>
 
@@ -125,17 +108,41 @@ function Navbar() {
                         </Link>
                     </div>
                     <ul className={`dropdown-menu ${activeMenu === 'news' ? 'show' : ''}`}>
-                        <li><Link to="/SchoolAnnouncements" className="dropdown-link">School Announcements</Link></li>
                         <li><Link to="/EventsCalendar" className="dropdown-link">Event Calendar</Link></li>
                         <li><Link to="/NewsArticles" className="dropdown-link">News Articles</Link></li>
                     </ul>
                 </li>
 
-                <li className="nav-item legacyHS-nav">
-                    <Link to="/LegacyHighSchool" className="nav-links-mobile" onClick={() => setClick(closeMobileMenu)}>
-                        Legacy High School
-                    </Link>
+                <li className={`nav-item dropdown ${activeMenu === 'news' ? 'active' : ''}`}>
+                    <div className="nav-link-with-icon" onClick={() => toggleDropdown('news')}>
+                        <Link to="" className="nav-links-mobile">
+                            Segue K-8 <FaAngleDown className={`dropdown-arrow ${activeMenu === 'k-8' ? 'rotate' : ''}`} />
+                        </Link>
+                    </div>
+                    <ul className={`dropdown-menu ${activeMenu === 'k-8' ? 'show' : ''}`}>
+                        <li><Link to="/UniformPolicy" className="dropdown-link">Uniform Policy</Link></li>
+                        <li><Link to="/CurriculumOverview" className="dropdown-link">Curriculum Overview</Link></li>
+                        <li><Link to="/Menus" className="dropdown-link">Lunch Menus</Link></li>
+                        <li><Link to="/AfterSchoolPrograms" className="dropdown-link">After School Programs</Link></li>
+                        <li><Link to="/LibraryExpectations" className="dropdown-link">Library Expectations</Link></li>
+                        <li><Link to="/K8AfterSchoolEnrichment" className="dropdown-link">After School Enrichment</Link></li>
+                        <li><Link to="/K8FitnessAndWellnessPrograms" className="dropdown-link">Fitness & Wellness Programs</Link></li>
+                        <li><Link to="/StudentLedActivities" className="dropdown-link">Student-Led Activities</Link></li>
+                        <li><Link to="/SchoolAnnouncements" className="dropdown-link">School Announcements</Link></li>
+                    </ul>
                 </li>
+
+                <li className={`nav-item dropdown ${activeMenu === 'news' ? 'active' : ''}`}>
+                    <div className="nav-link-with-icon" onClick={() => toggleDropdown('news')}>
+                        <Link to="" className="nav-links-mobile">
+                            Legacy High School <FaAngleDown className={`dropdown-arrow ${activeMenu === 'legacyhs' ? 'rotate' : ''}`} />
+                        </Link>
+                    </div>
+                    <ul className={`dropdown-menu ${activeMenu === 'legacyhs' ? 'show' : ''}`}>
+                        
+                    </ul>
+                </li>
+
                 </ul>
             </div>
         </nav>

@@ -2,34 +2,33 @@ import './App.css';
 // import { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
-import OurMission from './pages/AboutUs/OurMission';
+import DistrictMission from './pages/AboutUs/DistrictMission';
 import SeguePledge from './pages/AboutUs/SeguePledge';
 import FoundersMessage from './pages/AboutUs/FoundersMessage';
 import SegueBoard from './pages/AboutUs/SegueBoard';
 import Calender2526 from './pages/Academics/Calendar2526';
-import CurriculumOverview from './pages/Academics/CurriculumOverview';
-import LibraryExpectations from './pages/Academics/LibraryExpectations';
-import TeachersAndStaff from './pages/Academics/TeachersAndStaff';
+import TeachersAndStaff from './pages/AboutUs/TeachersAndStaff';
 import AdmissionsAndLottery from './pages/Enroll/AdmissionsAndLottery';
 import Eligibility from './pages/Enroll/Eligibility';
 import HowToEnroll from './pages/Enroll/HowToEnroll';
 import FormsAndDeadlines from './pages/Enroll/FormsAndDeadlines';
-import SchoolHandbook from './pages/FamilyResources/SchoolHandbook';
-import AfterSchoolPrograms from './pages/FamilyResources/AfterSchoolPrograms';
-import SchoolLunch from './pages/FamilyResources/SchoolLunch';
+import ParentAndStudentHandbook from './pages/FamilyResources/ParentAndStudentHandbook';
+import AfterSchoolPrograms from './pages/SegueK-8/AfterSchoolPrograms';
+import Menus from './pages/SegueK-8/Menus';
 import Transportation from './pages/FamilyResources/Transportation';
-import UniformPolicy from './pages/FamilyResources/UniformPolicy';
+import FamilyEngagementCommittee from './pages/FamilyResources/FamilyEngagementCommittee';
+import McKinneyVentoACT from './pages/FamilyResources/McKinneyVentoACT';
 import EventsCalendar from './pages/NewsAndEvents/EventsCalendar';
-import PhotoGallery from './pages/StudentLife/PhotoGallery';
-import SchoolAnnouncements from './pages/NewsAndEvents/SchoolAnnouncements';
-import AfterSchoolEnrichmentPrograms from './pages/StudentLife/AfterSchoolEnrichmentPrograms';
-import CheerAndSportsClinics from './pages/StudentLife/CheerAndSportsClinics';
-import FitnessAndWellnessPrograms from './pages/StudentLife/FitnessAndWellnessPrograms';
-import SchoolPoliciesAndSafety from './pages/StudentLife/SchoolPoliciesAndSafety';
-import StudentLedActivities from './pages/StudentLife/StudentLedActivities';
-import LegacyHighSchool from './pages/LegacyHS/LegacyHighSchool';
+import SchoolAnnouncements from './pages/SegueK-8/SchoolAnnouncements';
 import EnrollmentPolicies from './pages/Enroll/EnrollmentPolicies';
 import NewsArticles from './pages/NewsAndEvents/NewsArticles';
+import UniformPolicy from './pages/SegueK-8/UniformPolicy';
+import CurriculumOverview from './pages/SegueK-8/CurriculumOverview';
+import LibraryExpectations from './pages/SegueK-8/LibraryExpectations';
+import K8AfterSchoolEnrichment from './pages/SegueK-8/AfterSchoolEnrichment';
+import K8FitnessAndWellnessPrograms from './pages/SegueK-8/FitnessAndWellnessPrograms';
+import SchoolPoliciesAndSafety from './pages/FamilyResources/SchoolPoliciesAndSafety';
+import K8StudentLedActivities from './pages/SegueK-8/StudentLedActivities';
 
 function App() {
 
@@ -39,7 +38,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Home" element={<Home />} />
-          <Route path="/OurMission" element={<OurMission />} />
+          <Route path="/DistrictMission" element={<DistrictMission />} />
           <Route path="/SeguePledge" element={<SeguePledge />} />
           <Route path="/FoundersMessage" element={<FoundersMessage />} />
           <Route path="/SegueBoard" element={<SegueBoard />} />
@@ -52,21 +51,20 @@ function App() {
           <Route path="/HowToEnroll" element={<HowToEnroll />} />
           <Route path="/EnrollmentPolicies" element={<EnrollmentPolicies />} />
           <Route path="/FormsAndDeadlines" element={<FormsAndDeadlines />} />
-          <Route path="/SchoolHandbook" element={<SchoolHandbook />} />
+          <Route path="/ParentAndStudentHandbook" element={<ParentAndStudentHandbook />} />
           <Route path="/AfterSchoolPrograms" element={<AfterSchoolPrograms />} />
-          <Route path="/SchoolLunch" element={<SchoolLunch />} />
+          <Route path="/Menus" element={<Menus />} />
           <Route path="/Transportation" element={<Transportation />} />
+          <Route path="/FamilyEngagementCommittee" element={<FamilyEngagementCommittee />} />
+          <Route path="/McKinneyVentoACT" element={<McKinneyVentoACT />} />
           <Route path="/UniformPolicy" element={<UniformPolicy />} />
           <Route path="/EventsCalendar" element={<EventsCalendar />} />
-          <Route path="/PhotoGallery" element={<PhotoGallery />} />
           <Route path="/SchoolAnnouncements" element={<SchoolAnnouncements />} />
-          <Route path="/AfterSchoolEnrichmentPrograms" element={<AfterSchoolEnrichmentPrograms />} />
-          <Route path="/CheerAndSportsClinics" element={<CheerAndSportsClinics />} />
-          <Route path="/FitnessAndWellnessPrograms" element={<FitnessAndWellnessPrograms />} />
-          <Route path="/SchoolPoliciesAndSafety" element={<SchoolPoliciesAndSafety />} />
-          <Route path="/StudentLedActivities" element={<StudentLedActivities />} />
-          <Route path="/LegacyHighSchool" element={<LegacyHighSchool />} />
           <Route path="/NewsArticles" element={<NewsArticles />} />
+          <Route path="/K8AfterSchoolEnrichment" element={<K8AfterSchoolEnrichment />} />
+          <Route path="/K8FitnessAndWellnessPrograms" element={<K8FitnessAndWellnessPrograms />} />
+          <Route path="/SchoolPoliciesAndSafety" element={<SchoolPoliciesAndSafety />} />
+          <Route path="/StudentLedActivities" element={<K8StudentLedActivities />} />
         </Routes>
       </Router>
 

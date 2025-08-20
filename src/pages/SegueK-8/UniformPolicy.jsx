@@ -3,9 +3,9 @@ import { useState } from 'react';
 import Navbar from '../../components/navbar/Navbar';
 import Sidebar from '../../components/navbar/Sidebar';
 import Footer from '../../components/footer/Footer'; 
-import AcademicCalendarBody from '../../components/internal/Academics/AcademicCalendar/AcademicCalendarBody';
+import UniformPolicyBody from '../../components/internal/SegueK-8/UniformPolicy/UniformPolicyBody';
 
-function Calendar2526() {
+function UniformPolicy() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
   const toggleSidebar = () => setSidebarOpen(!sidebarOpen);
@@ -14,10 +14,10 @@ function Calendar2526() {
     <>
       <Navbar toggleSidebar={toggleSidebar} />
       <Sidebar isOpen={sidebarOpen} toggleSidebar={toggleSidebar} />
-      <AcademicCalendarBody />
+      <UniformPolicyBody />
       <Footer />
     </>
   );
 }
 
-export default Calendar2526;
+export default UniformPolicy;
