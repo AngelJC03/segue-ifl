@@ -1,8 +1,8 @@
-.uniform-policy-container {
+.legacy-curriculum-overview-container {
     width: 100%;
     height: auto;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 200px;
     background-color: rgba(255, 255, 255, 1);
     color: rgb(0, 0, 0);
     text-align: center;
@@ -13,18 +13,18 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.uniform-policy-page-title {
+.legacy-curriculum-overview-page-title {
     width: 80%;
     margin: 0 auto;
     text-align: left;
     margin-bottom: 20px;
 }
 
-.uniform-policy-page-title h1 {
+.legacy-curriculum-overview-page-title h1 {
     font-size: 3.0rem;
 }
 
-.uniform-policy-content {
+.legacy-curriculum-overview-content {
     width: 80%;
     margin: 0 auto;
     text-align: left;
@@ -33,40 +33,24 @@
     padding-bottom: 80px;
 }
 
-.expectation-list > li > strong::before {
-  content: '★ ';
-  color: #f5a623; /* or black, or inherit */
-  font-weight: bold;
-  margin-right: 0.3rem;
-}
-
-
-.uniform-policy-content p {
-    width: 80%;
-    margin: 10px auto;
+.legacy-curriculum-overview-content p {
+    width: 100%;
+    margin: 0 auto;
     font-size: 1.6rem;
     text-align: left;
 }
-
-.uniform-policy-prohibited {
-    font-size: 1.6rem;
-    text-align: left;
-    margin: 20px auto;
-}
-
-
 
 @media (max-width: 1400px) {
-    .uniform-policy-content {
+    .legacy-curriculum-overview-content {
         height: auto;
     }
 }
 
 @media (max-width: 450px) {
-    .uniform-policy-page-title h1 {
+    .legacy-curriculum-overview-page-title h1 {
         font-size: 2.0rem;
     }
-    .uniform-policy-content, .uniform-policy-content p, .uniform-policy-prohibited {
+    .legacy-curriculum-overview-content, .legacy-curriculum-overview-content p {
         font-size: 1.0rem;
     }
 }

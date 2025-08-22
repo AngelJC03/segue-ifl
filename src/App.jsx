@@ -29,6 +29,18 @@ import K8AfterSchoolEnrichment from './pages/SegueK-8/AfterSchoolEnrichment';
 import K8FitnessAndWellnessPrograms from './pages/SegueK-8/FitnessAndWellnessPrograms';
 import SchoolPoliciesAndSafety from './pages/FamilyResources/SchoolPoliciesAndSafety';
 import K8StudentLedActivities from './pages/SegueK-8/StudentLedActivities';
+import CommunityPartners from './pages/AboutUs/CommunityPartners'; 
+import FoodPantry from './pages/FamilyResources/FoodPantry'; 
+import PhotoGallery from './pages/FamilyResources/PhotoGallery';
+import LegacyAfterSchoolEnrichment from './pages/LegacyHS/LegacyAfterSchoolEnrichment';
+import LegacyAfterSchoolPrograms from './pages/LegacyHS/LegacyAfterSchoolPrograms';
+import LegacyCurriculumOverview from './pages/LegacyHS/LegacyCurriculumOverview';
+import LegacyFitnessAndWellnessPrograms from './pages/LegacyHS/LegacyFitnessAndWellnessPrograms';
+import LegacyLibraryExpectations from './pages/LegacyHS/LegacyLibraryExpectations';
+import LegacyMenus from './pages/LegacyHS/LegacyMenus';
+import LegacyStudentLedActivities from './pages/LegacyHS/LegacyStudentLedActivities';
+import LegacySchoolAnnouncements from './pages/LegacyHS/LegacySchoolAnnouncements';
+import LegacyUniformPolicy from './pages/LegacyHS/LegacyUniformPolicy';
 
 function App() {
 
@@ -65,6 +77,18 @@ function App() {
           <Route path="/K8FitnessAndWellnessPrograms" element={<K8FitnessAndWellnessPrograms />} />
           <Route path="/SchoolPoliciesAndSafety" element={<SchoolPoliciesAndSafety />} />
           <Route path="/StudentLedActivities" element={<K8StudentLedActivities />} />
+          <Route path="/CommunityPartners" element={<CommunityPartners />} />
+          <Route path="/FoodPantry" element={<FoodPantry />} />
+          <Route path="/PhotoGallery" element={<PhotoGallery />} />
+          <Route path="/LegacyAfterSchoolEnrichment" element={<LegacyAfterSchoolEnrichment />} />
+          <Route path="/LegacyAfterSchoolPrograms" element={<LegacyAfterSchoolPrograms />} />
+          <Route path="/LegacyCurriculumOverview" element={<LegacyCurriculumOverview />} />
+          <Route path="/LegacyFitnessAndWellnessPrograms" element={<LegacyFitnessAndWellnessPrograms />} />
+          <Route path="/LegacyLibraryExpectations" element={<LegacyLibraryExpectations />} />
+          <Route path="/LegacyMenus" element={<LegacyMenus />} />
+          <Route path="/LegacyStudentLedActivities" element={<LegacyStudentLedActivities />} />
+          <Route path="/LegacySchoolAnnouncements" element={<LegacySchoolAnnouncements />} />
+          <Route path="/LegacyUniformPolicy" element={<LegacyUniformPolicy />} />
         </Routes>
       </Router>
 

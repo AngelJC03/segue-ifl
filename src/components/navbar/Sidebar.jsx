@@ -22,6 +22,7 @@ function Sidebar({ isOpen, onClose }) {
         { label: "Founders' Message", path: '/FoundersMessage' },
         { label: 'Segue Board', path: '/SegueBoard' },
         { label: 'Teachers & Staff', path: '/TeachersAndStaff' },
+        { label: 'Community Partners', path: '/CommunityPartners' },
       ],
     },
     {
@@ -42,6 +43,8 @@ function Sidebar({ isOpen, onClose }) {
         { label: 'Parent & Student Handbook', path: '/ParentAndStudentHandbook' },
         { label: 'F.E.C (Family Engagement Committee)', path: '/' },
         { label: 'McKinney Vento A.C.T', path: '/' },
+        { label: 'Food Pantry', path: '/FoodPantry' },
+        { label: 'Photo Gallery', path: '/PhotoGallery' },
       ],
     },
     {
@@ -67,17 +70,29 @@ function Sidebar({ isOpen, onClose }) {
       label: 'Segue K-8',
       submenu: [
         { label: 'Curriculum Overview', path: '/CurriculumOverview' },
+        { label: 'Lunch Menus', path: '/Menus' },
         { label: 'Uniform Policy', path: '/UniformPolicy' },
-        { label: 'Library Expectations', path: '/LibraryExpectations' },
+        { label: 'School Announcements', path: '/SchoolAnnouncements' },
+        { label: 'After School Programs', path: '/AfterSchoolPrograms' },
         { label: 'After School Enrichment', path: '/K8AfterSchoolEnrichment' },
         { label: 'Fitness & Wellness Programs', path: '/K8FitnessAndWellnessPrograms' },
         { label: 'Student-Led Activities', path: '/StudentLedActivities' },
-        { label: 'School Announcements', path: '/SchoolAnnouncements' },
+        { label: 'Library Expectations', path: '/LibraryExpectations' },
       ],
     },
     {
       label: 'Legacy High School',
-      submenu: [],
+      submenu: [
+        { label: 'Curriculum Overview', path: '/LegacyCurriculumOverview' },
+        { label: 'Lunch Menus', path: '/LegacyMenus' },
+        { label: 'Uniform Policy', path: '/LegacyUniformPolicy' },
+        { label: 'School Announcements', path: '/LegacySchoolAnnouncements' },
+        { label: 'After School Programs', path: '/LegacyAfterSchoolPrograms' },
+        { label: 'After School Enrichment', path: '/LegacyAfterSchoolEnrichment' },
+        { label: 'Fitness & Wellness Programs', path: '/LegacyFitnessAndWellnessPrograms' },
+        { label: 'Student-Led Activities', path: '/LegacyStudentLedActivities' },
+        { label: 'Library Expectations', path: '/LegacyLibraryExpectations' },
+      ],
     },
   ];
 

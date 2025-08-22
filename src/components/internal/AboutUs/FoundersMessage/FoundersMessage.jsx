@@ -87,8 +87,8 @@ function FoundersMessageBody() {
                                 Segue Institute for Learning
                             </blockquote>
                         </div>
-                        <CenteredLogo />
                     </div>
+                    <CenteredLogo />
                     </FadeIn>
                 </div>
         </div>

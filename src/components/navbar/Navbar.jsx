@@ -55,6 +55,7 @@ function Navbar() {
                         <li><Link to="/FoundersMessage" className="dropdown-link">Founders' Message</Link></li>
                         <li><Link to="/SegueBoard" className="dropdown-link">Segue Board</Link></li>
                         <li><Link to="/TeachersAndStaff" className="dropdown-link">Teachers & Staff</Link></li>
+                        <li><Link to="/CommunityPartners" className="dropdown-link">Community Partners</Link></li>
                     </ul>
                 </li>
 
@@ -83,6 +84,8 @@ function Navbar() {
                         <li><Link to="/SchoolPoliciesAndSafety" className="dropdown-link">School Policies and Safety</Link></li>
                         <li><Link to="/FamilyEngagementCommittee" className="dropdown-link">F.E.C (Family Engagement Committee)</Link></li>
                         <li><Link to="/McKinneyVentoACT" className="dropdown-link">McKinney Vento A.C.T</Link></li>
+                        <li><Link to="/FoodPantry" className="dropdown-link">Food Pantry</Link></li>
+                        <li><Link to="/PhotoGallery" className="dropdown-link">Photo Gallery</Link></li>
                     </ul>
                 </li>
 
@@ -120,15 +123,15 @@ function Navbar() {
                         </Link>
                     </div>
                     <ul className={`dropdown-menu ${activeMenu === 'k-8' ? 'show' : ''}`}>
-                        <li><Link to="/UniformPolicy" className="dropdown-link">Uniform Policy</Link></li>
                         <li><Link to="/CurriculumOverview" className="dropdown-link">Curriculum Overview</Link></li>
                         <li><Link to="/Menus" className="dropdown-link">Lunch Menus</Link></li>
+                        <li><Link to="/UniformPolicy" className="dropdown-link">Uniform Policy</Link></li>
+                        <li><Link to="/SchoolAnnouncements" className="dropdown-link">School Announcements</Link></li>
                         <li><Link to="/AfterSchoolPrograms" className="dropdown-link">After School Programs</Link></li>
-                        <li><Link to="/LibraryExpectations" className="dropdown-link">Library Expectations</Link></li>
                         <li><Link to="/K8AfterSchoolEnrichment" className="dropdown-link">After School Enrichment</Link></li>
                         <li><Link to="/K8FitnessAndWellnessPrograms" className="dropdown-link">Fitness & Wellness Programs</Link></li>
                         <li><Link to="/StudentLedActivities" className="dropdown-link">Student-Led Activities</Link></li>
-                        <li><Link to="/SchoolAnnouncements" className="dropdown-link">School Announcements</Link></li>
+                        <li><Link to="/LibraryExpectations" className="dropdown-link">Library Expectations</Link></li>
                     </ul>
                 </li>
 
@@ -139,7 +142,15 @@ function Navbar() {
                         </Link>
                     </div>
                     <ul className={`dropdown-menu ${activeMenu === 'legacyhs' ? 'show' : ''}`}>
-                        
+                        <li><Link to="/LegacyCurriculumOverview" className="dropdown-link">Curriculum Overview</Link></li>
+                        <li><Link to="/LegacyMenus" className="dropdown-link">Lunch Menus</Link></li>
+                        <li><Link to="/LegacyUniformPolicy" className="dropdown-link">Uniform Policy</Link></li>
+                        <li><Link to="/LegacySchoolAnnouncements" className="dropdown-link">School Announcements</Link></li>
+                        <li><Link to="/LegacyAfterSchoolPrograms" className="dropdown-link">After School Programs</Link></li>
+                        <li><Link to="/LegacyAfterSchoolEnrichment" className="dropdown-link">After School Enrichment</Link></li>
+                        <li><Link to="/LegacyFitnessAndWellnessPrograms" className="dropdown-link">Fitness & Wellness Programs</Link></li>
+                        <li><Link to="/LegacyStudentLedActivities" className="dropdown-link">Student-Led Activities</Link></li>
+                        <li><Link to="/LegacyLibraryExpectations" className="dropdown-link">Library Expectations</Link></li>
                     </ul>
                 </li>
 

@@ -1,4 +1,4 @@
-.uniform-policy-container {
+.food-pantry-container {
     width: 100%;
     height: auto;
     padding-top: 20px;
@@ -9,64 +9,58 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: left;
     font-family: 'Montserrat', sans-serif;
+    padding-bottom: 300px;
 }
 
-.uniform-policy-page-title {
+.food-pantry-page-title {
     width: 80%;
     margin: 0 auto;
     text-align: left;
     margin-bottom: 20px;
 }
 
-.uniform-policy-page-title h1 {
+.food-pantry-page-title h1 {
     font-size: 3.0rem;
 }
 
-.uniform-policy-content {
+.food-pantry-content {
     width: 80%;
     margin: 0 auto;
     text-align: left;
     font-size: 1.6rem;
     height: auto;
     padding-bottom: 80px;
+    
 }
 
-.expectation-list > li > strong::before {
-  content: '★ ';
-  color: #f5a623; /* or black, or inherit */
-  font-weight: bold;
-  margin-right: 0.3rem;
-}
-
-
-.uniform-policy-content p {
+.food-pantry-content p {
     width: 80%;
     margin: 10px auto;
     font-size: 1.6rem;
     text-align: left;
+    
 }
 
-.uniform-policy-prohibited {
-    font-size: 1.6rem;
-    text-align: left;
-    margin: 20px auto;
-}
-
-
+.food-pantry-image1 img { 
+    display: block; 
+    margin: 20px auto; 
+    width: 60%; 
+    min-width: 200px;
+} 
 
 @media (max-width: 1400px) {
-    .uniform-policy-content {
+    .food-pantry-content {
         height: auto;
     }
 }
 
 @media (max-width: 450px) {
-    .uniform-policy-page-title h1 {
+    .food-pantry-page-title h1 {
         font-size: 2.0rem;
     }
-    .uniform-policy-content, .uniform-policy-content p, .uniform-policy-prohibited {
+    .food-pantry-content, .food-pantry-content p {
         font-size: 1.0rem;
     }
 }

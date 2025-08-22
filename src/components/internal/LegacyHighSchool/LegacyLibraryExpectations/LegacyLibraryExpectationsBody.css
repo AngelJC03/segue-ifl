@@ -1,4 +1,4 @@
-.library-expectations-container {
+.legacy-library-expectations-container {
     width: 100%;
     height: auto;
     padding-top: 20px;
@@ -13,18 +13,18 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.library-expectations-page-title {
+.legacy-library-expectations-page-title {
     width: 80%;
     margin: 0 auto;
     text-align: left;
     margin-bottom: 20px;
 }
 
-.library-expectations-page-title h1 {
+.legacy-library-expectations-page-title h1 {
     font-size: 3.0rem;
 }
 
-.library-expectations-content {
+.legacy-library-expectations-content {
     width: 80%;
     height: auto;
     margin: 0 auto;
@@ -33,15 +33,11 @@
     padding-bottom: 80px;
 }
 
-.library-expectations-content p {
-    width: 80%;
+.legacy-library-expectations-content p {
+    width: 100%;
     margin: 10px auto;
     font-size: 1.6rem;
     text-align: left;
-}
-
-.library-expectations-content {
-  font-family: 'Montserrat', sans-serif;
 }
 
 .expectation-list {
@@ -68,15 +64,15 @@
 }
 
 @media (max-width: 1400px) {
-    .library-expectations-content {
+    .legacy-library-expectations-content {
         height: auto;
     }
 }
 @media (max-width: 450px) {
-    .library-expectations-page-title h1 {
+    .legacy-library-expectations-page-title h1 {
         font-size: 2.0rem;
     }
-    .library-expectations-content, .library-expectations-content p {
+    .legacy-library-expectations-content, .legacy-library-expectations-content p {
         font-size: 1.0rem;
     }
 }

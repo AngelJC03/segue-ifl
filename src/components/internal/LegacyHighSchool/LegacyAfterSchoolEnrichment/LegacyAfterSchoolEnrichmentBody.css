@@ -1,4 +1,4 @@
-.library-expectations-container {
+.legacy-after-school-enrichment-container {
     width: 100%;
     height: auto;
     padding-top: 20px;
@@ -13,18 +13,18 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.library-expectations-page-title {
+.legacy-after-school-enrichment-page-title {
     width: 80%;
     margin: 0 auto;
     text-align: left;
     margin-bottom: 20px;
 }
 
-.library-expectations-page-title h1 {
+.legacy-after-school-enrichment-page-title h1 {
     font-size: 3.0rem;
 }
 
-.library-expectations-content {
+.legacy-after-school-enrichment-content {
     width: 80%;
     height: auto;
     margin: 0 auto;
@@ -33,50 +33,46 @@
     padding-bottom: 80px;
 }
 
-.library-expectations-content p {
-    width: 80%;
+.legacy-after-school-enrichment-content p {
+    width: 100%;
     margin: 10px auto;
     font-size: 1.6rem;
     text-align: left;
 }
 
-.library-expectations-content {
-  font-family: 'Montserrat', sans-serif;
-}
-
-.expectation-list {
+.enrichment-list {
   list-style: none;
   padding-left: 0;
 }
 
-.expectation-list > li > strong::before {
+.enrichment-list > li > strong::before {
     content: '★ ';
-    color: #f5a623; /* or use 'inherit' or 'black' if you want */
+    color: #f5a623; /* gold star */
     font-weight: bold;
     margin-right: 0.3rem;
 }
 
-.expectation-list > li {
+.enrichment-list > li {
   margin-bottom: 1.5rem;
   font-weight: bold;
 }
 
-.expectation-list ul {
+.enrichment-list ul {
   margin-top: 0.5rem;
   margin-left: 1.5rem;
   font-weight: normal;
 }
 
 @media (max-width: 1400px) {
-    .library-expectations-content {
+    .legacy-after-school-enrichment-content {
         height: auto;
     }
 }
 @media (max-width: 450px) {
-    .library-expectations-page-title h1 {
+    .legacy-after-school-enrichment-page-title h1 {
         font-size: 2.0rem;
     }
-    .library-expectations-content, .library-expectations-content p {
+    .legacy-after-school-enrichment-content, .legacy-after-school-enrichment-content p {
         font-size: 1.0rem;
     }
 }

@@ -1,4 +1,4 @@
-.library-expectations-container {
+.community-partnerships-container {
     width: 100%;
     height: auto;
     padding-top: 20px;
@@ -13,70 +13,65 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.library-expectations-page-title {
+.community-partnerships-page-title {
     width: 80%;
     margin: 0 auto;
     text-align: left;
     margin-bottom: 20px;
 }
 
-.library-expectations-page-title h1 {
+.community-partnerships-page-title h1 {
     font-size: 3.0rem;
 }
 
-.library-expectations-content {
+.community-partnerships-content {
     width: 80%;
-    height: auto;
     margin: 0 auto;
     text-align: left;
     font-size: 1.6rem;
+    height: auto;
     padding-bottom: 80px;
 }
 
-.library-expectations-content p {
-    width: 80%;
+.community-partnerships-content p {
+    width: 100%;
     margin: 10px auto;
     font-size: 1.6rem;
     text-align: left;
 }
 
-.library-expectations-content {
-  font-family: 'Montserrat', sans-serif;
+.star-list {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 1rem;
+    font-size: 1.6rem;
+    line-height: 1.8;
 }
 
-.expectation-list {
-  list-style: none;
-  padding-left: 0;
-}
-
-.expectation-list > li > strong::before {
+.star-list li::before {
     content: '★ ';
-    color: #f5a623; /* or use 'inherit' or 'black' if you want */
+    color: #f5a623; /* gold star */
     font-weight: bold;
     margin-right: 0.3rem;
 }
 
-.expectation-list > li {
-  margin-bottom: 1.5rem;
-  font-weight: bold;
-}
-
-.expectation-list ul {
-  margin-top: 0.5rem;
-  margin-left: 1.5rem;
-  font-weight: normal;
+.star-list li {
+    margin-bottom: 1rem;
 }
 
 @media (max-width: 1400px) {
-    .library-expectations-content {
+    .community-partnerships-content {
         height: auto;
     }
 }
+
 @media (max-width: 450px) {
-    .library-expectations-page-title h1 {
+    .community-partnerships-page-title h1 {
         font-size: 2.0rem;
     }
-    .library-expectations-content, .library-expectations-content p {
+    .community-partnerships-content,
+    .community-partnerships-content p,
+    .star-list {
         font-size: 1.0rem;
     }
 }

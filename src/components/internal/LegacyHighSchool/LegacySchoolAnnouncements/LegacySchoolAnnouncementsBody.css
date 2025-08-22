@@ -1,8 +1,8 @@
-.uniform-policy-container {
+.legacy-school-announcements-container {
     width: 100%;
     height: auto;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 200px;
     background-color: rgba(255, 255, 255, 1);
     color: rgb(0, 0, 0);
     text-align: center;
@@ -13,60 +13,44 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.uniform-policy-page-title {
+.legacy-school-announcements-page-title {
     width: 80%;
     margin: 0 auto;
     text-align: left;
     margin-bottom: 20px;
 }
 
-.uniform-policy-page-title h1 {
+.legacy-school-announcements-page-title h1 {
     font-size: 3.0rem;
 }
 
-.uniform-policy-content {
+.legacy-school-announcements-content {
     width: 80%;
     margin: 0 auto;
     text-align: left;
     font-size: 1.6rem;
-    height: auto;
+    height: 30vh;
     padding-bottom: 80px;
 }
 
-.expectation-list > li > strong::before {
-  content: '★ ';
-  color: #f5a623; /* or black, or inherit */
-  font-weight: bold;
-  margin-right: 0.3rem;
-}
-
-
-.uniform-policy-content p {
+.legacy-school-announcements-content p {
     width: 80%;
     margin: 10px auto;
     font-size: 1.6rem;
     text-align: left;
 }
 
-.uniform-policy-prohibited {
-    font-size: 1.6rem;
-    text-align: left;
-    margin: 20px auto;
-}
-
-
-
 @media (max-width: 1400px) {
-    .uniform-policy-content {
+    .legacy-school-announcements-content {
         height: auto;
     }
 }
 
 @media (max-width: 450px) {
-    .uniform-policy-page-title h1 {
+    .legacy-school-announcements-page-title h1 {
         font-size: 2.0rem;
     }
-    .uniform-policy-content, .uniform-policy-content p, .uniform-policy-prohibited {
-        font-size: 1.0rem;
+    .legacy-school-announcements-content {
+        font-size: 1.2rem;
     }
 }
