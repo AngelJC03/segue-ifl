@@ -11,7 +11,6 @@
     justify-content: center;
     align-items: left;
     font-family: 'Montserrat', sans-serif;
-    padding-bottom: 300px;
 }
 
 .mva-page-title {
@@ -36,10 +35,14 @@
 }
 
 .mva-content p {
-    width: 80%;
+    width: 100%;
     margin: 10px auto;
     font-size: 1.6rem;
     text-align: left;
+}
+
+.mva-content ul {
+    margin-left: 20px;
 }
 
 @media (max-width: 1400px) {
