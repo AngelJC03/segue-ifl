@@ -67,7 +67,7 @@ function Navbar() {
                     </div>
                     <ul className={`dropdown-menu ${activeMenu === 'academics' ? 'show' : ''}`}>
                         <li><Link to="/Calendar2526" className="dropdown-link">2025-2026 Calendar</Link></li>
-                        <li><a href="/home" target="_blank" rel="noopener noreferrer" className="dropdown-link">Ride Standardized Test Results</a></li>
+                        <li><a href="https://ride.ri.gov/instruction-assessment/assessment/assessment-results" target="_blank" rel="noopener noreferrer" className="dropdown-link">Ride Standardized Test Results</a></li>
                         <li><a href="https://segueifl.powerschool.com/public/" target="_blank" rel="noopener noreferrer" className="dropdown-link">Power School Login</a></li>
                     </ul>
                 </li>
@@ -79,8 +79,8 @@ function Navbar() {
                         </Link>
                     </div>
                     <ul className={`dropdown-menu ${activeMenu === 'families' ? 'show' : ''}`}>
-                        <li><Link to="/Transportation" className="dropdown-link">Transportation</Link></li>
-                        <li><Link to="/ParentAndStudentHandbook" className="dropdown-link">Parent & Student Handbook</Link></li>
+                        {/* <li><Link to="/Transportation" className="dropdown-link">Transportation</Link></li>
+                        <li><Link to="/ParentAndStudentHandbook" className="dropdown-link">Parent & Student Handbook</Link></li> */}
                         <li><Link to="/SchoolPoliciesAndSafety" className="dropdown-link">School Policies and Safety</Link></li>
                         <li><Link to="/FamilyEngagementCommittee" className="dropdown-link">F.E.C (Family Engagement Committee)</Link></li>
                         <li><Link to="/McKinneyVentoACT" className="dropdown-link">McKinney Vento A.C.T</Link></li>
@@ -97,7 +97,7 @@ function Navbar() {
                     </div>
                     <ul className={`dropdown-menu ${activeMenu === 'enroll' ? 'show' : ''}`}>
                         <li><Link to="/HowToEnroll" className="dropdown-link">How to Enroll</Link></li>
-                        <li><Link to="/Eligibility" className="dropdown-link">Eligibility</Link></li>
+                        {/* <li><Link to="/Eligibility" className="dropdown-link">Eligibility</Link></li> */}
                         <li><Link to="/FormsAndDeadlines" className="dropdown-link">Forms & Deadlines</Link></li>
                         <li><Link to="/AdmissionsAndLottery" className="dropdown-link">Admissions and Lottery</Link></li>
                         <li><Link to="/EnrollmentPolicies" className="dropdown-link">Enrollment Policies</Link></li>
@@ -126,7 +126,7 @@ function Navbar() {
                         <li><Link to="/CurriculumOverview" className="dropdown-link">Curriculum Overview</Link></li>
                         <li><Link to="/Menus" className="dropdown-link">Lunch Menus</Link></li>
                         <li><Link to="/UniformPolicy" className="dropdown-link">Uniform Policy</Link></li>
-                        <li><Link to="/SchoolAnnouncements" className="dropdown-link">School Announcements</Link></li>
+                        {/* <li><Link to="/SchoolAnnouncements" className="dropdown-link">School Announcements</Link></li> */}
                         <li><Link to="/AfterSchoolPrograms" className="dropdown-link">After School Programs</Link></li>
                         <li><Link to="/K8AfterSchoolEnrichment" className="dropdown-link">After School Enrichment</Link></li>
                         <li><Link to="/K8FitnessAndWellnessPrograms" className="dropdown-link">Fitness & Wellness Programs</Link></li>
@@ -142,15 +142,16 @@ function Navbar() {
                         </Link>
                     </div>
                     <ul className={`dropdown-menu ${activeMenu === 'legacyhs' ? 'show' : ''}`}>
+                        <li><a href="https://sites.google.com/view/sifl-construction-projects/home" target="_blank" rel="noopener noreferrer" className="dropdown-link">Legacy Construction Progress</a></li>
                         <li><Link to="/LegacyCurriculumOverview" className="dropdown-link">Curriculum Overview</Link></li>
                         <li><Link to="/LegacyMenus" className="dropdown-link">Lunch Menus</Link></li>
-                        <li><Link to="/LegacyUniformPolicy" className="dropdown-link">Uniform Policy</Link></li>
+                        {/* <li><Link to="/LegacyUniformPolicy" className="dropdown-link">Uniform Policy</Link></li>
                         <li><Link to="/LegacySchoolAnnouncements" className="dropdown-link">School Announcements</Link></li>
                         <li><Link to="/LegacyAfterSchoolPrograms" className="dropdown-link">After School Programs</Link></li>
                         <li><Link to="/LegacyAfterSchoolEnrichment" className="dropdown-link">After School Enrichment</Link></li>
                         <li><Link to="/LegacyFitnessAndWellnessPrograms" className="dropdown-link">Fitness & Wellness Programs</Link></li>
                         <li><Link to="/LegacyStudentLedActivities" className="dropdown-link">Student-Led Activities</Link></li>
-                        <li><Link to="/LegacyLibraryExpectations" className="dropdown-link">Library Expectations</Link></li>
+                        <li><Link to="/LegacyLibraryExpectations" className="dropdown-link">Library Expectations</Link></li> */}
                     </ul>
                 </li>
 
