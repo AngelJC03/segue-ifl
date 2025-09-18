@@ -9,12 +9,12 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: left;
     font-family: 'Montserrat', sans-serif;
 }
 
 .uniform-policy-page-title {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     text-align: left;
     margin-bottom: 20px;

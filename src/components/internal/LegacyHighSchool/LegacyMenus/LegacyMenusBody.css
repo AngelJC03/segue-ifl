@@ -2,7 +2,7 @@
     width: 100%;
     height: auto;
     padding-top: 20px;
-    padding-bottom: 200px;
+    padding-bottom: 20px;
     background-color: rgba(255, 255, 255, 1);
     color: rgb(0, 0, 0);
     text-align: center;
@@ -14,7 +14,7 @@
 }
 
 .legacy-school-lunch-page-title {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     text-align: left;
     margin-bottom: 20px;
@@ -29,14 +29,19 @@
     margin: 0 auto;
     text-align: left;
     font-size: 1.6rem;
-    height: 30vh;
-    padding-bottom: 80px;
+    height: auto;
+    padding-bottom: 20px;
 }
 
-.legacy-school-lunch-content p {
-    width: 80%;
+.legacy-school-lunch-content img {
+    width: 100%;
+    height: auto;
     margin: 10px auto;
-    font-size: 1.6rem;
+}
+
+.legacy-school-lunch-content p, .legacy-school-lunch-content h1 {
+    width: 100%;
+    margin: 10px auto;
     text-align: left;
 }
 

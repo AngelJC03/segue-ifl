@@ -13,7 +13,7 @@
 }
 
 .legacy-curriculum-overview-page-title {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     text-align: left;
     margin-bottom: 20px;
@@ -37,6 +37,13 @@
     margin: 0 auto;
     font-size: 1.6rem;
     text-align: left;
+}
+
+.legacy-curriculum-overview-content h1 {
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+    margin-bottom: 20px;
 }
 
 @media (max-width: 1400px) {

@@ -11,11 +11,10 @@
     justify-content: center;
     align-items: left;
     font-family: 'Montserrat', sans-serif;
-    padding-bottom: 300px;
 }
 
 .fec-page-title {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     text-align: left;
     margin-bottom: 20px;
@@ -26,19 +25,28 @@
 }
 
 .fec-content {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     text-align: left;
     font-size: 1.6rem;
     height: auto;
-    padding-bottom: 80px;
 }
 
-.fec-content p {
+.fec-content p, h1 {
     width: 80%;
     margin: 10px auto;
     font-size: 1.6rem;
     text-align: left;
+}
+
+
+
+.fec-image {
+    width: 80%;
+    height: auto;
+    margin: 20px auto;
+    display: block;
+    border-radius: 10px;
 }
 
 @media (max-width: 1400px) {
@@ -52,6 +60,9 @@
         font-size: 2.0rem;
     }
     .after-school-programs-content, .after-school-programs-content p {
+        font-size: 1.0rem;
+    }
+    .fec-content p {
         font-size: 1.0rem;
     }
 }
