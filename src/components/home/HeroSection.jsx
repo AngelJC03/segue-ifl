@@ -16,9 +16,9 @@ import heroTextImage from '../../assets/images/logo-photos/hero-text-image.jpg';
 
 
 const images = [
-    image1,
-    image2,
     image3,
+    image2,
+    image1,
     image4,
     image5,
     image6,
