@@ -37,11 +37,6 @@ export const rawEmployees = [
     "department": "District Support"
   },
   {
-    "name": "Ms. Mileena Delgado",
-    "title": "Finance Supervisor",
-    "department": "District Support"
-  },
-  {
     "name": "Ms. Maybi Cante",
     "title": "Purchasing Agent",
     "department": "District Support"
@@ -62,7 +57,7 @@ export const rawEmployees = [
     "department": "Facilities"
   },
   {
-    "name": "Mr. Anthony Olvera",
+    "name": "Mr. Anthony Olivera",
     "title": "Maintenance",
     "department": "Facilities"
   },
@@ -122,18 +117,13 @@ export const rawEmployees = [
     "department": "Student Support"
   },
   {
-    "name": "[Name Missing]",
+    "name": "Mr. Kestler Rodriguez",
     "title": "Director of After School Programs",
     "department": "After School Programming"
   },
   {
     "name": "Mr. Jonah Vinas",
     "title": "Asst. Dir. After School",
-    "department": "After School Programming"
-  },
-  {
-    "name": "[Name Missing]",
-    "title": "After School Program Coor. (P/T)",
     "department": "After School Programming"
   },
   {
@@ -147,7 +137,7 @@ export const rawEmployees = [
     "department": "Main Office"
   },
   {
-    "name": "Ms. Chloe Olean",
+    "name": "Mrs. Chloe Allen",
     "title": "K Teacher",
     "department": "K-2 Teachers"
   },
@@ -202,13 +192,13 @@ export const rawEmployees = [
     "department": "K-2 Teaching Fellows"
   },
   {
-    "name": "Bruce Crespo",
-    "title": "3 Teacher",
+    "name": "Mr. Bruce Crespo",
+    "title": "3rd Grade Teacher",
     "department": "3-5 Teachers"
   },
   {
     "name": "Ms. Savannah Lee",
-    "title": "3 Teacher",
+    "title": "3rd Grade Teacher",
     "department": "3-5 Teachers"
   },
   {
@@ -302,11 +292,6 @@ export const rawEmployees = [
     "department": "MAGNET Team"
   },
   {
-    "name": "Ms. Sydney Rosendale",
-    "title": "K-5 Art",
-    "department": "MAGNET Team"
-  },
-  {
     "name": "Ms. Kendrah Dejesus",
     "title": "K-5 SEL",
     "department": "MAGNET Team"
@@ -349,11 +334,6 @@ export const rawEmployees = [
   {
     "name": "Ms. Natalia Molina",
     "title": "K-2 Special Educator",
-    "department": "Individual Needs / Special Ed."
-  },
-  {
-    "name": "Ms. Amara Gibau",
-    "title": "3-5 Special Educator",
     "department": "Individual Needs / Special Ed."
   },
   {
@@ -422,13 +402,8 @@ export const rawEmployees = [
     "department": "Counseling & Support"
   },
   {
-    "name": "Ms. Cardona",
-    "title": "Behavior Specialist (K-2)",
-    "department": "Deans & Behavior Support"
-  },
-  {
-    "name": "Ms. Linda Blair",
-    "title": "Dean of Student Life (3-5)",
+    "name": "Ms. Madisen Cardona",
+    "title": "Behavior Specialist",
     "department": "Deans & Behavior Support"
   },
   {

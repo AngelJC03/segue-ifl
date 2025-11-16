@@ -37,7 +37,9 @@ function AfterSchoolProgramsBody() {
                         <li>
                             ★ Contact
                             <ul>
-                                <li><a href="/">Alexis Kutenplon-Rayess</a>, After School Coordinator</li>
+                                <li>
+                                    <a href="mailto:krodrigues@segueifl.org" aria-label="Email Mr. Kestler Rodriguez">Mr. Kestler Rodriguez</a>, Director of After School Programs
+                                </li>
                             </ul>
                         </li>
                     </ul>
