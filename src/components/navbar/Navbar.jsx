@@ -80,8 +80,8 @@ function Navbar() {
                     </div>
                     <ul className={`dropdown-menu ${activeMenu === 'families' ? 'show' : ''}`}>
                         {/* <li><Link to="/Transportation" className="dropdown-link">Transportation</Link></li> */}
-                        <li><Link to="/ParentAndStudentHandbook" className="dropdown-link">Parent & Student Handbook</Link></li> 
                         <li><Link to="/SchoolPoliciesAndSafety" className="dropdown-link">School Policies and Safety</Link></li>
+                        <li><Link to="/ParentAndStudentHandbook" className="dropdown-link">Parent & Student Handbook</Link></li> 
                         <li><Link to="/FamilyEngagementCommittee" className="dropdown-link">F.E.C (Family Engagement Committee)</Link></li>
                         <li><Link to="/McKinneyVentoACT" className="dropdown-link">McKinney Vento A.C.T</Link></li>
                         <li><Link to="/FoodPantry" className="dropdown-link">Food Pantry</Link></li>

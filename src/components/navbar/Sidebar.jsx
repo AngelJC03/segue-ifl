@@ -40,7 +40,7 @@ function Sidebar({ isOpen, onClose }) {
       submenu: [
         { label: 'School Policies and Safety', path: '/SchoolPoliciesAndSafety' },
         // { label: 'Transportation', path: '/Transportation' },
-        // { label: 'Parent & Student Handbook', path: '/ParentAndStudentHandbook' },
+        { label: 'Parent & Student Handbook', path: '/ParentAndStudentHandbook' },
         { label: 'F.E.C (Family Engagement Committee)', path: '/' },
         { label: 'McKinney Vento A.C.T', path: '/McKinneyVentoACT' },
         { label: 'Food Pantry', path: '/FoodPantry' },
