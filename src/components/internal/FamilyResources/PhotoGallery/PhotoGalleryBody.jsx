@@ -4,8 +4,10 @@ import FadeIn from '../../../fadeinsection/FadeIn';
 import CenteredLogo from '../../../CenteredLogo';
 import Loading from './loading';  // import your Loading component
 import galleryManifest from '../../../../assets/json/galleryManifest.json';
+import { useTranslation } from '../../../../hooks/useTranslation';
 
 function PhotoGalleryBody() {
+  const { t } = useTranslation('familyResources');
   const [selectedFolder, setSelectedFolder] = useState('');
   const [visibleCount, setVisibleCount] = useState(20);
   const [loadedCount, setLoadedCount] = useState(0);
@@ -52,7 +54,7 @@ function PhotoGalleryBody() {
   return (
     <div className="photo-gallery-container">
       <div className="photo-gallery-page-title">
-        <h1> Photo Gallery </h1>
+        <h1>{t('photoGallery.title')}</h1>
       </div>
 
       <FadeIn>
@@ -65,7 +67,7 @@ function PhotoGalleryBody() {
             }}
             value={selectedFolder}
           >
-            <option value="">Select a folder</option>
+            <option value="">{t('photoGallery.selectFolder')}</option>
             {folders.map(folder => (
               <option key={folder} value={folder}>
                 {folder}
@@ -80,7 +82,7 @@ function PhotoGalleryBody() {
               <img
                 key={index}
                 src={src}
-                alt=""
+                alt={t('photoGallery.imageAlt', { index: index + 1 })}
                 className="gallery-image"
                 onLoad={handleImageLoad}
                 onError={handleImageLoad} // count errors as loaded so loading stops
@@ -94,7 +96,7 @@ function PhotoGalleryBody() {
                 className="show-more-button"
                 onClick={() => setVisibleCount(visibleCount + 20)}
               >
-                Show More
+                {t('photoGallery.showMore')}
               </button>
             </div>
           )}

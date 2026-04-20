@@ -1,0 +1,102 @@
+{
+  "howToEnroll": {
+    "title": "Como Inscribirse",
+    "introHeading": "Interesado en unirse a la comunidad de Segue?",
+    "introBody": "Visite esta pagina para ver formularios de inscripcion, detalles de elegibilidad, fechas limite y requisitos de solicitud.",
+    "step1Title": "Paso 1: Cree su cuenta de EnrollRI",
+    "step1Body": "Visite el portal de la Solicitud Comun de EnrollRI, impulsado por el Departamento de Educacion de Rhode Island. Los usuarios nuevos deben hacer clic en \"Create an Account\" para comenzar. Los usuarios que regresan pueden iniciar sesion con el mismo correo electronico o numero movil utilizado anteriormente, incluso si fue para otra escuela o una solicitud de All Course Network.",
+    "step2Title": "Paso 2: Agregue estudiantes y seleccione Segue",
+    "step2Body": "Una vez que haya iniciado sesion, use \"Add a Student\" si su hijo no aparece en su cuenta. Luego inicie su solicitud y asegurese de seleccionar:",
+    "step2Items": [
+      "Segue Institute for Learning para grados K-8 en Central Falls",
+      "Legacy High School para grados 9-12 (elegible para estudiantes de Central Falls, Providence, Pawtucket y Woonsocket)"
+    ],
+    "step3Title": "Paso 3: Solicite antes de la fecha limite de loteria",
+    "step3Body": "La solicitud de loteria para el ano escolar 2025-26 abrio el 19 de noviembre de 2024 a las 9 AM y cerro el 13 de marzo de 2025 a las 5 PM. Si hubo mas solicitantes que cupos, se realizo una loteria aleatoria el 1 de abril de 2025. Las familias que solicitan a tiempo entran automaticamente al grupo de loteria. Si perdio la fecha limite, la solicitud posterior a la loteria esta disponible a partir del 15 de abril de 2025.",
+    "step4Title": "Paso 4: Envie y revise su solicitud",
+    "step4Body": "Puede actualizar o editar su solicitud, incluso cambiar las opciones de escuela, hasta la fecha limite. Una vez enviada y aceptada en la loteria, el personal de Segue se comunicara con usted si a su hijo se le ofrece un cupo.",
+    "step5Title": "Paso 5: Loteria y pasos siguientes",
+    "step5Body": "La loteria es un evento publico realizado en el edificio escolar de Segue. Los solicitantes activos son notificados por telefono o postal. Quienes no reciban un cupo pueden ser colocados en lista de espera y contactados si se libera espacio.",
+    "checklistTitle": "Lista de verificacion",
+    "checklist": [
+      "Cree o inicie sesion en su cuenta de EnrollRI",
+      "Agregue a su hijo y seleccione Segue Institute o Legacy High School",
+      "Envie la solicitud antes de la fecha limite",
+      "Edite su solicitud si es necesario antes de la fecha limite",
+      "Espere los resultados de la loteria y siga los proximos pasos"
+    ]
+  },
+  "formsAndDeadlines": {
+    "title": "Formularios y Fechas Limite",
+    "intro": "A continuacion encontrara formularios importantes, portales de solicitud y fechas clave para la inscripcion en Segue Institute for Learning y Legacy High School.",
+    "portalTitle": "Portal de Solicitud EnrollRI",
+    "portalBody": "Use la Solicitud Comun de EnrollRI para postularse. Los usuarios nuevos deben crear una cuenta; los usuarios que regresan pueden iniciar sesion con sus credenciales existentes.",
+    "windowTitle": "Periodo de Solicitud para la Loteria",
+    "windowOpen": "Abre:",
+    "windowOpenValue": "19 de noviembre de 2024 a las 9:00 AM",
+    "windowClose": "Cierra:",
+    "windowCloseValue": "13 de marzo de 2025 a las 5:00 PM",
+    "drawingTitle": "Sorteo de la Loteria",
+    "drawingBody": "Se realizo publicamente en Segue el 1 de abril de 2025. Las familias son notificadas por telefono o postal.",
+    "postLotteryTitle": "Solicitudes Posteriores a la Loteria",
+    "postLotteryBody": "Abren a partir del 15 de abril de 2025 para solicitantes tardios. Las ofertas de lista de espera pueden seguir segun haya espacio disponible.",
+    "requiredTitle": "Selecciones Escolares Requeridas",
+    "requiredIntro": "Al solicitar, seleccione:",
+    "requiredItems": [
+      "Segue Institute for Learning - Grados K-8 (Central Falls)",
+      "Legacy High School - Grados 9-12 (Disponible para estudiantes de Central Falls, Providence, Pawtucket y Woonsocket)"
+    ]
+  },
+  "admissionsAndLottery": {
+    "title": "Admisiones y Loteria",
+    "howToApply": "Como Solicitar",
+    "howToApplyIntro": "Las familias pueden solicitar una solicitud de las siguientes maneras:",
+    "howToApplyItems": [
+      "Visitando nuestra oficina escolar",
+      "Llamando al (401) 721-0964",
+      "Enviando un correo a info@segueifl.org",
+      "Descargandola directamente de SegueIFL.org"
+    ],
+    "howToApplyOutro": "Las solicitudes estan disponibles en ingles y espanol y pueden enviarse electronicamente.",
+    "deadline": "Fecha limite de solicitud: 15 de febrero (para ser incluido en la loteria)",
+    "lotteryProcess": "Proceso de Loteria",
+    "lotteryProcessBody": "Cuando el numero de solicitantes excede el numero de cupos disponibles, Segue realiza una loteria publica aleatoria de acuerdo con la orientacion del Departamento de Educacion de Rhode Island.",
+    "waitlistTitle": "Proceso de Lista de Espera",
+    "confirmingTitle": "Confirmacion de Inscripcion",
+    "contactTitle": "Contacto para Inscripcion"
+  },
+  "enrollmentPolicies": {
+    "title": "Políticas de Inscripción",
+
+    "equalOpportunity": {
+      "title": "Declaración de Igualdad de Oportunidades",
+      "p1": "El Segue Institute for Learning se compromete a mantener un entorno de trabajo y aprendizaje libre de discriminación por motivos de raza, color, religión, origen nacional, embarazo, identidad de género, orientación sexual, estado civil o unión civil, ascendencia, lugar de nacimiento, edad, estatus de ciudadanía, estatus de veterano, afiliación política, información genética o discapacidad, según lo definido y requerido por las leyes estatales y federales.",
+      "p2": "También prohibimos estrictamente cualquier represalia contra las personas que se opongan a dicha discriminación o que participen en cualquier investigación relacionada."
+    },
+
+    "complaint": {
+      "title": "Para presentar una queja por discriminación, contacte:",
+      "line1": "USDA, Director, Oficina de Derechos Civiles",
+      "line2": "1400 Independence Avenue, S.W., Washington, D.C. 20250-9410",
+      "phone": "Teléfono: (800) 795-3272 (voz) | (202) 720-6382 (TDD)"
+    },
+
+    "lottery": {
+      "title": "Exenciones de Lotería",
+
+      "siblings": [
+        [
+          { "bold": "Hermanos de Estudiantes Actuales: " },
+          "Los hermanos (según se define por tutor legal o padre/madre compartido) pueden estar exentos de la lotería y ser admitidos directamente, siempre que no superen el 10% de la matrícula total de la escuela. Si hay más solicitantes que espacios disponibles, se realizará una pre-lotería separada para los hermanos solicitantes."
+        ],
+        [
+          { "bold": "Hijos de Familias Fundadoras: " },
+          "Los hijos de familias fundadoras pueden ser admitidos directamente, siempre que no superen el 10% de la matrícula total de la escuela. Si hay más solicitantes que espacios disponibles, se realizará una pre-lotería separada para los hijos de familias fundadoras."
+        ]
+      ]
+    }
+  },
+  "eligibility": {
+    "title": "Elegibilidad"
+  }
+}

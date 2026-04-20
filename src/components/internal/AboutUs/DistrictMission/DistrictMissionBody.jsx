@@ -3,31 +3,25 @@ import './DistrictMissionBody.css';
 import image from '../../../../assets/images/Internal Pages Images/GarciaGrad.jpg';
 import FadeIn from '../../../fadeinsection/FadeIn.jsx';
 import CenteredLogo from '../../../CenteredLogo.jsx';
+import { useTranslation } from '../../../../hooks/useTranslation';
 
 function DistrictMissionBody() {
+    const { t } = useTranslation('about');
+    const paragraphs = t('districtMission.paragraphs');
+
     return (
         <div className="our-mission-container">
             <div className="our-mission-page-title">
-                <h1> District Mission </h1>
+                <h1>{t('districtMission.title')}</h1>
             </div>
             <FadeIn>
             <div className="our-mission-content">
                 <p>
-                    <img src={image} alt="District Mission" className="mission-image" />
-                    The mission of the Segue Institute for Learning is to 
-                    foster a community where students take ownership of their education.
-                    Scholars receive a rigorous academic experience 
-                    that prepares them to excel in the high school and eventual
-                    college setting of their choice.
+                    <img src={image} alt={t('districtMission.imageAlt')} className="mission-image" />
+                    {paragraphs[0]}
                 </p>
                 
-                <p>
-                    At Segue, we believe that all of our students are AT 
-                    PROMISE, versus being labeled At Risk. The Segue Institute for
-                    Learning is a safe and nurturing environment which 
-                    promotes diversity, encourages individual growth and allows students
-                    to view themselves as citizens of change in their homes and community.
-                </p>
+                <p>{paragraphs[1]}</p>
             </div>
             </FadeIn>
             <CenteredLogo />

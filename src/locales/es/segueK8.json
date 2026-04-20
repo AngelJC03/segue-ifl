@@ -1,0 +1,171 @@
+{
+  "curriculumOverview": {
+    "title": "Resumen del Curriculo",
+    "body": "Nuestro curriculo esta disenado para retar, inspirar y apoyar a todos los estudiantes. Nos enfocamos en lectoescritura, matematicas, ciencias y estudios sociales, mientras integramos pensamiento critico, resolucion de problemas y comunicacion efectiva en todas las areas de contenido."
+  },
+  "menus": {
+    "title": "Menus de Almuerzo",
+    "imageAlt": "Menu de almuerzo de Segue K-8"
+  },
+  "schoolAnnouncements": {
+    "title": "Anuncios Escolares"
+  },
+  "studentLedActivities": {
+    "title": "Actividades Dirigidas por Estudiantes",
+    "intro": "La voz estudiantil es central en nuestra cultura. Ya sea dirigiendo una estacion en la clase de gimnasio, ayudando a planificar una semana de espiritu escolar o presentando un proyecto a la comunidad escolar, los estudiantes de Segue son alentados a liderar con confianza.",
+    "listIntro": "Brindamos oportunidades estructuradas para que los estudiantes puedan:",
+    "items": [
+      "Disenar y ensenar mini lecciones",
+      "Organizar exhibiciones o clubes",
+      "Colaborar en ideas para mejorar la escuela",
+      "Guiar a estudiantes mas pequenos"
+    ],
+    "outro": "Estos momentos desarrollan pertenencia y autonomia, habilidades clave para la escuela secundaria, la universidad y mas alla."
+  },
+  "afterSchoolEnrichment": {
+    "title": "Enriquecimiento Despues de Clases",
+    "intro": "Nuestros programas despues de clases amplian el aprendizaje a traves de experiencias practicas guiadas por la curiosidad. Las sesiones cambian segun la temporada e incluyen alianzas con organizaciones locales muy valoradas como:",
+    "sections": [
+      {
+        "heading": "Roger Williams Zoo",
+        "items": [
+          "Los estudiantes de K-1 conocen animales vivos y exploran el aprendizaje basado en la naturaleza."
+        ]
+      },
+      {
+        "heading": "Farm Fresh RI",
+        "items": [
+          "Los estudiantes de 3ro y 4to aprenden habitos saludables y cocinan con productos locales."
+        ]
+      },
+      {
+        "heading": "Audubon Society",
+        "items": [
+          "Lleva animales y juegos al aire libre a los estudiantes de 5to y 6to, promoviendo la educacion ambiental."
+        ]
+      },
+      {
+        "heading": "Clinicas de Cheer y Futbol",
+        "items": [
+          "Los estudiantes practican liderazgo al ensenar a sus companeros lo que han aprendido.",
+          "Trabajo en equipo y comunicacion",
+          "Confianza a traves del movimiento",
+          "Metas y liderazgo"
+        ]
+      }
+    ],
+    "outro": "Cada sesion esta disenada para ser educativa, atractiva y fortalecer la confianza. Se anima a los estudiantes a probar cosas nuevas, retarse a si mismos y construir amistades en el proceso."
+  },
+  "afterSchoolPrograms": {
+    "title": "Programas Despues de Clases",
+    "overviewTitle": "Resumen del Programa",
+    "overviewItems": [
+      "Nuestro programa despues de clases ofrece experiencias practicas y atractivas que extienden el aprendizaje mas alla del aula."
+    ],
+    "sessionOneTitle": "Aspectos Destacados de la Sesion Uno",
+    "sessionOneItems": [
+      "K-1er grado: Colaboracion con Roger Williams Zoo para conocer animales e integrar estaciones de ELA y matematicas.",
+      "3er-4to grado: Exploraron cocina saludable con Farm Fresh Rhode Island.",
+      "5to-6to grado: Aprendieron sobre la vida silvestre local con la Audubon Society; participaron en busquedas del tesoro y juegos al aire libre.",
+      "Clinicas de enriquecimiento: Los estudiantes de cheer y futbol practicaron nuevas destrezas y se las ensenaron a sus companeros."
+    ],
+    "sessionTwoTitle": "Enfoque de la Sesion Dos",
+    "sessionTwoItems": [
+      "Fundamentos de boxeo con el Sr. Powell se enfoca en fuerza, acondicionamiento y confianza.",
+      "Tambien se refuerza a traves de Falcon Fitness y las clases de gimnasio."
+    ],
+    "contactTitle": "Contacto",
+    "contactName": "Sr. Kestler Rodriguez",
+    "contactRole": "Director de Programas Despues de Clases",
+    "contactAriaLabel": "Enviar correo al Sr. Kestler Rodriguez"
+  },
+  "fitnessAndWellnessPrograms": {
+    "title": "Programas de Bienestar y Actividad Física",
+
+    "paragraphs": [
+      {
+        "content": [
+          "La salud y el bienestar forman parte de la experiencia Segue. Nuestro plan de educación física incluye ",
+          { "bold": "Falcon Fitness" },
+          ", un programa basado en resistencia, fuerza y autodisciplina. Los estudiantes participan en actividades que fortalecen la resistencia, la flexibilidad y la concentración, con la guía de entrenadores e instructores comprometidos."
+        ]
+      },
+      {
+        "content": [
+          "Nuestra clase de ",
+          { "bold": "Fundamentos de Boxeo" },
+          ", por ejemplo, presenta a los estudiantes de grados superiores destrezas como juego de pies, coordinación y fortaleza mental, lecciones que también benefician el salón de clases y la vida fuera de la escuela."
+        ]
+      },
+      {
+        "content": [
+          "El bienestar también incluye el equilibrio emocional. Fomentamos el autocuidado, las pausas de atención plena y una cultura de amabilidad que apoya al estudiante en su totalidad."
+        ]
+      }
+    ]
+  },
+  "libraryExpectations": {
+    "title": "Expectativas de la Biblioteca",
+    "sections": [
+      {
+        "title": "Trate con cuidado los muebles, los libros y los materiales de la biblioteca.",
+        "items": [
+          "SIENTESE en sillas, bancos y taburetes. No se pare, se acueste ni salte sobre los muebles.",
+          "SEA DELICADO con los libros. Son fragiles.",
+          "NO escriba, dibuje ni marque ningun mueble en la biblioteca."
+        ]
+      },
+      {
+        "title": "Si toma un libro del estante, devuelvalo al BOOK DROP ubicado en el escritorio de circulacion.",
+        "items": [
+          "NUNCA devuelva un libro al estante por su cuenta. Esto altera la organizacion de la biblioteca y puede hacer que no vuelva a encontrar el libro."
+        ]
+      },
+      {
+        "title": "NO se permite comida ni bebidas en la biblioteca.",
+        "items": [
+          "El agua esta permitida en envases cerrados."
+        ]
+      },
+      {
+        "title": "Use solo una voz baja y mantenga un cuerpo calmado mientras este en la biblioteca.",
+        "items": [
+          "Solo susurros",
+          "NO saltar ni pararse sobre los muebles",
+          "Caminar en todo momento"
+        ]
+      },
+      {
+        "title": "Permanezca en los espacios para estudiantes",
+        "items": [
+          "Los estudiantes pueden leer, trabajar o relajarse en las mesas centrales o a ambos lados del escritorio de circulacion junto a las estanterias.",
+          "Los estudiantes NO pueden estar en el area del personal, el bano del personal ni detras del escritorio de circulacion."
+        ]
+      }
+    ]
+  },
+  "uniformPolicy": {
+    "title": "Política de Uniforme",
+
+    "formalTitle": "Uniforme Formal (días sin educación física)",
+    "formalItems": [
+      "Polo granate de Segue (manga corta o larga)",
+      "Pantalones, pantalones cortos o falda negros o color caqui",
+      "Tenis de cualquier color",
+      "Se pueden usar leggings debajo de faldas y pantalones cortos",
+      "Se pueden usar camisetas de manga larga debajo del polo en meses fríos"
+    ],
+
+    "notAllowedLabel": "No permitido:",
+    "notAllowedText": "jeans, sudaderas con capucha, gorras, Uggs, Crocs, zapatos abiertos, sandalias, pantuflas, tacones y mocasines",
+
+    "peTitle": "Uniforme de Educación Física (días de gimnasio)",
+    "peItems": [
+      "Camiseta gris o granate de Segue",
+      "Pantalones deportivos y sudadera granate entregados por Segue",
+      "Tenis de cualquier color",
+      "Los mismos artículos prohibidos que en el uniforme formal",
+      "Se recomienda usar capas adicionales en meses fríos"
+    ]
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "languageSwitcher": {
+    "label": "Idioma",
+    "ariaLabel": "Seleccionar idioma",
+    "languages": {
+      "en": "English",
+      "es": "Español"
+    }
+  },
+  "nav": {
+    "menuToggle": "Menú",
+    "home": "Inicio",
+    "about": {
+      "label": "Sobre Nosotros",
+      "items": {
+        "districtMission": "Misión del Distrito",
+        "seguePledge": "El Compromiso de Segue",
+        "foundersMessage": "Mensaje de los Fundadores",
+        "segueBoard": "Junta de Segue",
+        "teachersAndStaff": "Maestros y Personal",
+        "communityPartners": "Socios Comunitarios"
+      }
+    },
+    "academics": {
+      "label": "Académicos",
+      "items": {
+        "calendar2526": "Calendario 2025-2026",
+        "rideResults": "Resultados de las Pruebas Estandarizadas de RIDE",
+        "powerSchool": "Acceso a Power School"
+      }
+    },
+    "familyResources": {
+      "label": "Recursos para Familias",
+      "items": {
+        "transportation": "Transporte",
+        "schoolPoliciesAndSafety": "Políticas Escolares y Seguridad",
+        "parentAndStudentHandbook": "Manual para Padres y Estudiantes",
+        "familyEngagementCommittee": "F.E.C (Comité de Participación Familiar)",
+        "mcKinneyVentoAct": "McKinney Vento A.C.T",
+        "foodPantry": "Despensa de Alimentos",
+        "photoGallery": "Galería de Fotos"
+      }
+    },
+    "enroll": {
+      "label": "Inscripción",
+      "items": {
+        "howToEnroll": "Cómo Inscribirse",
+        "eligibility": "Elegibilidad",
+        "formsAndDeadlines": "Formularios y Fechas Límite",
+        "admissionsAndLottery": "Admisiones y Sorteo",
+        "enrollmentPolicies": "Políticas de Inscripción"
+      }
+    },
+    "newsAndEvents": {
+      "label": "Noticias y Eventos",
+      "items": {
+        "eventsCalendar": "Calendario de Eventos",
+        "newsArticles": "Artículos de Noticias"
+      }
+    },
+    "segueK8": {
+      "label": "Segue K-8",
+      "items": {
+        "curriculumOverview": "Resumen del Currículo",
+        "menus": "Menús de Almuerzo",
+        "uniformPolicy": "Política de Uniforme",
+        "schoolAnnouncements": "Anuncios Escolares",
+        "afterSchoolPrograms": "Programas Después de Clases",
+        "afterSchoolEnrichment": "Enriquecimiento Después de Clases",
+        "fitnessAndWellnessPrograms": "Programas de Bienestar y Actividad Física",
+        "studentLedActivities": "Actividades Dirigidas por Estudiantes",
+        "libraryExpectations": "Expectativas de la Biblioteca"
+      }
+    },
+    "legacyHighSchool": {
+      "label": "Legacy High School",
+      "items": {
+        "constructionProgress": "Progreso de Construcción de Legacy",
+        "curriculumOverview": "Resumen del Currículo",
+        "menus": "Menús de Almuerzo",
+        "uniformPolicy": "Política de Uniforme",
+        "schoolAnnouncements": "Anuncios Escolares",
+        "afterSchoolPrograms": "Programas Después de Clases",
+        "afterSchoolEnrichment": "Enriquecimiento Después de Clases",
+        "fitnessAndWellnessPrograms": "Programas de Bienestar y Actividad Física",
+        "studentLedActivities": "Actividades Dirigidas por Estudiantes",
+        "libraryExpectations": "Expectativas de la Biblioteca"
+      }
+    }
+  },
+  "footer": {
+    "contactTitle": "Contáctanos",
+    "schoolName": "Segue Institute for Learning",
+    "addressLabel": "Dirección",
+    "addressValue": "325 Cowden Street, Central Falls, RI 02863",
+    "phoneLabel": "Teléfono",
+    "faxLabel": "Fax",
+    "websiteLabel": "Sitio web",
+    "websiteValue": "www.segueifl.org",
+    "emailLabel": "Correo electrónico",
+    "socialLabel": "Síguenos en las redes sociales:",
+    "copyright": "© {{year}} Segue Institute for Learning. Todos los derechos reservados.",
+    "logoAlt": {
+      "segue": "Logotipo de Segue Institute for Learning",
+      "legacy": "Logotipo de Legacy High School",
+      "facebook": "Icono de Facebook"
+    }
+  }
+}

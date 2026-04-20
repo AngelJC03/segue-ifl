@@ -1,0 +1,14 @@
+{
+  "eventsCalendar": {
+    "title": "Events Calendar",
+    "facebookFeed": "Facebook Feed",
+    "loadingPosts": "Loading posts...",
+    "pageName": "Segue Institute for Learning",
+    "postImageAlt": "Facebook post image"
+  },
+  "newsArticles": {
+    "title": "News Articles",
+    "loadingNews": "Loading News...",
+    "readMore": "Read more"
+  }
+}

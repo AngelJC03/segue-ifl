@@ -1,0 +1,108 @@
+{
+  "familyEngagementCommittee": {
+    "title": "Comite de Participacion Familiar",
+    "description": "El Comite de Participacion Familiar (FEC) es un grupo de padres, tutores y familiares dedicados que colaboran para apoyar y fortalecer la experiencia educativa de nuestros estudiantes. El FEC sirve como puente entre las familias y la comunidad escolar, fomentando la comunicacion abierta, la colaboracion y la participacion.",
+    "contactTitle": "Informacion de Contacto",
+    "flyerAlt": "Volante del Comite de Participacion Familiar",
+    "contacts": [
+      {
+        "name": "Nadya Sanches",
+        "role": "Coordinadora del Distrito",
+        "email": "Nadya.Sanches@segueifl.org"
+      },
+      {
+        "name": "Monica Cortes",
+        "role": "Coordinadora de K-8",
+        "email": "Monica.Cortes@segueifl.org"
+      },
+      {
+        "name": "Cheryl Luciano",
+        "role": "Coordinadora de Legacy",
+        "email": "Cheryl.Luciano@segueifl.org"
+      },
+      {
+        "name": "Maria Porras",
+        "role": "Coordinadora de la Despensa de Alimentos",
+        "email": "Maria.Porras@segueifl.org"
+      }
+    ]
+  },
+  "foodPantry": {
+    "title": "Despensa de Alimentos de Segue",
+    "heroAlt": "Despensa de alimentos",
+    "galleryAlt": "Despensa de alimentos {{index}}",
+    "description": "La despensa de alimentos de Segue ofrece comidas nutritivas y suministros esenciales a estudiantes y familias que los necesitan. Nuestro objetivo es asegurar que todas las personas de nuestra comunidad tengan acceso a alimentos saludables, mientras fomentamos un entorno acogedor y de apoyo. Ya sea para comidas diarias o apoyo ocasional, nuestra despensa esta aqui para nutrir tanto el cuerpo como la mente."
+  },
+  "parentAndStudentHandbook": {
+    "title": "Manual para Padres y Estudiantes",
+    "description": "El manual para padres y estudiantes ofrece informacion importante sobre las politicas escolares, las expectativas, las guias academicas y la conducta estudiantil. Invitamos a todas las familias a revisarlo cuidadosamente.",
+    "englishLink": "Manual para Padres y Estudiantes (Ingles)",
+    "spanishLink": "Manual para Padres y Estudiantes (Espanol)"
+  },
+  "photoGallery": {
+    "title": "Galeria de Fotos",
+    "selectFolder": "Seleccione una carpeta",
+    "showMore": "Mostrar mas",
+    "imageAlt": "Imagen de galeria {{index}}",
+    "loadingMessage": "Por favor, tenga paciencia, las imagenes estan cargando..."
+  },
+  "transportation": {
+    "title": "Transporte"
+  },
+  "schoolPoliciesAndSafety": {
+    "title": "Políticas Escolares y Seguridad",
+
+    "safeEnvironment": {
+      "title": "Creando un Entorno Seguro y de Apoyo",
+      "p1": "La seguridad y la estructura son esenciales para el éxito estudiantil. El Segue Institute for Learning aplica políticas claras y consistentes diseñadas para apoyar un ambiente de aprendizaje tranquilo y respetuoso. Desde las rutinas diarias hasta las expectativas de comportamiento, nuestro objetivo es crear un espacio donde cada estudiante se sienta seguro, valorado y apoyado.",
+      "p2": "El personal está capacitado en prácticas informadas sobre el trauma, técnicas de desescalamiento y protocolos de emergencia. Todos los visitantes son verificados al ingresar, y el personal está visible y accesible durante todo el día. Nuestros estudiantes saben lo que se espera de ellos y prosperan con esa claridad."
+    },
+
+    "admissions": {
+      "title": "Política General de Admisión",
+      "p1": "El Segue Institute for Learning es una escuela pública autónoma gratuita que atiende a estudiantes de Central Falls en los grados K–8. Damos la bienvenida a todos los estudiantes elegibles sin importar su rendimiento académico, pruebas o antecedentes.",
+      "p2": "La admisión está abierta a estudiantes que estén al nivel de grado apropiado y residan en Central Falls al momento de la solicitud. Las solicitudes fuera de Central Falls se consideran inválidas para el sorteo."
+    },
+
+    "eo": {
+      "title": "Declaración de Igualdad de Oportunidades",
+      "p1": "El Segue Institute for Learning se compromete a mantener un entorno laboral y educativo libre de discriminación por motivos de raza, color, religión, origen nacional, identidad de género, orientación sexual, discapacidad y otras categorías protegidas.",
+      "p2": "Se prohíben estrictamente las represalias contra las personas que denuncien o participen en investigaciones de discriminación.",
+
+      "complaintTitle": "Para presentar una queja por discriminación, contacte:",
+      "complaintLine1": "USDA, Director, Oficina de Derechos Civiles",
+      "complaintLine2": "1400 Independence Avenue SW, Washington, DC 20250-9410",
+      "phone": "Teléfono: (800) 795-3272 (voz) | (202) 720-6382 (TDD)"
+    }
+  },
+  "mcKinneyVentoAct": {
+    "title": "Ley McKinney Vento",
+    "schoolName": "Segue Institute for Learning",
+    "policyCode": "8.c. Educación de Niños sin Hogar",
+    "policyTitle": "Política de la Ley McKinney Vento",
+    "sectionTitle": "Educación de Niños sin Hogar",
+
+    "introP1": "El Segue Institute for Learning se compromete a garantizar que los niños y jóvenes sin hogar tengan igual acceso a la educación pública gratuita y apropiada como los demás estudiantes. Esta institución cumple con la Ley federal McKinney-Vento y trabaja para eliminar barreras al éxito académico.",
+
+    "introP2": "Se define como ‘niños y jóvenes sin hogar’ a aquellos que no tienen una residencia fija, regular y adecuada durante la noche, o que viven en refugios, hoteles, viviendas temporales o lugares no diseñados para residencia habitual.",
+
+    "list": [
+      "Niños y jóvenes que comparten vivienda debido a pérdida de hogar o dificultades económicas; o que viven en moteles, refugios o situaciones temporales similares.",
+      "Niños y jóvenes cuya residencia nocturna no está diseñada como vivienda permanente.",
+      "Niños y jóvenes que viven en automóviles, parques, edificios abandonados o lugares similares.",
+      "Jóvenes no acompañados sin custodia de un padre, tutor o agencia estatal."
+    ],
+
+    "definition": "Una residencia fija es permanente, una residencia regular se usa de forma constante y una residencia adecuada satisface necesidades básicas físicas y emocionales.",
+
+    "sectionA": "A. Matrícula de Niños y Jóvenes sin Hogar",
+
+    "enrollmentP1": "La escuela garantiza la matrícula inmediata de estudiantes sin hogar, incluso sin documentos habituales, y ayuda a obtener registros de escuelas anteriores si es necesario.",
+
+    "enrollmentP2": "La matrícula incluye participación completa en clases, actividades, comidas, deportes y programas. También se proporciona transporte y acceso a programas de alimentación.",
+
+    "enrollmentP3": "Los estudiantes pueden permanecer en su escuela de origen si es lo mejor para ellos. La decisión se toma con los padres o tutores.",
+
+    "enrollmentP4": "Si se requieren vacunas o registros médicos, la escuela debe derivar inmediatamente a la familia al enlace local para asistencia."
+  }
+}

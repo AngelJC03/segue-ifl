@@ -6,6 +6,7 @@ import FadeIn from '../../../fadeinsection/FadeIn.jsx';
 import BoardMemberCard from './BoardMemberCard';
 import testImage from '../../../../assets/images/testFolder/plageholder.jpg';
 import CenteredLogo from '../../../CenteredLogo.jsx';
+import { useTranslation } from '../../../../hooks/useTranslation';
 
 const boardMembers = [
   {
@@ -81,10 +82,12 @@ He was married in Laureles, Colombia in December 2007 and recently celebrated 20
 ];
 
 function SegueBoardBody() {
+  const { t } = useTranslation('about');
+
   return (
     <div className="segue-board-container">
       <div className="segue-board-page-title">
-        <h1>Segue Board of Directors</h1>
+        <h1>{t('segueBoard.title')}</h1>
       </div>
       <FadeIn>
         <div className="segue-board-content">
@@ -103,6 +106,9 @@ function SegueBoardBody() {
                     name={member.name}
                     term={member.term}
                     email={`${member.email}`}
+                    readMoreLabel={t('segueBoard.readMore')}
+                    readLessLabel={t('segueBoard.readLess')}
+                    emailButtonLabel={t('segueBoard.emailButton', { name: member.name })}
                   >
                     {member.bio}
                   </BoardMemberCard>

@@ -82,6 +82,13 @@
   padding: 14px 10px;
   transition: background-color 0.3s ease, text-decoration 0.3s ease;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sidebar-link-direct {
+  justify-content: flex-start;
 }
 
 .sidebar-item a:hover {
@@ -127,7 +134,7 @@
   transform: rotate(90deg);
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1500px) {
   .sidebar {
     display: flex;
   }

@@ -2,10 +2,12 @@
 import React, { useEffect, useState } from 'react';
 import './CenteredFacebookFeed.css';
 import facebookPFP from '../../../../assets/images/hero-photos/hero-image1.jpg'; // adjust if needed
+import { useTranslation } from '../../../../hooks/useTranslation';
 
 function CenteredFacebookFeed() {
     const FBAPI = '/.netlify/functions/getFacebookPosts';
     const [facebookPosts, setFacebookPosts] = useState([]);
+    const { t } = useTranslation('news');
 
     function truncateText(text, maxLength) {
         if (!text) return '';
@@ -43,8 +45,8 @@ function CenteredFacebookFeed() {
 
     return (
         <div className="centered-fb-feed-container">
-            <h2>Facebook Feed</h2>
-            {facebookPosts.length === 0 && <p>Loading posts...</p>}
+            <h2>{t('eventsCalendar.facebookFeed')}</h2>
+            {facebookPosts.length === 0 && <p>{t('eventsCalendar.loadingPosts')}</p>}
             {facebookPosts.map(post => (
                 <a
                     href="https://www.facebook.com/SegueIFL"
@@ -54,9 +56,9 @@ function CenteredFacebookFeed() {
                     className="centered-fb-post"
                 >
                     <div className="fb-post-header">
-                        <img src={facebookPFP} alt="Segue logo" className="fb-profile-photo" />
+                        <img src={facebookPFP} alt={t('footer.logoAlt.segue')} className="fb-profile-photo" />
                         <div className="fb-profile-info">
-                            <div className="fb-page-name">Segue Institute for Learning</div>
+                            <div className="fb-page-name">{t('eventsCalendar.pageName')}</div>
                             <small className="fb-post-date">
                                 {new Date(post.created_time).toLocaleString(undefined, {
                                     year: 'numeric',
@@ -70,7 +72,7 @@ function CenteredFacebookFeed() {
                         </div>
                     </div>
                     <div className="fb-post-content">
-                        {post.image && <img src={post.image} alt="Post" className="fb-post-image-large" />}
+                        {post.image && <img src={post.image} alt={t('eventsCalendar.postImageAlt')} className="fb-post-image-large" />}
                         {post.message && <p>{truncateText(post.message, 500)}</p>}
                     </div>
                 </a>

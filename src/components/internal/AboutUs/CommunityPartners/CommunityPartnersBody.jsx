@@ -1,27 +1,27 @@
 import './CommunityPartnersBody.css';
 import FadeIn from '../../../fadeinsection/FadeIn.jsx';
 import CenteredLogo from '../../../CenteredLogo.jsx';
+import { useTranslation } from '../../../../hooks/useTranslation';
 
 function CommunityPartnersBody() {
+  const { t } = useTranslation('about');
+  const partners = t('communityPartners.partners');
+
   return (
     <div className="community-partnerships-container">
       <div className="community-partnerships-page-title">
-        <h1>Community Partnerships</h1>
+        <h1>{t('communityPartners.title')}</h1>
       </div>
 
       <FadeIn>
         <div className="community-partnerships-content">
-          <p>
-            The Segue Institute for Learning partners with local colleges, nonprofits, 
-            and businesses to offer internships, mentorships, and enrichment programs. 
-            Our partners include:
-          </p>
+          <p>{t('communityPartners.description')}</p>
           <ul className="star-list">
-            <li><strong>Rhode Island Community Food Bank</strong></li>
-            <li><strong>City of Central Falls</strong></li>
-            <li><strong>Central Falls School District</strong></li>
-            <li><strong>Rhode Island League of Charter Schools</strong></li>
-            <li><strong>Sojourner House</strong></li>
+            {partners.map((partner) => (
+              <li key={partner}>
+                <strong>{partner}</strong>
+              </li>
+            ))}
           </ul>
         </div>
       </FadeIn>

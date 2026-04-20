@@ -13,6 +13,7 @@ import image7 from '../../assets/images/hero-photos/falcon-welcome.png';
 import image1 from '../../assets/images/hero-photos/segue-ifl-logo.png';
 import image2 from '../../assets/images/hero-photos/LegacyHighSchool-logo.jpg';
 import heroTextImage from '../../assets/images/logo-photos/hero-text-image.jpg';
+import { useTranslation } from '../../hooks/useTranslation';
 
 
 const images = [
@@ -29,6 +30,7 @@ const images = [
 
 function HeroCarousel() {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const { t } = useTranslation('home');
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -45,13 +47,13 @@ function HeroCarousel() {
           <img
               key={index}
               src={src}
-              alt={`Slide ${index}`}
+              alt={t('hero.slideAlt', { index: index + 1 })}
               className={`carousel-image ${index === currentIndex ? 'active' : ''}`}
           />
           ))}
       </div>
       <div className="hero-text">
-            <img src={heroTextImage} alt="Segue Hero Text" className="hero-text-image" />
+            <img src={heroTextImage} alt={t('hero.textImageAlt')} className="hero-text-image" />
       </div>
     </div>
 

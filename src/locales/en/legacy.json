@@ -1,0 +1,43 @@
+{
+  "afterSchoolEnrichment": {
+    "title": "After School Enrichment",
+    "body": "This page is currently under construction. Please check back later for updates."
+  },
+  "afterSchoolPrograms": {
+    "title": "After School Programs",
+    "body": "This page is currently under construction. Please check back later for updates."
+  },
+  "curriculumOverview": {
+    "title": "Curriculum Overview",
+    "intro": "At Legacy High School, our project-based learning model integrates interdisciplinary instruction, hands-on learning, and authentic assessment strategies. Students engage with real-world challenges, collaborate in teams, and develop critical thinking skills to prepare for the demands of college, careers, and life beyond the classroom. Our approach emphasizes creativity, innovation, and lifelong learning, ensuring students leave with both knowledge and practical skills.",
+    "careerTitle": "College and Career Readiness",
+    "careerBody": "College and career planning is woven into our high school experience, with access to advisors, application workshops, and job exploration. Through mentorship, internships, and career exploration programs, students gain exposure to a wide range of opportunities, helping them make informed decisions and confidently pursue their future ambitions."
+  },
+  "fitnessAndWellnessPrograms": {
+    "title": "Fitness & Wellness Programs",
+    "body": "This page is currently under construction. Please check back later for updates."
+  },
+  "libraryExpectations": {
+    "title": "Library Expectations",
+    "body": "This page is currently under construction. Please check back later for updates."
+  },
+  "menus": {
+    "title": "Lunch Menus",
+    "breakfastTitle": "Breakfast Menu",
+    "breakfastAlt": "Legacy High School breakfast menu",
+    "lunchTitle": "Lunch Menu",
+    "lunchAlt": "Legacy High School lunch menu"
+  },
+  "schoolAnnouncements": {
+    "title": "School Announcements",
+    "body": "This page is currently under construction. Please check back later for updates."
+  },
+  "studentLedActivities": {
+    "title": "Student Led Activities",
+    "body": "This page is currently under construction. Please check back later for updates."
+  },
+  "uniformPolicy": {
+    "title": "Uniform Policy",
+    "body": "This page is currently under construction. Please check back later for updates."
+  }
+}

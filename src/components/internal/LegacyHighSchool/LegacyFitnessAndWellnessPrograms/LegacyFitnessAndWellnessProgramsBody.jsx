@@ -1,18 +1,19 @@
 import './LegacyFitnessAndWellnessProgramsBody.css';
 import FadeIn from '../../../fadeinsection/FadeIn';
 import CenteredLogo from '../../../CenteredLogo';
+import { useTranslation } from '../../../../hooks/useTranslation';
 
 function LegacyFitnessAndWellnessProgramsBody() {
+    const { t } = useTranslation('legacy');
+
     return (
         <div className="legacy-fitness-and-wellness-programs-container">
             <div className="legacy-fitness-and-wellness-programs-page-title">
-                <h1>Fitness & Wellness Programs</h1>
+                <h1>{t('fitnessAndWellnessPrograms.title')}</h1>
             </div>
             <FadeIn>
                 <div className="legacy-fitness-and-wellness-programs-content">
-                    <p>
-                        This page is currently under construction. Please check back later for updates.
-                    </p>
+                    <p>{t('fitnessAndWellnessPrograms.body')}</p>
 
                 </div>
                 <CenteredLogo />

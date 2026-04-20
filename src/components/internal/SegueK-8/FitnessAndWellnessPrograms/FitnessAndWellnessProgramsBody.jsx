@@ -1,28 +1,42 @@
 import './FitnessAndWellnessProgramsBody.css';
 import FadeIn from '../../../fadeinsection/FadeIn';
 import CenteredLogo from '../../../CenteredLogo';
+import { useTranslation } from '../../../../hooks/useTranslation';
 
 function FitnessAndWellnessProgramsBody() {
+    const { t } = useTranslation('segueK8');
+
+    const paragraphs =
+        t('fitnessAndWellnessPrograms.paragraphs', { returnObjects: true }) || [];
+
+    const renderRichText = (content) => {
+        return content.map((part, i) => {
+            if (typeof part === 'string') return part;
+            if (part.bold) return <strong key={i}>{part.bold}</strong>;
+            return null;
+        });
+    };
+
     return (
         <div className="fitness-and-wellness-programs-container">
+
             <div className="fitness-and-wellness-programs-page-title">
-                <h1>Fitness & Wellness Programs</h1>
+                <h1>{t('fitnessAndWellnessPrograms.title')}</h1>
             </div>
+
             <FadeIn>
                 <div className="fitness-and-wellness-programs-content">
-                    <p>
-                        Health and wellness are woven into the Segue experience. Our PE curriculum includes <strong>Falcon Fitness</strong>, a program built around stamina, strength, and self-discipline. Scholars engage in activities that boost endurance, flexibility, and focus, with guidance from caring coaches and instructors.
-                    </p>
 
-                        <p>
-                            Our <strong>Boxing Fundamentals</strong> class, for example, introduces upper-grade students to skills like footwork, coordination, and mental toughness—lessons that carry over into the classroom and life beyond school.
-                        </p>
-
-                        <p>
-                            Wellness is also about emotional balance. We encourage self-care, mindfulness breaks, and a culture of kindness that supports the whole child.
-                        </p>
+                    {Array.isArray(paragraphs) &&
+                        paragraphs.map((p, i) => (
+                            <p key={i}>
+                                {renderRichText(p.content)}
+                            </p>
+                        ))
+                    }
 
                     <CenteredLogo />
+
                 </div>
             </FadeIn>
         </div>

@@ -4,21 +4,19 @@ import FadeIn from '../../../fadeinsection/FadeIn';
 import CenteredLogo from '../../../CenteredLogo';
 import EnglishHandbook from '../../../../../src/assets/pdfs/englishstudenthandbook.pdf';
 import SpanishHandbook from '../../../../../src/assets/pdfs/spanishstudenthandbook.pdf';
+import { useTranslation } from '../../../../hooks/useTranslation';
 
 function ParentAndStudentHandbookBody() {
+    const { t } = useTranslation('familyResources');
+
     return (
         <div className="school-handbook-container">
             <div className="school-handbook-page-title">
-                <h1>Parent & Student Handbook</h1>
+                <h1>{t('parentAndStudentHandbook.title')}</h1>
             </div>
 
             <FadeIn>
-                <p className="school-handbook-content">
-                    The Parent & Student Handbook provides important information 
-                    regarding school policies, expectations, academic guidelines, 
-                    and student conduct. We encourage all families to review the 
-                    handbook carefully.
-                </p>
+                <p className="school-handbook-content">{t('parentAndStudentHandbook.description')}</p>
 
                 <div className="school-handbook-links">
                     <a 
@@ -26,7 +24,7 @@ function ParentAndStudentHandbookBody() {
                         target="_blank" 
                         rel="noopener noreferrer"
                     >
-                        📘 Parent and Student Handbook (English)
+                        📘 {t('parentAndStudentHandbook.englishLink')}
                     </a>
 
                     <br />
@@ -36,7 +34,7 @@ function ParentAndStudentHandbookBody() {
                         target="_blank" 
                         rel="noopener noreferrer"
                     >
-                        📘 Manual para estudiantes y padres (Español)
+                        📘 {t('parentAndStudentHandbook.spanishLink')}
                     </a>
                 </div>
 

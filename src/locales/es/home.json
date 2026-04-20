@@ -1,0 +1,17 @@
+{
+  "foundersMessage": {
+    "heading": "Donde TODOS los Estudiantes Están \"Llenos de Promesa\"",
+    "paragraphOne": "En Segue Institute for Learning, creemos en el potencial ilimitado de cada estudiante. Nuestra misión es cultivar una comunidad donde los estudiantes se apropien de su educación, preparándose para sobresalir en la escuela secundaria, la universidad y más allá. Ofrecemos una experiencia académica rigurosa que empodera a los estudiantes para verse a sí mismos como agentes de cambio en sus comunidades.",
+    "paragraphTwo": "Los estudiantes de Segue IFL reciben una experiencia académica rigurosa que los prepara para sobresalir en la escuela secundaria y en la futura universidad de su elección. En Segue, creemos que todos nuestros estudiantes están \"LLENOS DE PROMESA\" en lugar de ser etiquetados como \"En Riesgo\". Las escuelas de Segue IFL ofrecen entornos seguros y acogedores que promueven la diversidad, fomentan el crecimiento individual y permiten que los estudiantes se vean a sí mismos como ciudadanos de cambio en sus hogares y su comunidad.",
+    "photos": {
+      "galleryLabel": "Galeria de fotos de la comunidad de Segue",
+      "foundersAlt": "Angelo Garcia y la Dra. Melissa Lourenco",
+      "violinAlt": "Estudiante de Segue aprendiendo violin",
+      "classroomAlt": "Comunidad del salon de clases de Segue"
+    }
+  },
+  "hero": {
+    "textImageAlt": "Mensaje principal de Segue",
+    "slideAlt": "Imagen de Segue {{index}}"
+  }
+}

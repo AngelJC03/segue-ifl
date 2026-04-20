@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { Card, Image, Button } from 'react-bootstrap';
 
-const BoardMemberCard = ({ name, term, email, imageSrc, children }) => {
+const BoardMemberCard = ({ name, term, email, imageSrc, children, readMoreLabel, readLessLabel, emailButtonLabel }) => {
   const [expanded, setExpanded] = useState(false);
   const toggleExpanded = () => setExpanded(!expanded);
 
@@ -31,14 +31,14 @@ const BoardMemberCard = ({ name, term, email, imageSrc, children }) => {
         {isLongText && (
           <div className="text-start mb-3">
             <Button variant="link" className="p-0 fs-6" onClick={toggleExpanded}>
-              {expanded ? 'Read less' : 'Read more'}
+              {expanded ? readLessLabel : readMoreLabel}
             </Button>
           </div>
         )}
 
         <Card.Link href={`mailto:${email}`}>
           <Button variant="primary" className="w-100">
-            E-mail {name}
+            {emailButtonLabel}
           </Button>
         </Card.Link>
       </Card.Body>

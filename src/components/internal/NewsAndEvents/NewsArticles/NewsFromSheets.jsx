@@ -1,10 +1,12 @@
 // components/NewsFromSheets.jsx
 import React, { useEffect, useState } from 'react';
 import './NewsFromSheets.css';
+import { useTranslation } from '../../../../hooks/useTranslation';
 
 function NewsFromSheets() {
     const API = '/.netlify/functions/getSheet';
     const [news, setNews] = useState([]);
+    const { t } = useTranslation('news');
 
     function truncateText(text, maxLength) {
         if (!text) return '';
@@ -42,7 +44,7 @@ function NewsFromSheets() {
         <div className="news-articles-section">
             {news.length === 0 && (
                 <h3 style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '200px' }}>
-                    Loading News...
+                    {t('newsArticles.loadingNews')}
                 </h3>
             )}
             {news.map((item, index) => (
@@ -72,7 +74,7 @@ function NewsFromSheets() {
                                 rel="noopener noreferrer"
                                 style={{ color: '#007bff', textDecoration: 'none' }}
                             >
-                                Read more
+                                {t('newsArticles.readMore')}
                             </a>
                         </p>
                     </div>

@@ -1,7 +1,9 @@
-// import React from 'react';
-import './Hamburger.css'; // Import the CSS file for hamburger menu styling
+import './Hamburger.css';
+import { useTranslation } from '../../hooks/useTranslation';
 
 function Hamburger({ click, checkboxRef, handleToggle }) {
+  const { t } = useTranslation('common');
+
   return (
     <div className="burger-wrapper">
       <input
@@ -13,7 +15,7 @@ function Hamburger({ click, checkboxRef, handleToggle }) {
         checked={click}
       />
       <label htmlFor="checkbox4">
-        <div className={`hamburger hamburger4`}>
+        <div className="hamburger hamburger4">
           <span className="bar bar1"></span>
           <span className="bar bar2"></span>
           <span className="bar bar3"></span>
@@ -21,8 +23,8 @@ function Hamburger({ click, checkboxRef, handleToggle }) {
           <span className="bar bar5"></span>
         </div>
       </label>
-      <div className={click ? "hamburger-text active" : "hamburger-text"} onClick={handleToggle}>
-        MENU
+      <div className={click ? 'hamburger-text active' : 'hamburger-text'} onClick={handleToggle}>
+        {t('nav.menuToggle')}
       </div>
     </div>
   );

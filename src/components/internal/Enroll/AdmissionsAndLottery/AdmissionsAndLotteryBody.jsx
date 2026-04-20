@@ -2,38 +2,34 @@
 import './AdmissionsAndLotteryBody.css';
 import FadeIn from '../../../fadeinsection/FadeIn';
 import CenteredLogo from '../../../CenteredLogo';
+import { useTranslation } from '../../../../hooks/useTranslation';
 
 function AdmissionsAndLotteryBody() {
+    const { t } = useTranslation('enroll');
+    const howToApplyItems = t('admissionsAndLottery.howToApplyItems');
+
     return (
         <div className="admissions-and-lottery-container">
             <div className="admissions-and-lottery-page-title">
-                <h1>Admissions and Lottery</h1>
+                <h1>{t('admissionsAndLottery.title')}</h1>
             </div>
             <FadeIn>
                 <div className="admissions-and-lottery-content">
 
-                    <h2><strong>How to Apply</strong></h2>
-                    <p>Families can request an application by:</p>
+                    <h2><strong>{t('admissionsAndLottery.howToApply')}</strong></h2>
+                    <p>{t('admissionsAndLottery.howToApplyIntro')}</p>
                     <ul className="admissions-list">
-                        <li>Visiting our school office</li>
-                        <li>Calling (401) 721-0964</li>
-                        <li>Emailing <a href="mailto:info@segueifl.org">info@segueifl.org</a></li>
-                        <li>Downloading it directly from <a href="https://segueifl.org" target="_blank" rel="noopener noreferrer">SegueIFL.org</a></li>
+                        {howToApplyItems.map((item) => (
+                            <li key={item}>{item}</li>
+                        ))}
                     </ul>
-                    <p>
-                        Applications are provided in both English and Spanish and may be submitted electronically.
-                    </p>
-                    <p>
-                        🗓️ <strong>Application Deadline: February 15th</strong> (to be included in the lottery)
-                    </p>
+                    <p>{t('admissionsAndLottery.howToApplyOutro')}</p>
+                    <p>🗓️ <strong>{t('admissionsAndLottery.deadline')}</strong></p>
 
                     <br />
 
-                    <h2><strong>Lottery Process</strong></h2>
-                    <p>
-                        When the number of applicants exceeds the number of available seats, Segue conducts a random public lottery
-                        in accordance with Rhode Island Department of Education (RIDE) guidance.
-                    </p>
+                    <h2><strong>{t('admissionsAndLottery.lotteryProcess')}</strong></h2>
+                    <p>{t('admissionsAndLottery.lotteryProcessBody')}</p>
                     <ul className="admissions-list">
                         <li><strong>Date:</strong> <strong>March 1st</strong> (or the next business day if on a weekend/holiday)</li>
                         <li><strong>Location:</strong> Segue Institute for Learning, 325 Cowden Street</li>
@@ -58,7 +54,7 @@ function AdmissionsAndLotteryBody() {
                         </li>
                     </ul>
 
-                    <h2><strong>Waitlist Process</strong></h2>
+                    <h2><strong>{t('admissionsAndLottery.waitlistTitle')}</strong></h2>
                     <p>
                         Students not offered a seat during the lottery will be placed on a ranked waitlist. As openings occur,
                         families will be contacted in the order determined by the lottery.
@@ -68,7 +64,7 @@ function AdmissionsAndLotteryBody() {
                         begins, Segue may admit them directly if they meet residency and age requirements.
                     </p>
 
-                    <h2><strong>Confirming Enrollment</strong></h2>
+                    <h2><strong>{t('admissionsAndLottery.confirmingTitle')}</strong></h2>
                     <p>
                         Accepted families must confirm their intent to enroll within 15 days of notification by submitting a full Enrollment Packet.
                         If a family does not respond in time, the seat will be offered to the next applicant on the waitlist.
@@ -83,7 +79,7 @@ function AdmissionsAndLotteryBody() {
                         ⏳ Packets submitted after the 15-day deadline will not be accepted, and the applicant will be placed at the bottom of the waitlist.
                     </p>
 
-                    <h2><strong>Contact for Enrollment</strong></h2>
+                    <h2><strong>{t('admissionsAndLottery.contactTitle')}</strong></h2>
                     <p>
                         Segue Institute for Learning<br />
                         Cowden Street Collaborative, Inc.<br />

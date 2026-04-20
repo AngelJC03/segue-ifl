@@ -1,0 +1,14 @@
+{
+  "eventsCalendar": {
+    "title": "Calendario de Eventos",
+    "facebookFeed": "Feed de Facebook",
+    "loadingPosts": "Cargando publicaciones...",
+    "pageName": "Segue Institute for Learning",
+    "postImageAlt": "Imagen de publicacion de Facebook"
+  },
+  "newsArticles": {
+    "title": "Articulos de Noticias",
+    "loadingNews": "Cargando noticias...",
+    "readMore": "Leer mas"
+  }
+}

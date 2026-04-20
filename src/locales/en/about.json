@@ -1,0 +1,90 @@
+{
+  "communityPartners": {
+    "title": "Community Partnerships",
+    "description": "The Segue Institute for Learning partners with local colleges, nonprofits, and businesses to offer internships, mentorships, and enrichment programs. Our partners include:",
+    "partners": [
+      "Rhode Island Community Food Bank",
+      "City of Central Falls",
+      "Central Falls School District",
+      "Rhode Island League of Charter Schools",
+      "Sojourner House"
+    ]
+  },
+  "districtMission": {
+    "title": "District Mission",
+    "imageAlt": "District mission",
+    "paragraphs": [
+      "The mission of the Segue Institute for Learning is to foster a community where students take ownership of their education. Scholars receive a rigorous academic experience that prepares them to excel in the high school and eventual college setting of their choice.",
+      "At Segue, we believe that all of our students are AT PROMISE, versus being labeled At Risk. The Segue Institute for Learning is a safe and nurturing environment which promotes diversity, encourages individual growth and allows students to view themselves as citizens of change in their homes and community."
+    ]
+  },
+  "seguePledge": {
+    "pageTitle": "Segue Pledge",
+    "title": "The Segue Pledge",
+    "logoAlt": "Segue logo",
+    "lines": [
+      "I am a student at the Segue Institute for Learning.",
+      "Every day I will work toward being the best that I can be.",
+      "I will show respect to all students and adults of my community.",
+      "I will express enthusiasm toward school and strive to be my best.",
+      "I will work toward the achievement of Segue Standards.",
+      "I will model true citizenship and try to make a difference.",
+      "I will engage in hard work to reach my goals.",
+      "This is my pledge.",
+      "I am a student at the Segue Institute for Learning."
+    ]
+  },
+  "foundersMessagePage": {
+    "pageTitle": "A Message from The Founders",
+    "topImageAlt": "Founders",
+    "middleImageAlt": "Student learning violin",
+    "bottomImageAlt": "Classroom",
+    "intro": "Angelo Garcia and Dr. Melissa Lourenco co-founded Segue Institute for Learning in Central Falls, Rhode Island, with a shared commitment to equity and community-driven education. Since opening in 2009, Segue has provided K-8 students with wrap-around services, civic engagement opportunities, and culturally responsive teaching. In 2024, their mission expanded with the launch of Legacy High School, designed to prepare students for careers in education. Deeply rooted in Central Falls, both Mr. Garcia and Dr. Lourenco believe every student deserves to be seen, heard, and empowered, not just taught.",
+    "sectionTitle": "From Our Founding Team",
+    "paragraphs": [
+      "When Segue Institute for Learning first opened its doors in 2009, it was not just the launch of a new charter school. It was the start of a promise to our community. A promise that every child in Central Falls, no matter their background, would be given the opportunity to learn, lead, and thrive in an environment that recognizes and respects their full potential.",
+      "As a founding team, many of us were born, raised, and educated in this city. We have walked the same streets as our scholars. We have witnessed both the challenges and the remarkable strength within our neighborhoods. Segue was built from that shared experience and from the belief that schools should not only teach students but lift up families and transform communities.",
+      "From the beginning, we rejected the term at risk. We knew that our children are at promise, brimming with talent, power, and possibility. That belief is the heartbeat of everything we do.",
+      "We set out to create a school that would be academically rigorous, yes, but also joyful, culturally affirming, and student-led. A place where children would feel seen. A place where high expectations are matched with high support. A place where students are taught not just to succeed on tests, but to succeed in life, to think critically, advocate for themselves and others, and take pride in who they are and where they come from.",
+      "Over time, we have grown into a K-8 institution that remains deeply connected to its founding values. And now, with the launch of Legacy High School, we are continuing that journey. Legacy is more than just a name. It is a commitment to the future. It will provide scholars with the opportunity to graduate from a school that knows them, challenges them, and prepares them to be not just college-ready, but community-ready.",
+      "To our students: you are the reason we do this work. To our families: thank you for your trust and partnership. To our staff, past and present: thank you for your passion and purpose. And to our supporters: thank you for believing in a model of education that centers love, accountability, and justice.",
+      "Together, we are building something lasting.",
+      "Together, we are creating a legacy."
+    ],
+    "signoff": [
+      "The Founding Team",
+      "Segue Institute for Learning"
+    ]
+  },
+  "segueBoard": {
+    "title": "Segue Board of Directors",
+    "readMore": "Read more",
+    "readLess": "Read less",
+    "emailButton": "E-mail {{name}}"
+  },
+  "teachersAndStaff": {
+    "title": "Teachers and Staff",
+    "filterLabel": "Filter by Department:",
+    "allDepartments": "All Departments",
+    "departments": {
+      "3-5 Teachers": "3-5 Teachers",
+      "3-5 Teaching Fellows": "3-5 Teaching Fellows",
+      "Academic Coaches": "Academic Coaches",
+      "After School Programming": "After School Programming",
+      "Counseling & Support": "Counseling & Support",
+      "Deans & Behavior Support": "Deans & Behavior Support",
+      "District Support": "District Support",
+      "Executive Leadership": "Executive Leadership",
+      "Facilities": "Facilities",
+      "Family Engagement": "Family Engagement",
+      "Individual Needs / Special Ed.": "Individual Needs / Special Ed.",
+      "K-2 Teachers": "K-2 Teachers",
+      "K-2 Teaching Fellows": "K-2 Teaching Fellows",
+      "MAGNET Team": "MAGNET Team",
+      "Main Office": "Main Office",
+      "Middle School Teachers": "Middle School Teachers",
+      "Student Support": "Student Support",
+      "Technology": "Technology"
+    }
+  }
+}

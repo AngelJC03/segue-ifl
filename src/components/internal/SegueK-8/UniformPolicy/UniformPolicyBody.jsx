@@ -1,43 +1,60 @@
 import './UniformPolicyBody.css';
 import FadeIn from '../../../fadeinsection/FadeIn';
 import CenteredLogo from '../../../CenteredLogo';
+import { useTranslation } from '../../../../hooks/useTranslation';
 
 function UniformPolicyBody() {
+    const { t } = useTranslation('segueK8');
+
+    const formalItems = t('uniformPolicy.formalItems', { returnObjects: true }) || [];
+    const peItems = t('uniformPolicy.peItems', { returnObjects: true }) || [];
+
     return (
         <div className="uniform-policy-container">
+
             <div className="uniform-policy-page-title">
-                <h1>Uniform Policy</h1>
+                <h1>{t('uniformPolicy.title')}</h1>
             </div>
+
             <FadeIn>
                 <div className="uniform-policy-content">
+
+                    {/* FORMAL UNIFORM */}
                     <ul className="expectation-list">
                         <li>
-                            <strong>Formal Uniform (Non-Gym Days)</strong>
+                            <strong>{t('uniformPolicy.formalTitle')}</strong>
                             <ul>
-                                <li>Maroon Segue polo (short or long sleeve)</li>
-                                <li>Black or khaki pants, shorts, or skirt</li>
-                                <li>Sneakers (any color)</li>
-                                <li>Leggings may be worn under skirts/shorts</li>
-                                <li>Long-sleeve undershirts may be worn under polos in colder months</li>
+                                {Array.isArray(formalItems) &&
+                                    formalItems.map((item, i) => (
+                                        <li key={i}>{item}</li>
+                                    ))
+                                }
                             </ul>
                         </li>
                     </ul>
+
+                    {/* NOT ALLOWED */}
                     <div className="uniform-policy-prohibited">
-                        <strong>Not allowed:</strong> jeans, hoodies, hats, Uggs, Crocs, open-toed shoes, sandals, slippers, heels, moccasins
+                        <strong>{t('uniformPolicy.notAllowedLabel')}</strong>{' '}
+                        {t('uniformPolicy.notAllowedText')}
                     </div>
+
+                    {/* PE UNIFORM */}
                     <ul className="expectation-list">
                         <li>
-                            <strong>PE Uniform (Gym Days)</strong>
+                            <strong>{t('uniformPolicy.peTitle')}</strong>
                             <ul>
-                                <li>Grey or maroon Segue T-shirt</li>
-                                <li>Maroon Segue-issued sweatpants and sweatshirt</li>
-                                <li>Sneakers (any color)</li>
-                                <li>Same prohibited items as formal uniform</li>
-                                <li>Layering encouraged during colder months</li>
+                                {Array.isArray(peItems) &&
+                                    peItems.map((item, i) => (
+                                        <li key={i}>{item}</li>
+                                    ))
+                                }
                             </ul>
                         </li>
                     </ul>
+
                 </div>
+
                 <CenteredLogo />
             </FadeIn>
         </div>

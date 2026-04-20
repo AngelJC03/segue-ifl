@@ -1,0 +1,43 @@
+{
+  "afterSchoolEnrichment": {
+    "title": "Enriquecimiento Despues de Clases",
+    "body": "Esta pagina esta en construccion. Vuelva a consultar mas adelante para recibir actualizaciones."
+  },
+  "afterSchoolPrograms": {
+    "title": "Programas Despues de Clases",
+    "body": "Esta pagina esta en construccion. Vuelva a consultar mas adelante para recibir actualizaciones."
+  },
+  "curriculumOverview": {
+    "title": "Resumen del Curriculo",
+    "intro": "En Legacy High School, nuestro modelo de aprendizaje basado en proyectos integra instruccion interdisciplinaria, aprendizaje practico y estrategias de evaluacion autenticas. Los estudiantes se enfrentan a desafios del mundo real, colaboran en equipo y desarrollan pensamiento critico para prepararse para las exigencias de la universidad, las carreras y la vida mas alla del aula. Nuestro enfoque enfatiza la creatividad, la innovacion y el aprendizaje permanente, asegurando que los estudiantes se gradúen con conocimientos y habilidades practicas.",
+    "careerTitle": "Preparacion Universitaria y Profesional",
+    "careerBody": "La planificacion universitaria y profesional esta integrada en la experiencia de la escuela superior, con acceso a asesores, talleres de solicitud y exploracion de empleos. A traves de mentorias, pasantias y programas de exploracion profesional, los estudiantes conocen una amplia gama de oportunidades para tomar decisiones informadas y perseguir su futuro con confianza."
+  },
+  "fitnessAndWellnessPrograms": {
+    "title": "Programas de Bienestar y Actividad Fisica",
+    "body": "Esta pagina esta en construccion. Vuelva a consultar mas adelante para recibir actualizaciones."
+  },
+  "libraryExpectations": {
+    "title": "Expectativas de la Biblioteca",
+    "body": "Esta pagina esta en construccion. Vuelva a consultar mas adelante para recibir actualizaciones."
+  },
+  "menus": {
+    "title": "Menus de Almuerzo",
+    "breakfastTitle": "Menu de Desayuno",
+    "breakfastAlt": "Menu de desayuno de Legacy High School",
+    "lunchTitle": "Menu de Almuerzo",
+    "lunchAlt": "Menu de almuerzo de Legacy High School"
+  },
+  "schoolAnnouncements": {
+    "title": "Anuncios Escolares",
+    "body": "Esta pagina esta en construccion. Vuelva a consultar mas adelante para recibir actualizaciones."
+  },
+  "studentLedActivities": {
+    "title": "Actividades Dirigidas por Estudiantes",
+    "body": "Esta pagina esta en construccion. Vuelva a consultar mas adelante para recibir actualizaciones."
+  },
+  "uniformPolicy": {
+    "title": "Politica de Uniforme",
+    "body": "Esta pagina esta en construccion. Vuelva a consultar mas adelante para recibir actualizaciones."
+  }
+}

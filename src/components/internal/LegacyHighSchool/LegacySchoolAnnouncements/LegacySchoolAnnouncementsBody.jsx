@@ -2,16 +2,19 @@
 import './LegacySchoolAnnouncementsBody.css';
 import FadeIn from '../../../fadeinsection/FadeIn';
 import CenteredLogo from '../../../CenteredLogo';
+import { useTranslation } from '../../../../hooks/useTranslation';
 
 function LegacySchoolAnnouncementsBody() {
+    const { t } = useTranslation('legacy');
+
     return (
             <div className="legacy-school-announcements-container">
                 <div className="legacy-school-announcements-page-title">
-                    <h1> School Announcements </h1>
+                    <h1>{t('schoolAnnouncements.title')}</h1>
                 </div>
                 <FadeIn>
                     <p className="legacy-school-announcements-content">
-                        This page is currently under construction. Please check back later for updates.
+                        {t('schoolAnnouncements.body')}
                     </p>
                     <CenteredLogo />
                 </FadeIn>

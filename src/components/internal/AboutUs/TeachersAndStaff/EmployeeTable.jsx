@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import './EmployeeTable.css';
+import { useTranslation } from '../../../../hooks/useTranslation';
 
 const EmployeeTable = ({ employees }) => {
+  const { t } = useTranslation('about');
   const [currentPage, setCurrentPage] = useState(1);
   const [selectedDept, setSelectedDept] = useState('All Departments');
 
@@ -48,10 +50,14 @@ const EmployeeTable = ({ employees }) => {
   return (
     <div className="employee-table">
       <div className="department-dropdown">
-        <label htmlFor="department-select">Filter by Department: </label>
+        <label htmlFor="department-select">{t('teachersAndStaff.filterLabel')} </label>
         <select id="department-select" value={selectedDept} onChange={handleDepartmentChange}>
           {departments.map((dept, i) => (
-            <option key={i} value={dept}>{dept}</option>
+            <option key={i} value={dept}>
+              {dept === 'All Departments'
+                ? t('teachersAndStaff.allDepartments')
+                : t('teachersAndStaff.departments')[dept] ?? dept}
+            </option>
           ))}
         </select>
       </div>
@@ -65,7 +71,7 @@ const EmployeeTable = ({ employees }) => {
             <div className="employee-details">
               <h3>{emp.name}</h3>
               <p>{emp.title}</p>
-              <p>{emp.department}</p>
+              <p>{t('teachersAndStaff.departments')[emp.department] ?? emp.department}</p>
             </div>
           </div>
         ))}

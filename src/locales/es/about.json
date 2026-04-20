@@ -1,0 +1,90 @@
+{
+  "communityPartners": {
+    "title": "Socios Comunitarios",
+    "description": "Segue Institute for Learning colabora con universidades locales, organizaciones sin fines de lucro y empresas para ofrecer pasantias, mentorias y programas de enriquecimiento. Nuestros socios incluyen:",
+    "partners": [
+      "Banco de Alimentos Comunitario de Rhode Island",
+      "Ciudad de Central Falls",
+      "Distrito Escolar de Central Falls",
+      "Liga de Escuelas Charter de Rhode Island",
+      "Sojourner House"
+    ]
+  },
+  "districtMission": {
+    "title": "Mision del Distrito",
+    "imageAlt": "Mision del distrito",
+    "paragraphs": [
+      "La mision de Segue Institute for Learning es fomentar una comunidad donde los estudiantes se aduenen de su educacion. Los alumnos reciben una experiencia academica rigurosa que los prepara para sobresalir en la escuela secundaria y en la universidad de su eleccion.",
+      "En Segue, creemos que todos nuestros estudiantes estan llenos de promesa, en lugar de ser etiquetados como en riesgo. Segue Institute for Learning es un entorno seguro y acogedor que promueve la diversidad, fomenta el crecimiento individual y permite que los estudiantes se vean como ciudadanos de cambio en sus hogares y su comunidad."
+    ]
+  },
+  "seguePledge": {
+    "pageTitle": "Promesa de Segue",
+    "title": "La Promesa de Segue",
+    "logoAlt": "Logotipo de Segue",
+    "lines": [
+      "Soy estudiante de Segue Institute for Learning.",
+      "Cada dia trabajare para ser lo mejor que puedo ser.",
+      "Mostrare respeto a todos los estudiantes y adultos de mi comunidad.",
+      "Expresare entusiasmo por la escuela y me esforzare por dar lo mejor de mi.",
+      "Trabajare para alcanzar los estandares de Segue.",
+      "Modelare una verdadera ciudadania y tratare de marcar una diferencia.",
+      "Me esforzare con trabajo duro para alcanzar mis metas.",
+      "Esta es mi promesa.",
+      "Soy estudiante de Segue Institute for Learning."
+    ]
+  },
+  "foundersMessagePage": {
+    "pageTitle": "Un Mensaje de los Fundadores",
+    "topImageAlt": "Fundadores",
+    "middleImageAlt": "Estudiante aprendiendo violin",
+    "bottomImageAlt": "Salon de clases",
+    "intro": "Angelo Garcia y la Dra. Melissa Lourenco cofundaron Segue Institute for Learning en Central Falls, Rhode Island, con un compromiso compartido con la equidad y una educacion guiada por la comunidad. Desde su apertura en 2009, Segue ha brindado a los estudiantes de K-8 servicios integrales, oportunidades de participacion civica y una ensenanza culturalmente sensible. En 2024, su mision se amplio con el lanzamiento de Legacy High School, disenada para preparar a los estudiantes para carreras en educacion. Profundamente arraigados en Central Falls, tanto el Sr. Garcia como la Dra. Lourenco creen que cada estudiante merece ser visto, escuchado y fortalecido, no solo ensenado.",
+    "sectionTitle": "De Nuestro Equipo Fundador",
+    "paragraphs": [
+      "Cuando Segue Institute for Learning abrio sus puertas por primera vez en 2009, no fue solo el lanzamiento de una nueva escuela charter. Fue el comienzo de una promesa para nuestra comunidad. Una promesa de que cada nino de Central Falls, sin importar su origen, tendria la oportunidad de aprender, liderar y prosperar en un entorno que reconoce y respeta todo su potencial.",
+      "Como equipo fundador, muchos de nosotros nacimos, crecimos y estudiamos en esta ciudad. Hemos caminado por las mismas calles que nuestros alumnos. Hemos sido testigos tanto de los desafios como de la extraordinaria fortaleza de nuestros vecindarios. Segue se construyo a partir de esa experiencia compartida y de la conviccion de que las escuelas no solo deben ensenar a los estudiantes, sino tambien elevar a las familias y transformar las comunidades.",
+      "Desde el principio, rechazamos el termino en riesgo. Sabiamos que nuestros ninos estan llenos de promesa, rebosantes de talento, poder y posibilidades. Esa creencia es el latido de todo lo que hacemos.",
+      "Nos propusimos crear una escuela que fuera academicamente rigurosa, si, pero tambien alegre, culturalmente afirmativa y guiada por los estudiantes. Un lugar donde los ninos se sintieran vistos. Un lugar donde las altas expectativas estuvieran acompanadas de un gran apoyo. Un lugar donde a los estudiantes se les ensene no solo a tener exito en los examenes, sino tambien en la vida, a pensar criticamente, a defenderse a si mismos y a los demas, y a sentirse orgullosos de quienes son y de donde vienen.",
+      "Con el tiempo, nos hemos convertido en una institucion K-8 que sigue profundamente conectada con sus valores fundacionales. Y ahora, con el lanzamiento de Legacy High School, continuamos ese camino. Legacy es mas que un nombre. Es un compromiso con el futuro. Brindara a los estudiantes la oportunidad de graduarse de una escuela que los conoce, los reta y los prepara para estar listos no solo para la universidad, sino tambien para servir a su comunidad.",
+      "A nuestros estudiantes: ustedes son la razon por la que hacemos este trabajo. A nuestras familias: gracias por su confianza y colaboracion. A nuestro personal, pasado y presente: gracias por su pasion y su proposito. Y a nuestros aliados: gracias por creer en un modelo educativo centrado en el amor, la responsabilidad y la justicia.",
+      "Juntos, estamos construyendo algo duradero.",
+      "Juntos, estamos creando un legado."
+    ],
+    "signoff": [
+      "El Equipo Fundador",
+      "Segue Institute for Learning"
+    ]
+  },
+  "segueBoard": {
+    "title": "Junta Directiva de Segue",
+    "readMore": "Leer mas",
+    "readLess": "Leer menos",
+    "emailButton": "Enviar correo a {{name}}"
+  },
+  "teachersAndStaff": {
+    "title": "Maestros y Personal",
+    "filterLabel": "Filtrar por departamento:",
+    "allDepartments": "Todos los departamentos",
+    "departments": {
+      "3-5 Teachers": "Maestros de 3-5",
+      "3-5 Teaching Fellows": "Asistentes docentes de 3-5",
+      "Academic Coaches": "Coaches academicos",
+      "After School Programming": "Programacion despues de clases",
+      "Counseling & Support": "Consejeria y apoyo",
+      "Deans & Behavior Support": "Decanos y apoyo conductual",
+      "District Support": "Apoyo del distrito",
+      "Executive Leadership": "Liderazgo ejecutivo",
+      "Facilities": "Instalaciones",
+      "Family Engagement": "Participacion familiar",
+      "Individual Needs / Special Ed.": "Necesidades individuales / Educacion especial",
+      "K-2 Teachers": "Maestros de K-2",
+      "K-2 Teaching Fellows": "Asistentes docentes de K-2",
+      "MAGNET Team": "Equipo MAGNET",
+      "Main Office": "Oficina principal",
+      "Middle School Teachers": "Maestros de escuela intermedia",
+      "Student Support": "Apoyo estudiantil",
+      "Technology": "Tecnologia"
+    }
+  }
+}

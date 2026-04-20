@@ -1,0 +1,168 @@
+{
+  "curriculumOverview": {
+    "title": "Curriculum Overview",
+    "body": "Our curriculum is designed to challenge, inspire, and support all learners. We focus on literacy, math, science, and social studies, while integrating critical thinking, problem-solving, and effective communication across all content areas."
+  },
+  "menus": {
+    "title": "Lunch Menus",
+    "imageAlt": "Segue K-8 lunch menu"
+  },
+  "schoolAnnouncements": {
+    "title": "School Announcements"
+  },
+  "studentLedActivities": {
+    "title": "Student Led Activities",
+    "intro": "Student voice is central to our culture. Whether it is leading a station in gym class, helping plan a spirit week, or presenting a project to the school community, Segue scholars are empowered to lead with confidence.",
+    "listIntro": "We provide structured opportunities for students to:",
+    "items": [
+      "Design and teach mini-lessons",
+      "Host exhibitions or clubs",
+      "Collaborate on school improvement ideas",
+      "Mentor younger scholars"
+    ],
+    "outro": "These moments build ownership and agency, key skills for high school, college, and beyond."
+  },
+  "afterSchoolEnrichment": {
+    "title": "After School Enrichment",
+    "intro": "Our afterschool programs expand learning through curiosity-driven, hands-on experiences. Sessions change seasonally and include partnerships with beloved local organizations such as:",
+    "sections": [
+      {
+        "heading": "Roger Williams Zoo",
+        "items": [
+          "K-1 students meet live animals and explore nature-based learning."
+        ]
+      },
+      {
+        "heading": "Farm Fresh RI",
+        "items": [
+          "3rd-4th graders learn healthy eating habits and cook with local produce."
+        ]
+      },
+      {
+        "heading": "Audubon Society",
+        "items": [
+          "Brings animals and outdoor games to 5th-6th graders, encouraging environmental education."
+        ]
+      },
+      {
+        "heading": "Cheer and Soccer Clinics",
+        "items": [
+          "Students practice leadership by teaching their classmates what they have learned.",
+          "Teamwork and communication",
+          "Confidence through movement",
+          "Goal-setting and leadership"
+        ]
+      }
+    ],
+    "outro": "Each session is designed to be educational, engaging, and confidence-building. Scholars are encouraged to try new things, challenge themselves, and build friendships along the way."
+  },
+  "afterSchoolPrograms": {
+    "title": "After School Programs",
+    "overviewTitle": "Program Overview",
+    "overviewItems": [
+      "Our afterschool program provides hands-on, engaging experiences that extend learning beyond the classroom."
+    ],
+    "sessionOneTitle": "Session One Highlights",
+    "sessionOneItems": [
+      "K-1st Grade: Partnered with Roger Williams Zoo to meet animals and integrate ELA/Math stations.",
+      "3rd-4th Grade: Explored healthy cooking with Farm Fresh Rhode Island.",
+      "5th-6th Grade: Learned about local wildlife through the Audubon Society; played scavenger hunts and outdoor games.",
+      "Enrichment Clinics: Cheer and Soccer students practiced new skills and taught them to classmates."
+    ],
+    "sessionTwoTitle": "Session Two Focus",
+    "sessionTwoItems": [
+      "Boxing Fundamentals with Mr. Powell focuses on strength, conditioning, and confidence.",
+      "Also reinforced through Falcon Fitness and Gym classes."
+    ],
+    "contactTitle": "Contact",
+    "contactName": "Mr. Kestler Rodriguez",
+    "contactRole": "Director of After School Programs",
+    "contactAriaLabel": "Email Mr. Kestler Rodriguez"
+  },
+  "fitnessAndWellnessPrograms": {
+    "title": "Fitness and Wellness Programs",
+
+    "paragraphs": [
+      {
+        "content": [
+          "Health and wellness are woven into the Segue experience. Our physical education program includes ",
+          { "bold": "Falcon Fitness" },
+          ", a program built around endurance, strength, and self-discipline. Students participate in activities that build stamina, flexibility, and focus, guided by dedicated coaches and instructors."
+        ]
+      },
+      {
+        "content": [
+          "Our ",
+          { "bold": "Boxing Fundamentals" },
+          " class, for example, introduces upper-grade students to skills such as footwork, coordination, and mental toughness—lessons that carry over into the classroom and life beyond school."
+        ]
+      },
+      {
+        "content": [
+          "Wellness also includes emotional balance. We encourage self-care, mindfulness breaks, and a culture of kindness that supports the whole child."
+        ]
+      }
+    ]
+  },
+  "libraryExpectations": {
+    "title": "Library Expectations",
+    "sections": [
+      {
+        "title": "Treat furniture, books, and library materials with care.",
+        "items": [
+          "SIT on chairs, stools, and benches. Do not stand, lay, or jump on any furniture.",
+          "Be GENTLE with books. They are fragile.",
+          "Do NOT write, draw, or mark any furniture in the library."
+        ]
+      },
+      {
+        "title": "If you take a book off the shelf, return it to the BOOK DROP located at the circulation desk.",
+        "items": [
+          "NEVER put a book back on the shelf. This disrupts the organization of the library and may mean you cannot find the book again."
+        ]
+      },
+      {
+        "title": "NO food or drinks are allowed in the library.",
+        "items": [
+          "Water is OK in closed containers."
+        ]
+      },
+      {
+        "title": "Use only a quiet voice and have a calm body while in the library.",
+        "items": [
+          "Whispers ONLY",
+          "Do NOT jump or stand on furniture",
+          "Walking feet"
+        ]
+      },
+      {
+        "title": "Stay in scholar spaces",
+        "items": [
+          "Scholars can read, work, or relax at the maker tables in the center of the room, or on either side of the circulation desk by the bookshelves.",
+          "Scholars are NOT allowed in the staff area, staff bathroom, or behind the circulation desk."
+        ]
+      }
+    ]
+  },
+  "uniformPolicy": {
+    "title": "Uniform Policy",
+    "formalTitle": "Formal Uniform (Non-Gym Days)",
+    "formalItems": [
+      "Maroon Segue polo (short or long sleeve)",
+      "Black or khaki pants, shorts, or skirt",
+      "Sneakers (any color)",
+      "Leggings may be worn under skirts and shorts",
+      "Long-sleeve undershirts may be worn under polos in colder months"
+    ],
+    "notAllowedLabel": "Not allowed:",
+    "notAllowedText": "jeans, hoodies, hats, Uggs, Crocs, open-toed shoes, sandals, slippers, heels, moccasins",
+    "peTitle": "PE Uniform (Gym Days)",
+    "peItems": [
+      "Grey or maroon Segue T-shirt",
+      "Maroon Segue-issued sweatpants and sweatshirt",
+      "Sneakers (any color)",
+      "Same prohibited items as formal uniform",
+      "Layering encouraged during colder months"
+    ]
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "languageSwitcher": {
+    "label": "Language",
+    "ariaLabel": "Select language",
+    "languages": {
+      "en": "English",
+      "es": "Español"
+    }
+  },
+  "nav": {
+    "menuToggle": "Menu",
+    "home": "Home",
+    "about": {
+      "label": "About Us",
+      "items": {
+        "districtMission": "District Mission",
+        "seguePledge": "The Segue Pledge",
+        "foundersMessage": "Founders' Message",
+        "segueBoard": "Segue Board",
+        "teachersAndStaff": "Teachers & Staff",
+        "communityPartners": "Community Partners"
+      }
+    },
+    "academics": {
+      "label": "Academics",
+      "items": {
+        "calendar2526": "2025-2026 Calendar",
+        "rideResults": "RIDE Standardized Test Results",
+        "powerSchool": "Power School Login"
+      }
+    },
+    "familyResources": {
+      "label": "Family Resources",
+      "items": {
+        "transportation": "Transportation",
+        "schoolPoliciesAndSafety": "School Policies and Safety",
+        "parentAndStudentHandbook": "Parent & Student Handbook",
+        "familyEngagementCommittee": "F.E.C (Family Engagement Committee)",
+        "mcKinneyVentoAct": "McKinney Vento A.C.T",
+        "foodPantry": "Food Pantry",
+        "photoGallery": "Photo Gallery"
+      }
+    },
+    "enroll": {
+      "label": "Enroll",
+      "items": {
+        "howToEnroll": "How to Enroll",
+        "eligibility": "Eligibility",
+        "formsAndDeadlines": "Forms & Deadlines",
+        "admissionsAndLottery": "Admissions and Lottery",
+        "enrollmentPolicies": "Enrollment Policies"
+      }
+    },
+    "newsAndEvents": {
+      "label": "News and Events",
+      "items": {
+        "eventsCalendar": "Event Calendar",
+        "newsArticles": "News Articles"
+      }
+    },
+    "segueK8": {
+      "label": "Segue K-8",
+      "items": {
+        "curriculumOverview": "Curriculum Overview",
+        "menus": "Lunch Menus",
+        "uniformPolicy": "Uniform Policy",
+        "schoolAnnouncements": "School Announcements",
+        "afterSchoolPrograms": "After School Programs",
+        "afterSchoolEnrichment": "After School Enrichment",
+        "fitnessAndWellnessPrograms": "Fitness & Wellness Programs",
+        "studentLedActivities": "Student-Led Activities",
+        "libraryExpectations": "Library Expectations"
+      }
+    },
+    "legacyHighSchool": {
+      "label": "Legacy High School",
+      "items": {
+        "constructionProgress": "Legacy Construction Progress",
+        "curriculumOverview": "Curriculum Overview",
+        "menus": "Lunch Menus",
+        "uniformPolicy": "Uniform Policy",
+        "schoolAnnouncements": "School Announcements",
+        "afterSchoolPrograms": "After School Programs",
+        "afterSchoolEnrichment": "After School Enrichment",
+        "fitnessAndWellnessPrograms": "Fitness & Wellness Programs",
+        "studentLedActivities": "Student-Led Activities",
+        "libraryExpectations": "Library Expectations"
+      }
+    }
+  },
+  "footer": {
+    "contactTitle": "Contact Us",
+    "schoolName": "Segue Institute for Learning",
+    "addressLabel": "Address",
+    "addressValue": "325 Cowden Street, Central Falls, RI 02863",
+    "phoneLabel": "Phone",
+    "faxLabel": "Fax",
+    "websiteLabel": "Website",
+    "websiteValue": "www.segueifl.org",
+    "emailLabel": "Email",
+    "socialLabel": "Follow us on social media:",
+    "copyright": "© {{year}} Segue Institute for Learning. All rights reserved.",
+    "logoAlt": {
+      "segue": "Segue Institute for Learning logo",
+      "legacy": "Legacy High School logo",
+      "facebook": "Facebook icon"
+    }
+  }
+}

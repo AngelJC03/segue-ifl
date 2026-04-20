@@ -2,18 +2,18 @@
 import './CurriculumOverviewBody.css';
 import FadeIn from '../../../fadeinsection/FadeIn'
 import CenteredLogo from '../../../CenteredLogo';
+import { useTranslation } from '../../../../hooks/useTranslation';
 
 function CurriculumOverviewBody() {
+    const { t } = useTranslation('segueK8');
+
     return (
             <div className="curriculum-overview-container">
                 <div className="curriculum-overview-page-title">
-                    <h1> Curriculum Overview </h1>
+                    <h1>{t('curriculumOverview.title')}</h1>
                 </div>
                 <FadeIn>
-                    <p className="curriculum-overview-content">
-                        Our curriculum is designed to challenge, inspire, and support all learners. We focus on literacy, math, science, and social
-studies, while integrating critical thinking, problem-solving, and effective communication across all content areas.
-                    </p>
+                    <p className="curriculum-overview-content">{t('curriculumOverview.body')}</p>
                     <CenteredLogo />
                 </FadeIn>
             </div>
