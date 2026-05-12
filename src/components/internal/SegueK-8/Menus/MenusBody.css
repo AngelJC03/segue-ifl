@@ -39,13 +39,11 @@
     margin: 10px auto;
 }
 
-.school-lunch-content p {
-    width: 80%;
+.school-lunch-content p, .school-lunch-content h1 {
+    width: 100%;
     margin: 10px auto;
-    font-size: 1.6rem;
     text-align: left;
 }
-
 
 @media (max-width: 1400px) {
     .school-lunch-content {

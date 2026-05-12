@@ -5,7 +5,10 @@
   },
   "menus": {
     "title": "Menus de Almuerzo",
-    "imageAlt": "Menu de almuerzo de Segue K-8"
+    "breakfastTitle": "Menu de Desayuno",
+    "breakfastAlt": "Menu de desayuno de Segue K-8",
+    "lunchTitle": "Menu de Almuerzo",
+    "lunchAlt": "Menu de almuerzo de Segue K-8"
   },
   "schoolAnnouncements": {
     "title": "Anuncios Escolares"
