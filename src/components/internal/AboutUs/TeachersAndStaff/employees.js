@@ -127,7 +127,7 @@ export const rawEmployees = [
     "department": "After School Programming"
   },
   {
-    "name": "Mrs. Celeste De La Rocha",
+    "name": "Mrs. Celeste de la Roca",
     "title": "Office Support Staff",
     "department": "Main Office"
   },
@@ -157,7 +157,7 @@ export const rawEmployees = [
     "department": "K-2 Teachers"
   },
   {
-    "name": "Ms. Jillian Whiteside",
+    "name": "Mrs. Kaholanis Amadis",
     "title": "2 Teacher",
     "department": "K-2 Teachers"
   },
@@ -167,7 +167,7 @@ export const rawEmployees = [
     "department": "K-2 Teachers"
   },
   {
-    "name": "Ms. Kelsy Barrios",
+    "name": "Ms. Kelssy Barrios",
     "title": "K Fellow",
     "department": "K-2 Teaching Fellows"
   },
@@ -227,7 +227,7 @@ export const rawEmployees = [
     "department": "3-5 Teaching Fellows"
   },
   {
-    "name": "Mr. Angel Colon",
+    "name": "Mr. Bruce Crespo",
     "title": "1:1 Support",
     "department": "3-5 Teaching Fellows"
   },
@@ -267,7 +267,7 @@ export const rawEmployees = [
     "department": "Middle School Teachers"
   },
   {
-    "name": "Ms. Kaitlyn Salinas",
+    "name": "Mr. Jason Sitt",
     "title": "Science",
     "department": "Middle School Teachers"
   },
@@ -282,7 +282,7 @@ export const rawEmployees = [
     "department": "Middle School Teachers"
   },
   {
-    "name": "Ms. Valerie Biascochea",
+    "name": "Ms. Valerine Biascochea",
     "title": "K-5 Fitness",
     "department": "MAGNET Team"
   },
@@ -337,7 +337,7 @@ export const rawEmployees = [
     "department": "Individual Needs / Special Ed."
   },
   {
-    "name": "Ms. Samantha Hilley",
+    "name": "Ms. Samantha Hillery",
     "title": "6-8 Special Educator",
     "department": "Individual Needs / Special Ed."
   },
@@ -379,11 +379,6 @@ export const rawEmployees = [
   {
     "name": "Ms. Luisa Vasquez",
     "title": "School Social Worker",
-    "department": "Counseling & Support"
-  },
-  {
-    "name": "Ms. Angie Garcia",
-    "title": "SBMH Grant Coordinator",
     "department": "Counseling & Support"
   },
   {
