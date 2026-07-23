@@ -27,14 +27,13 @@
 
 .home-news-entry {
     width: 100%;
-    height: 300px;
-    padding: 20px;                 /* some space inside */
+    min-height: 220px;
+    padding: 14px;
     box-sizing: border-box;        /* so padding doesn't add to height */
     display: flex;                 /* place children side by side */
-    gap: 20px;                    /* space between image and text */
+    gap: 16px;                    /* space between image and text */
     align-items: center;       /* align top */
-    padding: 1rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 0.75rem;
     transition: transform 0.2s ease;
 }
 
@@ -67,6 +66,9 @@
     .home-news-entry {
         flex-direction: column; /* Stack image and text vertically */
         height: auto;
+        min-height: 0;
+        padding: 12px;
+        margin-bottom: 0.5rem;
         align-items: center;    /* Center align for smaller screens */
     }
 }

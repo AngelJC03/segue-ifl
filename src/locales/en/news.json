@@ -4,7 +4,10 @@
     "facebookFeed": "Facebook Feed",
     "loadingPosts": "Loading posts...",
     "pageName": "Segue Institute for Learning",
-    "postImageAlt": "Facebook post image"
+    "postImageAlt": "Facebook post image",
+    "facebookCtaHeading": "Follow Us on Facebook",
+    "facebookCtaText": "Stay updated with Segue news, events, student highlights, and community announcements.",
+    "facebookCtaButton": "Visit Our Facebook Page"
   },
   "newsArticles": {
     "title": "News Articles",
