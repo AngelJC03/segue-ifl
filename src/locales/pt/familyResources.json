@@ -1,0 +1,96 @@
+{
+  "familyEngagementCommittee": {
+    "title": "Comitê de Envolvimento Familiar",
+    "description": "O Comitê de Envolvimento Familiar (FEC) é um grupo de pais, responsáveis e familiares dedicados que trabalham em colaboração para apoiar e fortalecer a experiência educacional dos nossos estudantes. O FEC funciona como uma ponte entre as famílias e a comunidade escolar, promovendo comunicação aberta, colaboração e engajamento.",
+    "contactTitle": "Informações de Contato",
+    "emailLink": "E-mail",
+    "flyerAlt": "Folheto do Comitê de Envolvimento Familiar",
+    "contacts": [
+      {
+        "name": "Nadya Sanches",
+        "role": "Coordenadora do Distrito",
+        "email": "Nadya.Sanches@segueifl.org"
+      },
+      {
+        "name": "Monica Cortes",
+        "role": "Coordenadora da Davis REACH Academy",
+        "email": "Monica.Cortes@segueifl.org"
+      },
+      {
+        "name": "Cheryl Luciano",
+        "role": "Coordenadora da Legacy",
+        "email": "Cheryl.Luciano@segueifl.org"
+      },
+      {
+        "name": "Maria Porras",
+        "role": "Coordenadora da Despensa de Alimentos",
+        "email": "Maria.Porras@segueifl.org"
+      }
+    ]
+  },
+  "foodPantry": {
+    "title": "Despensa de Alimentos da Davis REACH Academy",
+    "heroAlt": "Despensa de alimentos",
+    "galleryAlt": "Despensa de alimentos {{index}}",
+    "description": "A Despensa de Alimentos da Davis REACH Academy fornece refeições nutritivas e suprimentos essenciais para estudantes e famílias que precisam de apoio. Nosso objetivo é garantir que todos em nossa comunidade tenham acesso a alimentos saudáveis, promovendo um ambiente acolhedor e solidário. Seja para refeições diárias ou apoio ocasional, nossa despensa está aqui para ajudar a nutrir corpo e mente."
+  },
+  "parentAndStudentHandbook": {
+    "title": "Manual de Pais e Estudantes",
+    "description": "O Manual de Pais e Estudantes oferece informações importantes sobre políticas escolares, expectativas, diretrizes acadêmicas e conduta estudantil. Incentivamos todas as famílias a revisar o manual com atenção.",
+    "englishLink": "Manual de Pais e Estudantes (Inglês)",
+    "spanishLink": "Manual de Pais e Estudantes (Espanhol)"
+  },
+  "photoGallery": {
+    "title": "Galeria de Fotos",
+    "selectFolder": "Selecione uma pasta",
+    "showMore": "Mostrar Mais",
+    "imageAlt": "Imagem da galeria {{index}}",
+    "loadingMessage": "Aguarde, as imagens estão carregando..."
+  },
+  "transportation": {
+    "title": "Transporte"
+  },
+  "schoolPoliciesAndSafety": {
+    "title": "Políticas Escolares e Segurança",
+    "safeEnvironment": {
+      "title": "Criando um Ambiente Seguro e Acolhedor",
+      "p1": "Segurança e estrutura são essenciais para o sucesso dos estudantes. A Davis REACH Academy aplica políticas claras e consistentes, criadas para apoiar um ambiente de aprendizagem calmo e respeitoso. Das rotinas diárias às expectativas de comportamento, nosso objetivo é criar um espaço onde cada estudante se sinta seguro, valorizado e apoiado.",
+      "p2": "A equipe é treinada em práticas informadas por trauma, técnicas de redução de conflitos e protocolos de emergência. Todos os visitantes são verificados ao entrar, e a equipe permanece visível e acessível ao longo do dia. Nossos estudantes sabem o que se espera deles e prosperam com essa clareza."
+    },
+    "admissions": {
+      "title": "Política Geral de Admissões",
+      "p1": "A Davis REACH Academy é uma escola charter pública gratuita que atende estudantes de Central Falls nos anos K-8. Damos as boas-vindas a todos os estudantes elegíveis, independentemente de desempenho acadêmico, testes ou histórico.",
+      "p2": "A admissão é aberta a estudantes com idade/série apropriada que residam em Central Falls no momento da inscrição. Inscrições de fora de Central Falls são consideradas inválidas para fins de sorteio."
+    },
+    "eo": {
+      "title": "Declaração de Igualdade de Oportunidades",
+      "p1": "A Davis REACH Academy tem o compromisso de manter um ambiente de trabalho e aprendizagem livre de discriminação com base em raça, cor, religião, origem nacional, identidade de gênero, orientação sexual, deficiência e outras categorias protegidas.",
+      "p2": "Proibimos estritamente retaliação contra pessoas que denunciem discriminação ou participem de investigações relacionadas.",
+      "complaintTitle": "Para registrar uma reclamação de discriminação, entre em contato com:",
+      "complaintLine1": "USDA, Director, Office of Civil Rights",
+      "complaintLine2": "1400 Independence Avenue SW, Washington, DC 20250-9410",
+      "phone": "Telefone: (800) 795-3272 (voz) | (202) 720-6382 (TDD)"
+    }
+  },
+  "mcKinneyVentoAct": {
+    "title": "McKinney Vento ACT",
+    "schoolName": "Davis REACH Academy",
+    "policyCode": "8.c. Educação de Crianças em Situação de Sem-Teto",
+    "policyTitle": "Política da Lei McKinney Vento",
+    "sectionTitle": "Educação de Crianças em Situação de Sem-Teto",
+    "introP1": "A Davis REACH Academy tem o compromisso de garantir que crianças e jovens em situação de sem-teto tenham acesso igual à educação pública gratuita e apropriada, assim como os demais estudantes que frequentam a Davis REACH Academy. A Davis REACH Academy cumprirá esse compromisso de acordo com as disposições da Lei Federal McKinney Vento de Educação para Pessoas em Situação de Sem-Teto. As políticas da Davis REACH Academy devem buscar eliminar barreiras ao sucesso escolar de crianças e jovens em situação de sem-teto.",
+    "introP2": "\"Crianças e Jovens em Situação de Sem-Teto\" são definidos como estudantes que não têm residência noturna fixa, regular e adequada, ou que têm como residência noturna principal um abrigo supervisionado, público ou privado, para acomodações temporárias (incluindo hotéis de assistência social, abrigos coletivos e moradias transitórias para pessoas com doença mental), uma instituição que oferece residência temporária para pessoas destinadas à institucionalização, ou um local público ou privado não destinado nem normalmente usado como acomodação regular para dormir por seres humanos. A definição de Crianças e Jovens em Situação de Sem-Teto inclui:",
+    "list": [
+      "Crianças e jovens que dividem moradia com outras pessoas devido à perda de moradia, dificuldade econômica ou motivo semelhante; vivem em motéis, hotéis, parques de trailers ou áreas de camping por falta de acomodações alternativas adequadas; vivem em abrigos de emergência ou transitórios; foram abandonados em hospitais; ou aguardam colocação em lar adotivo;",
+      "Crianças e jovens cuja residência noturna principal é um local público ou privado não projetado ou normalmente usado como acomodação regular para dormir por seres humanos;",
+      "Crianças e jovens que vivem em carros, parques, espaços públicos, prédios abandonados, moradias inadequadas, estações de ônibus ou trem, ou ambientes semelhantes;",
+      "Jovens desacompanhados - jovens que não estão sob custódia física de um pai, mãe ou responsável; jovens em situação de sem-teto; e jovens que não estão sob custódia de uma agência estadual."
+    ],
+    "definition": "Uma residência fixa é estacionária, permanente e não sujeita a mudança. Uma residência regular é usada de forma regular (ou seja, todas as noites). Uma residência adequada é suficiente para atender às necessidades físicas e psicológicas normalmente atendidas em um lar.",
+    "sectionA": "A. Matrícula de Crianças e Jovens em Situação de Sem-Teto",
+    "enrollmentP1": "A Davis REACH Academy deve se esforçar para informar crianças e jovens em situação de sem-teto sobre seus direitos educacionais, matriculá-los na escola e coordenar os serviços necessários para garantir seu sucesso. Crianças e jovens em situação de sem-teto podem se matricular por conta própria ou ser matriculados por um pai, mãe, cuidador que não seja responsável legal, irmão mais velho, assistente social ou representante designado. A Davis REACH Academy admitirá qualquer estudante em situação de sem-teto que se matricule na Davis REACH Academy da mesma forma que admitiria qualquer outro estudante, mesmo que ele não tenha os documentos normalmente exigidos para matrícula, como histórico escolar, registros médicos ou comprovante de residência. Se uma criança ou jovem em situação de sem-teto chegar sem registros, a Davis REACH Academy deve ajudar a família, pai, mãe ou responsável e entrar em contato com o sistema escolar frequentado anteriormente para obter os registros necessários.",
+    "enrollmentP2": "Matrícula significa que a criança ou jovem em situação de sem-teto frequenta as aulas e participa plenamente das atividades escolares, aulas, oportunidades educacionais, refeições, eventos sociais e esportivos, clubes, equipes e outros serviços. Além disso, a Davis REACH Academy, junto com o distrito de residência temporária do estudante em situação de sem-teto, fornecerá transporte para todas as crianças e jovens em situação de sem-teto de ida e volta da escola. A Davis REACH Academy deve garantir que todas as crianças e jovens em situação de sem-teto possam participar de programas federais, estaduais ou locais de alimentação o mais rápido possível. O fato de uma criança ou jovem em situação de sem-teto ter um Plano de Educação Individualizado (IEP) não pode ser usado para atrasar sua matrícula ou frequência, e esse IEP deve ser implementado prontamente.",
+    "enrollmentP3": "Um estudante em situação de sem-teto tem o direito, enquanto for de seu melhor interesse, de permanecer matriculado em sua escola de origem até obter moradia permanente em outro lugar. Os pais de uma criança em situação de sem-teto podem decidir, sujeito à contestação da Davis REACH Academy, se é do melhor interesse do estudante frequentar a escola na cidade onde vive atualmente ou frequentar sua escola de origem.",
+    "enrollmentP4": "Se uma criança ou jovem precisar obter vacinas, registros de vacinação ou registros médicos, a escola de matrícula deve encaminhar imediatamente o pai, mãe ou responsável ao representante local para estudantes em situação de sem-teto do distrito, que deve ajudar a obter as vacinas ou registros."
+  }
+}

@@ -13,7 +13,7 @@ export const rawEmployees = [
   },
   {
     "name": "Mr. Kevin Montoya",
-    "title": "K-8 Principal",
+    "title": "Davis REACH Academy Principal",
     "department": "Executive Leadership"
   },
   {
@@ -68,7 +68,7 @@ export const rawEmployees = [
   },
   {
     "name": "Mr. Miguel Caldero",
-    "title": "Custodian - Segue",
+    "title": "Custodian - Davis REACH Academy",
     "department": "Facilities"
   },
   {
@@ -98,7 +98,7 @@ export const rawEmployees = [
   },
   {
     "name": "Mr. Matthew Moreno",
-    "title": "IT Support - Segue",
+    "title": "IT Support - Davis REACH Academy",
     "department": "Technology"
   },
   {

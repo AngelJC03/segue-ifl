@@ -1,0 +1,90 @@
+{
+  "communityPartners": {
+    "title": "Parcerias Comunitárias",
+    "description": "A Davis REACH Academy faz parceria com faculdades locais, organizações sem fins lucrativos e empresas para oferecer estágios, mentorias e programas de enriquecimento. Nossos parceiros incluem:",
+    "partners": [
+      "Rhode Island Community Food Bank",
+      "City of Central Falls",
+      "Central Falls School District",
+      "Rhode Island League of Charter Schools",
+      "Sojourner House"
+    ]
+  },
+  "districtMission": {
+    "title": "Missão do Distrito",
+    "imageAlt": "Missão do distrito",
+    "paragraphs": [
+      "A missão da Davis REACH Academy é promover uma comunidade em que os estudantes assumam a responsabilidade por sua educação. Os estudantes recebem uma experiência acadêmica rigorosa que os prepara para ter sucesso no ensino médio e, futuramente, no ambiente universitário de sua escolha.",
+      "Na Davis REACH Academy, acreditamos que todos os nossos estudantes são PROMESSAS, em vez de serem rotulados como Em Risco. A Davis REACH Academy é um ambiente seguro e acolhedor que promove a diversidade, incentiva o crescimento individual e permite que os estudantes se vejam como cidadãos de mudança em suas casas e comunidade."
+    ]
+  },
+  "seguePledge": {
+    "pageTitle": "Compromisso da Davis REACH Academy",
+    "title": "O Compromisso da Davis REACH Academy",
+    "logoAlt": "Logotipo da Davis REACH Academy",
+    "lines": [
+      "Sou estudante da Davis REACH Academy.",
+      "Todos os dias trabalharei para ser o melhor que posso ser.",
+      "Mostrarei respeito a todos os estudantes e adultos da minha comunidade.",
+      "Demonstrarei entusiasmo pela escola e me esforçarei para dar o meu melhor.",
+      "Trabalharei para alcançar os Padrões da Davis REACH Academy.",
+      "Serei exemplo de cidadania verdadeira e tentarei fazer a diferença.",
+      "Vou me dedicar com esforço para alcançar meus objetivos.",
+      "Este é o meu compromisso.",
+      "Sou estudante da Davis REACH Academy."
+    ]
+  },
+  "foundersMessagePage": {
+    "pageTitle": "Uma Mensagem dos Fundadores",
+    "topImageAlt": "Fundadores",
+    "middleImageAlt": "Estudante aprendendo violino",
+    "bottomImageAlt": "Sala de aula",
+    "intro": "Angelo Garcia e a Dra. Melissa Lourenco cofundaram a Davis REACH Academy em Central Falls, Rhode Island, com um compromisso compartilhado com a equidade e a educação guiada pela comunidade. Desde sua abertura em 2009, a Davis REACH Academy oferece aos estudantes de K-8 serviços integrados, oportunidades de engajamento cívico e ensino culturalmente responsivo. Em 2024, sua missão se expandiu com o lançamento da Legacy High School, criada para preparar estudantes para carreiras na educação. Profundamente enraizados em Central Falls, o Sr. Garcia e a Dra. Lourenco acreditam que todo estudante merece ser visto, ouvido e fortalecido, não apenas ensinado.",
+    "sectionTitle": "Da Nossa Equipe Fundadora",
+    "paragraphs": [
+      "Quando a Davis REACH Academy abriu suas portas em 2009, não foi apenas o lançamento de uma nova escola charter. Foi o início de uma promessa à nossa comunidade. Uma promessa de que cada criança em Central Falls, independentemente de sua origem, teria a oportunidade de aprender, liderar e prosperar em um ambiente que reconhece e respeita todo o seu potencial.",
+      "Como equipe fundadora, muitos de nós nascemos, crescemos e estudamos nesta cidade. Caminhamos pelas mesmas ruas que nossos estudantes. Testemunhamos tanto os desafios quanto a força extraordinária de nossos bairros. A Davis REACH Academy foi construída a partir dessa experiência compartilhada e da crença de que as escolas não devem apenas ensinar estudantes, mas também elevar famílias e transformar comunidades.",
+      "Desde o início, rejeitamos o termo em risco. Sabíamos que nossas crianças são promessas, cheias de talento, poder e possibilidade. Essa crença é o coração de tudo o que fazemos.",
+      "Nos propusemos a criar uma escola academicamente rigorosa, sim, mas também alegre, culturalmente afirmativa e liderada pelos estudantes. Um lugar onde as crianças se sintam vistas. Um lugar onde altas expectativas caminham junto com forte apoio. Um lugar onde os estudantes aprendem não apenas a ter sucesso em provas, mas a ter sucesso na vida, pensar criticamente, defender a si mesmos e aos outros, e ter orgulho de quem são e de onde vêm.",
+      "Com o tempo, crescemos como uma instituição K-8 que permanece profundamente conectada aos seus valores fundadores. E agora, com o lançamento da Legacy High School, continuamos essa jornada. Legacy é mais do que um nome. É um compromisso com o futuro. Ela dará aos estudantes a oportunidade de se formar em uma escola que os conhece, os desafia e os prepara para estar prontos não apenas para a faculdade, mas também para a comunidade.",
+      "Aos nossos estudantes: vocês são a razão deste trabalho. Às nossas famílias: obrigado pela confiança e parceria. À nossa equipe, passada e presente: obrigado por sua paixão e propósito. E aos nossos apoiadores: obrigado por acreditarem em um modelo de educação centrado em amor, responsabilidade e justiça.",
+      "Juntos, estamos construindo algo duradouro.",
+      "Juntos, estamos criando um legado."
+    ],
+    "signoff": [
+      "A Equipe Fundadora",
+      "Davis REACH Academy"
+    ]
+  },
+  "segueBoard": {
+    "title": "Conselho de Diretores da Davis REACH Academy",
+    "readMore": "Ler mais",
+    "readLess": "Ler menos",
+    "emailButton": "Enviar e-mail para {{name}}"
+  },
+  "teachersAndStaff": {
+    "title": "Professores e Equipe",
+    "filterLabel": "Filtrar por Departamento:",
+    "allDepartments": "Todos os Departamentos",
+    "departments": {
+      "3-5 Teachers": "Professores do 3º ao 5º ano",
+      "3-5 Teaching Fellows": "Teaching Fellows do 3º ao 5º ano",
+      "Academic Coaches": "Coaches Acadêmicos",
+      "After School Programming": "Programação Após as Aulas",
+      "Counseling & Support": "Aconselhamento e Apoio",
+      "Deans & Behavior Support": "Decanos e Apoio Comportamental",
+      "District Support": "Apoio do Distrito",
+      "Executive Leadership": "Liderança Executiva",
+      "Facilities": "Instalações",
+      "Family Engagement": "Envolvimento Familiar",
+      "Individual Needs / Special Ed.": "Necessidades Individuais / Educação Especial",
+      "K-2 Teachers": "Professores do K ao 2º ano",
+      "K-2 Teaching Fellows": "Teaching Fellows do K ao 2º ano",
+      "MAGNET Team": "Equipe MAGNET",
+      "Main Office": "Secretaria Principal",
+      "Middle School Teachers": "Professores do Ensino Fundamental II",
+      "Student Support": "Apoio ao Estudante",
+      "Technology": "Tecnologia"
+    }
+  }
+}

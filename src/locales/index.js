@@ -16,6 +16,15 @@ import esHome from './es/home.json';
 import esLegacy from './es/legacy.json';
 import esNews from './es/news.json';
 import esSegueK8 from './es/segueK8.json';
+import ptAbout from './pt/about.json';
+import ptAcademics from './pt/academics.json';
+import ptCommon from './pt/common.json';
+import ptFamilyResources from './pt/familyResources.json';
+import ptEnroll from './pt/enroll.json';
+import ptHome from './pt/home.json';
+import ptLegacy from './pt/legacy.json';
+import ptNews from './pt/news.json';
+import ptSegueK8 from './pt/segueK8.json';
 
 const locales = {
   en: {
@@ -39,6 +48,17 @@ const locales = {
     news: esNews,
     segueK8: esSegueK8,
     legacy: esLegacy,
+  },
+  pt: {
+    common: ptCommon,
+    familyResources: ptFamilyResources,
+    enroll: ptEnroll,
+    home: ptHome,
+    about: ptAbout,
+    academics: ptAcademics,
+    news: ptNews,
+    segueK8: ptSegueK8,
+    legacy: ptLegacy,
   },
 };
 

@@ -1,0 +1,111 @@
+{
+  "languageSwitcher": {
+    "label": "Idioma",
+    "ariaLabel": "Selecionar idioma",
+    "languages": {
+      "en": "English",
+      "es": "Español",
+      "pt": "Português"
+    }
+  },
+  "nav": {
+    "menuToggle": "Menu",
+    "home": "Início",
+    "about": {
+      "label": "Sobre Nós",
+      "items": {
+        "districtMission": "Missão do Distrito",
+        "seguePledge": "Compromisso da Davis REACH Academy",
+        "foundersMessage": "Mensagem dos Fundadores",
+        "segueBoard": "Conselho da Davis REACH Academy",
+        "teachersAndStaff": "Professores e Equipe",
+        "communityPartners": "Parceiros Comunitários"
+      }
+    },
+    "academics": {
+      "label": "Acadêmico",
+      "items": {
+        "calendar2526": "Calendário 2025-2026",
+        "rideResults": "Resultados dos Testes Padronizados da RIDE",
+        "powerSchool": "Login do Power School"
+      }
+    },
+    "familyResources": {
+      "label": "Recursos para Famílias",
+      "items": {
+        "transportation": "Transporte",
+        "schoolPoliciesAndSafety": "Políticas Escolares e Segurança",
+        "parentAndStudentHandbook": "Manual de Pais e Estudantes",
+        "familyEngagementCommittee": "F.E.C (Comitê de Envolvimento Familiar)",
+        "mcKinneyVentoAct": "McKinney Vento A.C.T",
+        "foodPantry": "Despensa de Alimentos",
+        "photoGallery": "Galeria de Fotos"
+      }
+    },
+    "enroll": {
+      "label": "Matrícula",
+      "items": {
+        "howToEnroll": "Como se Matricular",
+        "eligibility": "Elegibilidade",
+        "formsAndDeadlines": "Formulários e Prazos",
+        "admissionsAndLottery": "Admissões e Sorteio",
+        "enrollmentPolicies": "Políticas de Matrícula"
+      }
+    },
+    "newsAndEvents": {
+      "label": "Notícias e Eventos",
+      "items": {
+        "eventsCalendar": "Calendário de Eventos",
+        "newsArticles": "Artigos de Notícias"
+      }
+    },
+    "segueK8": {
+      "label": "Davis REACH Academy",
+      "items": {
+        "curriculumOverview": "Visão Geral do Currículo",
+        "menus": "Cardápios de Almoço",
+        "uniformPolicy": "Política de Uniforme",
+        "schoolAnnouncements": "Comunicados da Escola",
+        "afterSchoolPrograms": "Programas Após as Aulas",
+        "afterSchoolEnrichment": "Enriquecimento Após as Aulas",
+        "fitnessAndWellnessPrograms": "Programas de Atividade Física e Bem-Estar",
+        "studentLedActivities": "Atividades Lideradas por Estudantes",
+        "libraryExpectations": "Expectativas da Biblioteca"
+      }
+    },
+    "legacyHighSchool": {
+      "label": "Legacy High School",
+      "items": {
+        "constructionProgress": "Progresso da Construção da Legacy",
+        "curriculumOverview": "Visão Geral do Currículo",
+        "menus": "Cardápios de Almoço",
+        "uniformPolicy": "Política de Uniforme",
+        "schoolAnnouncements": "Comunicados da Escola",
+        "afterSchoolPrograms": "Programas Após as Aulas",
+        "afterSchoolEnrichment": "Enriquecimento Após as Aulas",
+        "fitnessAndWellnessPrograms": "Programas de Atividade Física e Bem-Estar",
+        "studentLedActivities": "Atividades Lideradas por Estudantes",
+        "libraryExpectations": "Expectativas da Biblioteca"
+      }
+    }
+  },
+  "footer": {
+    "contactTitle": "Entre em Contato",
+    "schoolName": "Davis REACH Academy",
+    "addressLabel": "Endereço",
+    "addressValue": "325 Cowden Street, Central Falls, RI 02863",
+    "phoneLabel": "Telefone",
+    "faxLabel": "Fax",
+    "websiteLabel": "Site",
+    "websiteValue": "Davis REACH Academy website",
+    "emailLabel": "E-mail",
+    "emailValue": "Entre em contato por e-mail",
+    "socialLabel": "Siga-nos nas redes sociais:",
+    "copyright": "© {{year}} Davis REACH Academy. Todos os direitos reservados.",
+    "logoAlt": {
+      "segue": "Logotipo da Davis REACH Academy",
+      "legacy": "Logotipo da Legacy High School",
+      "facebook": "Ícone do Facebook"
+    }
+  }
+}

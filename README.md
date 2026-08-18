@@ -1,14 +1,14 @@
-# Segue IFL
+# Davis REACH Academy
 
-Welcome to the official repository for the **Segue Institute for Learning (IFL)** website. This React-based web application showcases Segue's mission, leadership, and community-driven impact. It serves as a central hub for students, families, board members, and partners to stay informed and connected.
+Welcome to the official repository for the **Davis REACH Academy** website. This React-based web application showcases Davis REACH Academy's mission, leadership, and community-driven impact. It serves as a central hub for students, families, board members, and partners to stay informed and connected.
 
 ## 🌐 Live Site
 
 **TBD** – Deployment in progress.
 
-## 📌 About Segue IFL
+## 📌 About Davis REACH Academy
 
-Segue IFL is a charter school dedicated to educational equity, innovation, and opportunity for all learners. The site includes:
+Davis REACH Academy is a charter school dedicated to educational equity, innovation, and opportunity for all learners. The site includes:
 
 - Board of Directors bios  
 - School programs and mission  

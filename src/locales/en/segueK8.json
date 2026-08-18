@@ -5,18 +5,18 @@
   },
   "menus": {
     "title": "Lunch Menus",
-    "imageAlt": "Segue K-8 lunch menu",
+    "imageAlt": "Davis REACH Academy lunch menu",
     "breakfastTitle": "Breakfast Menu",
-    "breakfastAlt": "Breakfast menu for Segue K-8",
+    "breakfastAlt": "Breakfast menu for Davis REACH Academy",
     "lunchTitle": "Lunch Menu",
-    "lunchAlt": "Lunch menu for Segue K-8"
+    "lunchAlt": "Lunch menu for Davis REACH Academy"
   },
   "schoolAnnouncements": {
     "title": "School Announcements"
   },
   "studentLedActivities": {
     "title": "Student Led Activities",
-    "intro": "Student voice is central to our culture. Whether it is leading a station in gym class, helping plan a spirit week, or presenting a project to the school community, Segue scholars are empowered to lead with confidence.",
+    "intro": "Student voice is central to our culture. Whether it is leading a station in gym class, helping plan a spirit week, or presenting a project to the school community, Davis REACH Academy scholars are empowered to lead with confidence.",
     "listIntro": "We provide structured opportunities for students to:",
     "items": [
       "Design and teach mini-lessons",
@@ -89,7 +89,7 @@
     "paragraphs": [
       {
         "content": [
-          "Health and wellness are woven into the Segue experience. Our physical education program includes ",
+          "Health and wellness are woven into the Davis REACH Academy experience. Our physical education program includes ",
           { "bold": "Falcon Fitness" },
           ", a program built around endurance, strength, and self-discipline. Students participate in activities that build stamina, flexibility, and focus, guided by dedicated coaches and instructors."
         ]
@@ -152,7 +152,7 @@
     "title": "Uniform Policy",
     "formalTitle": "Formal Uniform (Non-Gym Days)",
     "formalItems": [
-      "Maroon Segue polo (short or long sleeve)",
+      "Maroon Davis REACH Academy polo (short or long sleeve)",
       "Black or khaki pants, shorts, or skirt",
       "Sneakers (any color)",
       "Leggings may be worn under skirts and shorts",
@@ -162,8 +162,8 @@
     "notAllowedText": "jeans, hoodies, hats, Uggs, Crocs, open-toed shoes, sandals, slippers, heels, moccasins",
     "peTitle": "PE Uniform (Gym Days)",
     "peItems": [
-      "Grey or maroon Segue T-shirt",
-      "Maroon Segue-issued sweatpants and sweatshirt",
+      "Grey or maroon Davis REACH Academy T-shirt",
+      "Maroon Davis REACH Academy-issued sweatpants and sweatshirt",
       "Sneakers (any color)",
       "Same prohibited items as formal uniform",
       "Layering encouraged during colder months"

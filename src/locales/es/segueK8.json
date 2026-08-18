@@ -6,16 +6,16 @@
   "menus": {
     "title": "Menus de Almuerzo",
     "breakfastTitle": "Menu de Desayuno",
-    "breakfastAlt": "Menu de desayuno de Segue K-8",
+    "breakfastAlt": "Menu de desayuno de Davis REACH Academy",
     "lunchTitle": "Menu de Almuerzo",
-    "lunchAlt": "Menu de almuerzo de Segue K-8"
+    "lunchAlt": "Menu de almuerzo de Davis REACH Academy"
   },
   "schoolAnnouncements": {
     "title": "Anuncios Escolares"
   },
   "studentLedActivities": {
     "title": "Actividades Dirigidas por Estudiantes",
-    "intro": "La voz estudiantil es central en nuestra cultura. Ya sea dirigiendo una estacion en la clase de gimnasio, ayudando a planificar una semana de espiritu escolar o presentando un proyecto a la comunidad escolar, los estudiantes de Segue son alentados a liderar con confianza.",
+    "intro": "La voz estudiantil es central en nuestra cultura. Ya sea dirigiendo una estacion en la clase de gimnasio, ayudando a planificar una semana de espiritu escolar o presentando un proyecto a la comunidad escolar, los estudiantes de Davis REACH Academy son alentados a liderar con confianza.",
     "listIntro": "Brindamos oportunidades estructuradas para que los estudiantes puedan:",
     "items": [
       "Disenar y ensenar mini lecciones",
@@ -88,7 +88,7 @@
     "paragraphs": [
       {
         "content": [
-          "La salud y el bienestar forman parte de la experiencia Segue. Nuestro plan de educación física incluye ",
+          "La salud y el bienestar forman parte de la experiencia de Davis REACH Academy. Nuestro plan de educación física incluye ",
           { "bold": "Falcon Fitness" },
           ", un programa basado en resistencia, fuerza y autodisciplina. Los estudiantes participan en actividades que fortalecen la resistencia, la flexibilidad y la concentración, con la guía de entrenadores e instructores comprometidos."
         ]
@@ -152,7 +152,7 @@
 
     "formalTitle": "Uniforme Formal (días sin educación física)",
     "formalItems": [
-      "Polo granate de Segue (manga corta o larga)",
+      "Polo granate de Davis REACH Academy (manga corta o larga)",
       "Pantalones, pantalones cortos o falda negros o color caqui",
       "Tenis de cualquier color",
       "Se pueden usar leggings debajo de faldas y pantalones cortos",
@@ -164,8 +164,8 @@
 
     "peTitle": "Uniforme de Educación Física (días de gimnasio)",
     "peItems": [
-      "Camiseta gris o granate de Segue",
-      "Pantalones deportivos y sudadera granate entregados por Segue",
+      "Camiseta gris o granate de Davis REACH Academy",
+      "Pantalones deportivos y sudadera granate entregados por Davis REACH Academy",
       "Tenis de cualquier color",
       "Los mismos artículos prohibidos que en el uniforme formal",
       "Se recomienda usar capas adicionales en meses fríos"

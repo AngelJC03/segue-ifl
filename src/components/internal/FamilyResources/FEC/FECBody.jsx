@@ -26,7 +26,7 @@ function FECBody() {
                     <ul>
                         {contacts.map((contact) => (
                             <li key={contact.email}>
-                                <strong>{contact.name}</strong> - {contact.role}: <a href={`mailto:${contact.email}`}>{contact.email}</a>
+                                <strong>{contact.name}</strong> - {contact.role}: <a href={`mailto:${contact.email}`}>{t('familyEngagementCommittee.emailLink')}</a>
                                 <br />
                             </li>
                         ))}

@@ -3,6 +3,7 @@
     "title": "Family Engagement Committee",
     "description": "The Family Engagement Committee (FEC) is a group of dedicated parents, guardians, and family members who work collaboratively to support and enhance the educational experience of our students. The FEC serves as a bridge between families and the school community, fostering open communication, collaboration, and engagement.",
     "contactTitle": "Contact Information",
+    "emailLink": "Email",
     "flyerAlt": "Family Engagement Committee flyer",
     "contacts": [
       {
@@ -12,7 +13,7 @@
       },
       {
         "name": "Monica Cortes",
-        "role": "K-8 Coordinator",
+        "role": "Davis REACH Academy Coordinator",
         "email": "Monica.Cortes@segueifl.org"
       },
       {
@@ -28,10 +29,10 @@
     ]
   },
   "foodPantry": {
-    "title": "Segue Food Pantry",
+    "title": "Davis REACH Academy Food Pantry",
     "heroAlt": "Food pantry",
     "galleryAlt": "Food pantry {{index}}",
-    "description": "The Segue Food Pantry provides nutritious meals and essential supplies to students and families in need. Our goal is to ensure that everyone in our community has access to healthy food, while fostering a welcoming and supportive environment. Whether for daily meals or occasional support, our pantry is here to help nourish both body and mind."
+    "description": "Davis REACH Academy Food Pantry provides nutritious meals and essential supplies to students and families in need. Our goal is to ensure that everyone in our community has access to healthy food, while fostering a welcoming and supportive environment. Whether for daily meals or occasional support, our pantry is here to help nourish both body and mind."
   },
   "parentAndStudentHandbook": {
     "title": "Parent & Student Handbook",
@@ -54,19 +55,19 @@
 
     "safeEnvironment": {
       "title": "Creating a Safe and Supportive Environment",
-      "p1": "Safety and structure are essential for student success. Segue Institute for Learning enforces clear, consistent policies designed to support a calm, respectful learning environment. From daily routines to behavior expectations, our goal is to create a space where every student feels safe, valued, and supported.",
+      "p1": "Safety and structure are essential for student success. Davis REACH Academy enforces clear, consistent policies designed to support a calm, respectful learning environment. From daily routines to behavior expectations, our goal is to create a space where every student feels safe, valued, and supported.",
       "p2": "Staff are trained in trauma-informed practices, de-escalation techniques, and emergency protocols. All visitors are screened upon entry, and staff are visible and accessible throughout the day. Our scholars know what’s expected of them—and they thrive in that clarity."
     },
 
     "admissions": {
       "title": "General Admissions Policy",
-      "p1": "Segue Institute for Learning is a free, public charter school serving Central Falls students in grades K–8. We welcome all eligible students without regard to academic performance, testing, or background.",
+      "p1": "Davis REACH Academy is a free, public charter school serving Central Falls students in grades K-8. We welcome all eligible students without regard to academic performance, testing, or background.",
       "p2": "Admission is open to students who are grade-level appropriate and reside in Central Falls at the time of application. Applications from outside Central Falls are considered invalid for lottery purposes."
     },
 
     "eo": {
       "title": "Equal Opportunity Statement",
-      "p1": "Segue Institute for Learning is committed to maintaining a work and learning environment free from discrimination on the basis of race, color, religion, national origin, gender identity, sexual orientation, disability, and other protected categories.",
+      "p1": "Davis REACH Academy is committed to maintaining a work and learning environment free from discrimination on the basis of race, color, religion, national origin, gender identity, sexual orientation, disability, and other protected categories.",
       "p2": "We strictly prohibit retaliation against individuals who report or participate in investigations of discrimination.",
 
       "complaintTitle": "To file a complaint of discrimination, contact:",
@@ -77,12 +78,12 @@
   },
   "mcKinneyVentoAct": {
     "title": "McKinney Vento ACT",
-    "schoolName": "Segue Institute for Learning",
+    "schoolName": "Davis REACH Academy",
     "policyCode": "8.c. Education of Homeless Children",
     "policyTitle": "McKinney Vento Act Policy",
     "sectionTitle": "Education of Homeless Children",
 
-    "introP1": "The Segue Institute for Learning is committed to ensuring that Homeless Children and Youth have equal access to the free, appropriate public education as provided to other students who attend Segue Institute for Learning. The Segue Institute for Learning shall fulfill this commitment in accordance with the provisions of the federal McKinney Vento Homeless Education Act. The Segue Institute for Learning policies must strive to eliminate barriers to Homeless Children and Youth succeeding in school.",
+    "introP1": "Davis REACH Academy is committed to ensuring that Homeless Children and Youth have equal access to the free, appropriate public education as provided to other students who attend Davis REACH Academy. Davis REACH Academy shall fulfill this commitment in accordance with the provisions of the federal McKinney Vento Homeless Education Act. Davis REACH Academy policies must strive to eliminate barriers to Homeless Children and Youth succeeding in school.",
 
     "introP2": "“Homeless Children and Youth” are defined as those students who lack a fixed, regular, and adequate nighttime residence or have a primary nighttime residence in a supervised, publicly or privately operated, shelter for temporary accommodations (including welfare hotels, congregate shelters, and transitional housing for the mentally ill), an institution providing temporary residence for individuals intended to be institutionalized, or a public or private place not designated for, or ordinarily used as, a regular sleeping accommodation for human beings. The definition of Homeless Children and Youth includes:",
 
@@ -97,11 +98,11 @@
 
     "sectionA": "A. Enrollment of Homeless Children and Youth",
 
-    "enrollmentP1": "The Segue Institute for Learning must strive to inform Homeless Children and Youth of their educational rights, enroll them in school, and coordinate the services necessary to ensure their success. Homeless Children and Youth may enroll themselves or be enrolled by a parent, non-parent caretaker, older sibling, a caseworker, or designated liaison. The Segue Institute for Learning shall admit any homeless student who enrolls at The Segue Institute for Learning as The Segue Institute for Learning would any other student, even if they do not have the documents usually required for enrollment, such as school records, medical records or proof of residency. If a Homeless Child or Youth arrives without records, The Segue Institute for Learning must assist the family, parent, or guardian and contact the previously attended school system to obtain the required records.",
+    "enrollmentP1": "Davis REACH Academy must strive to inform Homeless Children and Youth of their educational rights, enroll them in school, and coordinate the services necessary to ensure their success. Homeless Children and Youth may enroll themselves or be enrolled by a parent, non-parent caretaker, older sibling, a caseworker, or designated liaison. Davis REACH Academy shall admit any homeless student who enrolls at Davis REACH Academy as Davis REACH Academy would any other student, even if they do not have the documents usually required for enrollment, such as school records, medical records or proof of residency. If a Homeless Child or Youth arrives without records, Davis REACH Academy must assist the family, parent, or guardian and contact the previously attended school system to obtain the required records.",
 
-    "enrollmentP2": "Enrollment shall mean the Homeless Child or Youth attending classes and participating fully in school activities, classes, educational opportunities, meals, social and athletic events, clubs, teams, and other services. Further, Segue Institute for Learning, along with the homeless student’s district of temporary residence, shall provide transportation to all Homeless Children and Youth to and from school. The Segue Institute for Learning must ensure that all Homeless Children and Youth are able to participate in Federal, State, or local food programs as soon as possible. The fact that a Homeless Child or Youth has an Individual Education Plan (IEP) may not be used to delay the student's enrollment or attendance, and such IEP shall be promptly implemented.",
+    "enrollmentP2": "Enrollment shall mean the Homeless Child or Youth attending classes and participating fully in school activities, classes, educational opportunities, meals, social and athletic events, clubs, teams, and other services. Further, Davis REACH Academy, along with the homeless student’s district of temporary residence, shall provide transportation to all Homeless Children and Youth to and from school. Davis REACH Academy must ensure that all Homeless Children and Youth are able to participate in Federal, State, or local food programs as soon as possible. The fact that a Homeless Child or Youth has an Individual Education Plan (IEP) may not be used to delay the student's enrollment or attendance, and such IEP shall be promptly implemented.",
 
-    "enrollmentP3": "A homeless student has the right, as long as it is in his or her best interest, to remain enrolled in his or her school of origin until he or she has permanent housing somewhere. The parents of a homeless child may decide, subject to Segue Institute for Learning’s challenge, whether it is in the best interest of the student to attend school in the town where the student is now living, or to attend the student's school of origin.",
+    "enrollmentP3": "A homeless student has the right, as long as it is in his or her best interest, to remain enrolled in his or her school of origin until he or she has permanent housing somewhere. The parents of a homeless child may decide, subject ta Davis REACH Academy’s challenge, whether it is in the best interest of the student to attend school in the town where the student is now living, or to attend the student's school of origin.",
 
     "enrollmentP4": "If a child or youth needs to obtain immunizations, or immunization or medical records, the enrolling school must immediately refer the parent or guardian to the district’s local homeless liaison, who must assist in obtaining the immunizations or records."
   }

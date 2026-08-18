@@ -1,0 +1,17 @@
+{
+  "eventsCalendar": {
+    "title": "Calendário de Eventos",
+    "facebookFeed": "Feed do Facebook",
+    "loadingPosts": "Carregando publicações...",
+    "pageName": "Davis REACH Academy",
+    "postImageAlt": "Imagem da publicação no Facebook",
+    "facebookCtaHeading": "Siga-nos no Facebook",
+    "facebookCtaText": "Fique por dentro das notícias da Davis REACH Academy, eventos, destaques dos estudantes e comunicados da comunidade.",
+    "facebookCtaButton": "Visite Nossa Página no Facebook"
+  },
+  "newsArticles": {
+    "title": "Artigos de Notícias",
+    "loadingNews": "Carregando notícias...",
+    "readMore": "Leia mais"
+  }
+}

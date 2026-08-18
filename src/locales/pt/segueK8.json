@@ -1,0 +1,171 @@
+{
+  "curriculumOverview": {
+    "title": "Visão Geral do Currículo",
+    "body": "Nosso currículo foi desenvolvido para desafiar, inspirar e apoiar todos os estudantes. Nosso foco está em alfabetização, matemática, ciências e estudos sociais, integrando pensamento crítico, resolução de problemas e comunicação eficaz em todas as áreas de conteúdo."
+  },
+  "menus": {
+    "title": "Cardápios de Almoço",
+    "imageAlt": "Cardápio de almoço da Davis REACH Academy",
+    "breakfastTitle": "Cardápio de Café da Manhã",
+    "breakfastAlt": "Cardápio de café da manhã da Davis REACH Academy",
+    "lunchTitle": "Cardápio de Almoço",
+    "lunchAlt": "Cardápio de almoço da Davis REACH Academy"
+  },
+  "schoolAnnouncements": {
+    "title": "Comunicados da Escola"
+  },
+  "studentLedActivities": {
+    "title": "Atividades Lideradas por Estudantes",
+    "intro": "A voz dos estudantes é central em nossa cultura. Seja liderando uma estação na aula de educação física, ajudando a planejar uma semana de espírito escolar ou apresentando um projeto à comunidade escolar, os estudantes da Davis REACH Academy são incentivados a liderar com confiança.",
+    "listIntro": "Oferecemos oportunidades estruturadas para que os estudantes possam:",
+    "items": [
+      "Criar e ensinar miniaulas",
+      "Organizar exposições ou clubes",
+      "Colaborar com ideias para melhorar a escola",
+      "Orientar estudantes mais novos"
+    ],
+    "outro": "Esses momentos desenvolvem senso de pertencimento e autonomia, habilidades essenciais para o ensino médio, a faculdade e além."
+  },
+  "afterSchoolEnrichment": {
+    "title": "Enriquecimento Após as Aulas",
+    "intro": "Nossos programas após as aulas ampliam a aprendizagem por meio de experiências práticas, guiadas pela curiosidade. As sessões mudam conforme a temporada e incluem parcerias com organizações locais muito queridas, como:",
+    "sections": [
+      {
+        "heading": "Roger Williams Zoo",
+        "items": [
+          "Estudantes do K-1 conhecem animais vivos e exploram a aprendizagem baseada na natureza."
+        ]
+      },
+      {
+        "heading": "Farm Fresh RI",
+        "items": [
+          "Estudantes do 3º e 4º anos aprendem hábitos alimentares saudáveis e cozinham com produtos locais."
+        ]
+      },
+      {
+        "heading": "Audubon Society",
+        "items": [
+          "Leva animais e jogos ao ar livre para estudantes do 5º e 6º anos, incentivando a educação ambiental."
+        ]
+      },
+      {
+        "heading": "Clínicas de Cheer e Futebol",
+        "items": [
+          "Os estudantes praticam liderança ao ensinar aos colegas o que aprenderam.",
+          "Trabalho em equipe e comunicação",
+          "Confiança por meio do movimento",
+          "Definição de metas e liderança"
+        ]
+      }
+    ],
+    "outro": "Cada sessão é planejada para ser educativa, envolvente e fortalecer a confiança. Os estudantes são incentivados a experimentar coisas novas, desafiar a si mesmos e construir amizades ao longo do caminho."
+  },
+  "afterSchoolPrograms": {
+    "title": "Programas Após as Aulas",
+    "overviewTitle": "Visão Geral do Programa",
+    "overviewItems": [
+      "Nosso programa após as aulas oferece experiências práticas e envolventes que ampliam a aprendizagem para além da sala de aula."
+    ],
+    "sessionOneTitle": "Destaques da Primeira Sessão",
+    "sessionOneItems": [
+      "K-1º ano: Parceria com o Roger Williams Zoo para conhecer animais e integrar estações de ELA e matemática.",
+      "3º-4º ano: Exploração de culinária saudável com a Farm Fresh Rhode Island.",
+      "5º-6º ano: Aprendizagem sobre a vida selvagem local com a Audubon Society; caça ao tesouro e jogos ao ar livre.",
+      "Clínicas de enriquecimento: Estudantes de cheer e futebol praticaram novas habilidades e as ensinaram aos colegas."
+    ],
+    "sessionTwoTitle": "Foco da Segunda Sessão",
+    "sessionTwoItems": [
+      "Fundamentos de Boxe com o Sr. Powell tem foco em força, condicionamento e confiança.",
+      "Também é reforçado por meio do Falcon Fitness e das aulas de educação física."
+    ],
+    "contactTitle": "Contato",
+    "contactName": "Sr. Kestler Rodriguez",
+    "contactRole": "Diretor de Programas Após as Aulas",
+    "contactAriaLabel": "Enviar e-mail para o Sr. Kestler Rodriguez"
+  },
+  "fitnessAndWellnessPrograms": {
+    "title": "Programas de Atividade Física e Bem-Estar",
+    "paragraphs": [
+      {
+        "content": [
+          "Saúde e bem-estar fazem parte da experiência Davis REACH Academy. Nosso programa de educação física inclui ",
+          { "bold": "Falcon Fitness" },
+          ", um programa baseado em resistência, força e autodisciplina. Os estudantes participam de atividades que desenvolvem resistência, flexibilidade e foco, com a orientação de treinadores e instrutores dedicados."
+        ]
+      },
+      {
+        "content": [
+          "Nossa aula de ",
+          { "bold": "Fundamentos de Boxe" },
+          ", por exemplo, apresenta aos estudantes dos anos mais avançados habilidades como movimentação dos pés, coordenação e força mental, lições que também ajudam na sala de aula e na vida além da escola."
+        ]
+      },
+      {
+        "content": [
+          "O bem-estar também inclui equilíbrio emocional. Incentivamos o autocuidado, pausas de atenção plena e uma cultura de gentileza que apoia a criança por inteiro."
+        ]
+      }
+    ]
+  },
+  "libraryExpectations": {
+    "title": "Expectativas da Biblioteca",
+    "sections": [
+      {
+        "title": "Trate móveis, livros e materiais da biblioteca com cuidado.",
+        "items": [
+          "SENTE-SE em cadeiras, bancos e banquetas. Não fique em pé, deite ou pule nos móveis.",
+          "Seja CUIDADOSO com os livros. Eles são frágeis.",
+          "NÃO escreva, desenhe ou marque nenhum móvel da biblioteca."
+        ]
+      },
+      {
+        "title": "Se retirar um livro da estante, devolva-o ao BOOK DROP localizado no balcão de circulação.",
+        "items": [
+          "NUNCA coloque um livro de volta na estante por conta própria. Isso prejudica a organização da biblioteca e pode fazer com que você não encontre o livro novamente."
+        ]
+      },
+      {
+        "title": "NÃO são permitidos alimentos ou bebidas na biblioteca.",
+        "items": [
+          "Água é permitida em recipientes fechados."
+        ]
+      },
+      {
+        "title": "Use apenas voz baixa e mantenha o corpo calmo enquanto estiver na biblioteca.",
+        "items": [
+          "Somente sussurros",
+          "NÃO pule nem fique em pé sobre os móveis",
+          "Caminhe sempre"
+        ]
+      },
+      {
+        "title": "Permaneça nos espaços dos estudantes",
+        "items": [
+          "Os estudantes podem ler, trabalhar ou relaxar nas mesas de criação no centro da sala ou em qualquer lado do balcão de circulação, perto das estantes.",
+          "Os estudantes NÃO podem ficar na área da equipe, no banheiro da equipe ou atrás do balcão de circulação."
+        ]
+      }
+    ]
+  },
+  "uniformPolicy": {
+    "title": "Política de Uniforme",
+    "formalTitle": "Uniforme Formal (Dias sem Educação Física)",
+    "formalItems": [
+      "Polo bordô da Davis REACH Academy (manga curta ou longa)",
+      "Calça, bermuda ou saia preta ou cáqui",
+      "Tênis de qualquer cor",
+      "Leggings podem ser usadas por baixo de saias e bermudas",
+      "Camisetas de manga longa podem ser usadas por baixo dos polos nos meses mais frios"
+    ],
+    "notAllowedLabel": "Não permitido:",
+    "notAllowedText": "jeans, moletons com capuz, bonés, Uggs, Crocs, sapatos abertos, sandálias, chinelos, saltos, mocassins",
+    "peTitle": "Uniforme de Educação Física (Dias de Ginásio)",
+    "peItems": [
+      "Camiseta cinza ou bordô da Davis REACH Academy",
+      "Calça de moletom e blusa de moletom bordô fornecidas pela Davis REACH Academy",
+      "Tênis de qualquer cor",
+      "Os mesmos itens proibidos do uniforme formal",
+      "O uso de camadas é incentivado nos meses mais frios"
+    ]
+  }
+}

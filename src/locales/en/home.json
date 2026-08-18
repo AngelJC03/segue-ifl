@@ -1,17 +1,27 @@
 {
   "foundersMessage": {
     "heading": "Where ALL Students are \"At Promise\"",
-    "paragraphOne": "At Segue Institute for Learning, we believe in the boundless potential of every student. Our mission is to cultivate a community where students take ownership of their education, preparing them to excel in high school, college, and beyond. We provide a rigorous academic experience that empowers scholars to view themselves as agents of change in their communities.",
-    "paragraphTwo": "Segue IFL scholars receive a rigorous academic experience that prepares them to excel in high school and the future college setting of their choice. At Segue, we believe that all of our students are \"AT PROMISE\" versus being labeled \"At Risk.\" Segue IFL schools offer safe and nurturing environments which promote diversity, encourage individual growth, and allow students to view themselves as citizens of change in their homes and community.",
+    "paragraphOne": "At Davis REACH Academy, we believe in the boundless potential of every student. Our mission is to cultivate a community where students take ownership of their education, preparing them to excel in high school, college, and beyond. We provide a rigorous academic experience that empowers scholars to view themselves as agents of change in their communities.",
+    "paragraphTwo": "Davis REACH Academy scholars receive a rigorous academic experience that prepares them to excel in high school and the future college setting of their choice. At Davis REACH Academy, we believe that all of our students are \"AT PROMISE\" versus being labeled \"At Risk.\" Davis REACH Academy schools offer safe and nurturing environments which promote diversity, encourage individual growth, and allow students to view themselves as citizens of change in their homes and community.",
     "photos": {
-      "galleryLabel": "Segue community photo gallery",
+      "galleryLabel": "Davis REACH Academy community photo gallery",
       "foundersAlt": "Angelo Garcia and Dr. Melissa Lourenco",
-      "violinAlt": "Segue student learning violin",
-      "classroomAlt": "Segue classroom community"
+      "violinAlt": "Davis REACH Academy student learning violin",
+      "classroomAlt": "Davis REACH Academy classroom community"
     }
   },
   "hero": {
-    "textImageAlt": "Segue hero message",
-    "slideAlt": "Segue campus slide {{index}}"
+    "textImageAlt": "Davis REACH Academy hero message",
+    "slideAlt": "Davis REACH Academy campus slide {{index}}"
+  },
+  "news": {
+    "heading": "Latest News",
+    "loading": "Loading News...",
+    "readMore": "Read more"
+  },
+  "facebook": {
+    "heading": "Follow Us on Facebook",
+    "description": "Stay updated with Davis REACH Academy news, events, student highlights, and community announcements.",
+    "button": "Visit Our Facebook Page"
   }
 }

@@ -1,0 +1,27 @@
+{
+  "foundersMessage": {
+    "heading": "Onde TODOS os Estudantes São \"Promessas\"",
+    "paragraphOne": "Na Davis REACH Academy, acreditamos no potencial ilimitado de cada estudante. Nossa missão é cultivar uma comunidade em que os estudantes assumam a responsabilidade por sua educação, preparando-os para ter sucesso no ensino médio, na faculdade e além. Oferecemos uma experiência acadêmica rigorosa que capacita os estudantes a se verem como agentes de mudança em suas comunidades.",
+    "paragraphTwo": "Os estudantes da Davis REACH Academy recebem uma experiência acadêmica rigorosa que os prepara para ter sucesso no ensino médio e no futuro ambiente universitário de sua escolha. Na Davis REACH Academy, acreditamos que todos os nossos estudantes são \"PROMESSAS\", em vez de serem rotulados como \"Em Risco\". As escolas da Davis REACH Academy oferecem ambientes seguros e acolhedores que promovem a diversidade, incentivam o crescimento individual e permitem que os estudantes se vejam como cidadãos de mudança em suas casas e comunidade.",
+    "photos": {
+      "galleryLabel": "Galeria de fotos da comunidade da Davis REACH Academy",
+      "foundersAlt": "Angelo Garcia e Dra. Melissa Lourenco",
+      "violinAlt": "Estudante da Davis REACH Academy aprendendo violino",
+      "classroomAlt": "Comunidade de sala de aula da Davis REACH Academy"
+    }
+  },
+  "hero": {
+    "textImageAlt": "Mensagem principal da Davis REACH Academy",
+    "slideAlt": "Slide do campus da Davis REACH Academy {{index}}"
+  },
+  "news": {
+    "heading": "Últimas Notícias",
+    "loading": "Carregando notícias...",
+    "readMore": "Leia mais"
+  },
+  "facebook": {
+    "heading": "Siga-nos no Facebook",
+    "description": "Fique por dentro das notícias da Davis REACH Academy, eventos, destaques dos estudantes e anúncios da comunidade.",
+    "button": "Visite nossa página no Facebook"
+  }
+}

@@ -1,26 +1,26 @@
 {
   "howToEnroll": {
     "title": "How to Enroll",
-    "introHeading": "Interested in joining the Segue community?",
+    "introHeading": "Interested in joining the Davis REACH Academy community?",
     "introBody": "Visit this page for enrollment forms, eligibility details, deadlines, and application requirements.",
     "step1Title": "Step 1: Create Your EnrollRI Account",
     "step1Body": "Visit the EnrollRI Common Application portal, powered by the Rhode Island Department of Education. First-time users should click \"Create an Account\" to begin. Returning users can log in using the same email or mobile number previously used, even if it was for a different school or All Course Network application.",
-    "step2Title": "Step 2: Add Students and Select Segue",
+    "step2Title": "Step 2: Add Students and Select Davis REACH Academy",
     "step2Body": "Once logged in, use \"Add a Student\" if your child is not already listed under your account. Then start your application and be sure to select:",
     "step2Items": [
-      "Segue Institute for Learning for grades K-8 within Central Falls",
+      "Davis REACH Academy for grades K-8 within Central Falls",
       "Legacy High School for grades 9-12 (eligible from Central Falls, Providence, Pawtucket, and Woonsocket)"
     ],
     "step3Title": "Step 3: Apply Before the Lottery Deadline",
     "step3Body": "The lottery application for the 2025-26 school year opened November 19, 2024 at 9 AM and closed March 13, 2025 at 5 PM. If there were more applicants than seats, a random lottery drawing took place on April 1, 2025. Families who apply on time are automatically entered into the lottery pool. If you missed the deadline, a Post-Lottery Application becomes available starting April 15, 2025.",
     "step4Title": "Step 4: Submit and Review Your Application",
-    "step4Body": "You can update or edit your application, including changing school choices, up until the deadline. Once submitted and accepted into the lottery, Segue staff will contact you if your child is offered a seat.",
+    "step4Body": "You can update or edit your application, including changing school choices, up until the deadline. Once submitted and accepted into the lottery, Davis REACH Academy staff will contact you if your child is offered a seat.",
     "step5Title": "Step 5: Lottery and Next Steps",
-    "step5Body": "The lottery is a public event held at the Segue school building. Active applicants are notified via phone or postcard. Those not offered a spot may be placed on a waitlist and contacted if space becomes available.",
+    "step5Body": "The lottery is a public event held at the Davis REACH Academy school building. Active applicants are notified via phone or postcard. Those not offered a spot may be placed on a waitlist and contacted if space becomes available.",
     "checklistTitle": "Summary Checklist",
     "checklist": [
       "Create or log in to your EnrollRI account",
-      "Add your child and select Segue Institute or Legacy High School",
+      "Add your child and select Davis REACH Academy or Legacy High School",
       "Submit before stated deadline",
       "Edit your application if needed before the deadline",
       "Wait for lottery results and follow next steps based on outcome"
@@ -28,7 +28,7 @@
   },
   "formsAndDeadlines": {
     "title": "Forms and Deadlines",
-    "intro": "Below you'll find important forms, application portals, and key dates for enrollment at Segue Institute for Learning and Legacy High School.",
+    "intro": "Below you'll find important forms, application portals, and key dates for enrollment at Davis REACH Academy and Legacy High School.",
     "portalTitle": "EnrollRI Application Portal",
     "portalBody": "Use the EnrollRI Common Application to apply. First-time users must create an account; returning users can log in with their existing credentials.",
     "windowTitle": "Lottery Application Window",
@@ -37,13 +37,13 @@
     "windowClose": "Closes:",
     "windowCloseValue": "March 13, 2025 at 5:00 PM",
     "drawingTitle": "Lottery Drawing",
-    "drawingBody": "Held publicly at Segue on April 1, 2025. Families are notified by phone or postcard.",
+    "drawingBody": "Held publicly at Davis REACH Academy on April 1, 2025. Families are notified by phone or postcard.",
     "postLotteryTitle": "Post-Lottery Applications",
     "postLotteryBody": "Open starting April 15, 2025 for late applicants. Waitlist offers may follow as space becomes available.",
     "requiredTitle": "Required School Selections",
     "requiredIntro": "When applying, select:",
     "requiredItems": [
-      "Segue Institute for Learning - Grades K-8 (Central Falls)",
+      "Davis REACH Academy - Grades K-8 (Central Falls)",
       "Legacy High School - Grades 9-12 (Available to students from Central Falls, Providence, Pawtucket, and Woonsocket)"
     ]
   },
@@ -54,13 +54,14 @@
     "howToApplyItems": [
       "Visiting our school office",
       "Calling (401) 721-0964",
-      "Emailing info@segueifl.org",
-      "Downloading it directly from SegueIFL.org"
+      "Emailing the admissions office",
+      "Downloading it directly from the Davis REACH Academy website"
     ],
     "howToApplyOutro": "Applications are provided in both English and Spanish and may be submitted electronically.",
+    "emailLink": "Email the admissions office",
     "deadline": "Application Deadline: February 15th (to be included in the lottery)",
     "lotteryProcess": "Lottery Process",
-    "lotteryProcessBody": "When the number of applicants exceeds the number of available seats, Segue conducts a random public lottery in accordance with Rhode Island Department of Education guidance.",
+    "lotteryProcessBody": "When the number of applicants exceeds the number of available seats, Davis REACH Academy conducts a random public lottery in accordance with Rhode Island Department of Education guidance.",
     "waitlistTitle": "Waitlist Process",
     "confirmingTitle": "Confirming Enrollment",
     "contactTitle": "Contact for Enrollment"
@@ -69,7 +70,7 @@
     "title": "Enrollment Policies",
     "equalOpportunity": {
       "title": "Equal Opportunity Statement",
-      "p1": "Segue Institute for Learning is committed to maintaining a work and learning environment free from discrimination on the basis of race, color, religion, national origin, pregnancy, gender identity, sexual orientation, marital or civil union status, ancestry, place of birth, age, citizenship status, veteran status, political affiliation, genetic information, or disability—as defined and required by state and federal law.",
+      "p1": "Davis REACH Academy is committed to maintaining a work and learning environment free from discrimination on the basis of race, color, religion, national origin, pregnancy, gender identity, sexual orientation, marital or civil union status, ancestry, place of birth, age, citizenship status, veteran status, political affiliation, genetic information, or disability—as defined and required by state and federal law.",
       "p2": "We also strictly prohibit retaliation against individuals who oppose such discrimination or who participate in any related investigation."
     },
     "complaint": {

@@ -1,10 +1,12 @@
 // components/GoogleNewsFeed.jsx
 import React, { useEffect, useState } from 'react';
 import './GoogleSheetsFeed.css';
+import { useTranslation } from '../../hooks/useTranslation';
 
 function GoogleNewsFeed() {
     const API = '/.netlify/functions/getSheet';
     const [news, setNews] = useState([]);
+    const { t } = useTranslation('home');
 
     function truncateText(text, maxLength) {
         if (!text) return '';
@@ -41,8 +43,8 @@ function GoogleNewsFeed() {
 
     return (
         <div className="home-news-section">
-            <h2>Latest News</h2>
-            {news.length === 0 && <h3 style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '200px' }}>Loading News...</h3>}
+            <h2>{t('news.heading')}</h2>
+            {news.length === 0 && <h3 style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '200px' }}>{t('news.loading')}</h3>}
             {news.map((item, index) => (
                 <div key={index} className="home-news-entry">
                     {item['Photo URL'] && (
@@ -70,7 +72,7 @@ function GoogleNewsFeed() {
                                 rel="noopener noreferrer"
                                 style={{ color: '#007bff', textDecoration: 'none' }}
                             >
-                                Read more
+                                {t('news.readMore')}
                             </a>
                         </p>
                     </div>

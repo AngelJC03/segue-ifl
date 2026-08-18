@@ -1,16 +1,19 @@
 import React from 'react';
 import { FaFacebookF } from 'react-icons/fa';
 import './FacebookFeed.css';
+import { useTranslation } from '../../hooks/useTranslation';
 
 function FacebookFeed() {
+    const { t } = useTranslation('home');
+
     return (
         <section className="facebook-cta-container" aria-labelledby="facebook-cta-heading">
             <div className="facebook-cta-icon" aria-hidden="true">
                 <FaFacebookF />
             </div>
             <div className="facebook-cta-copy">
-                <h2 id="facebook-cta-heading">Follow Us on Facebook</h2>
-                <p>Stay updated with Segue news, events, student highlights, and community announcements.</p>
+                <h2 id="facebook-cta-heading">{t('facebook.heading')}</h2>
+                <p>{t('facebook.description')}</p>
             </div>
             <a
                 className="facebook-cta-button"
@@ -18,7 +21,7 @@ function FacebookFeed() {
                 target="_blank"
                 rel="noopener noreferrer"
             >
-                Visit Our Facebook Page
+                {t('facebook.button')}
             </a>
         </section>
     );

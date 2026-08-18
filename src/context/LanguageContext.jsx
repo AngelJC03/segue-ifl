@@ -2,7 +2,7 @@ import { createContext, useEffect, useState } from 'react';
 
 const LANGUAGE_STORAGE_KEY = 'segue-language';
 const DEFAULT_LANGUAGE = 'en';
-const SUPPORTED_LANGUAGES = ['en', 'es'];
+const SUPPORTED_LANGUAGES = ['en', 'es', 'pt'];
 
 export const LanguageContext = createContext(null);
 

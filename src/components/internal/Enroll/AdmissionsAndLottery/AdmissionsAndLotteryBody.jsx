@@ -32,7 +32,7 @@ function AdmissionsAndLotteryBody() {
                     <p>{t('admissionsAndLottery.lotteryProcessBody')}</p>
                     <ul className="admissions-list">
                         <li><strong>Date:</strong> <strong>March 1st</strong> (or the next business day if on a weekend/holiday)</li>
-                        <li><strong>Location:</strong> Segue Institute for Learning, 325 Cowden Street</li>
+                        <li><strong>Location:</strong> Davis REACH Academy, 325 Cowden Street</li>
                         <li><strong>Format:</strong> Public event—families may attend but are not required to be present</li>
                     </ul>
                     <p>
@@ -48,7 +48,7 @@ function AdmissionsAndLotteryBody() {
                             and a birth certificate or guardianship papers.
                         </li>
                         <li>
-                            <strong>Children of Segue Staff:</strong> Children of full-time staff may also be admitted directly,
+                            <strong>Children of Davis REACH Academy Staff:</strong> Children of full-time staff may also be admitted directly,
                             provided they do not exceed 10% of the school’s total enrollment. If more apply than there are spaces,
                             a separate pre-lottery will be conducted for staff children.
                         </li>
@@ -61,7 +61,7 @@ function AdmissionsAndLotteryBody() {
                     </p>
                     <p>
                         If no waitlist exists for a particular grade level and a qualified applicant arrives after the school year
-                        begins, Segue may admit them directly if they meet residency and age requirements.
+                        begins, Davis REACH Academy may admit them directly if they meet residency and age requirements.
                     </p>
 
                     <h2><strong>{t('admissionsAndLottery.confirmingTitle')}</strong></h2>
@@ -81,11 +81,11 @@ function AdmissionsAndLotteryBody() {
 
                     <h2><strong>{t('admissionsAndLottery.contactTitle')}</strong></h2>
                     <p>
-                        Segue Institute for Learning<br />
+                        Davis REACH Academy<br />
                         Cowden Street Collaborative, Inc.<br />
                         📞 (401) 721-0964 Ext. 104<br />
                         📱 (401) 481-3378<br />
-                        📧 <a href="mailto:Angelo.Garcia@segueifl.org">Angelo.Garcia@segueifl.org</a>
+                        📧 <a href="mailto:Angelo.Garcia@segueifl.org">{t('admissionsAndLottery.emailLink')}</a>
                     </p>
 
                 </div>

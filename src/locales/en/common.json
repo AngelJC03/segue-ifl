@@ -4,7 +4,8 @@
     "ariaLabel": "Select language",
     "languages": {
       "en": "English",
-      "es": "Español"
+      "es": "Español",
+      "pt": "Português"
     }
   },
   "nav": {
@@ -14,9 +15,9 @@
       "label": "About Us",
       "items": {
         "districtMission": "District Mission",
-        "seguePledge": "The Segue Pledge",
+        "seguePledge": "Davis REACH Academy Pledge",
         "foundersMessage": "Founders' Message",
-        "segueBoard": "Segue Board",
+        "segueBoard": "Davis REACH Academy Board",
         "teachersAndStaff": "Teachers & Staff",
         "communityPartners": "Community Partners"
       }
@@ -59,7 +60,7 @@
       }
     },
     "segueK8": {
-      "label": "Segue K-8",
+      "label": "Davis REACH Academy",
       "items": {
         "curriculumOverview": "Curriculum Overview",
         "menus": "Lunch Menus",
@@ -90,18 +91,19 @@
   },
   "footer": {
     "contactTitle": "Contact Us",
-    "schoolName": "Segue Institute for Learning",
+    "schoolName": "Davis REACH Academy",
     "addressLabel": "Address",
     "addressValue": "325 Cowden Street, Central Falls, RI 02863",
     "phoneLabel": "Phone",
     "faxLabel": "Fax",
     "websiteLabel": "Website",
-    "websiteValue": "www.segueifl.org",
+    "websiteValue": "Davis REACH Academy website",
     "emailLabel": "Email",
+    "emailValue": "Contact us by email",
     "socialLabel": "Follow us on social media:",
-    "copyright": "© {{year}} Segue Institute for Learning. All rights reserved.",
+    "copyright": "© {{year}} Davis REACH Academy. All rights reserved.",
     "logoAlt": {
-      "segue": "Segue Institute for Learning logo",
+      "segue": "Davis REACH Academy logo",
       "legacy": "Legacy High School logo",
       "facebook": "Facebook icon"
     }

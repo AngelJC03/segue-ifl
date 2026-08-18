@@ -3,6 +3,7 @@
     "title": "Comite de Participacion Familiar",
     "description": "El Comite de Participacion Familiar (FEC) es un grupo de padres, tutores y familiares dedicados que colaboran para apoyar y fortalecer la experiencia educativa de nuestros estudiantes. El FEC sirve como puente entre las familias y la comunidad escolar, fomentando la comunicacion abierta, la colaboracion y la participacion.",
     "contactTitle": "Informacion de Contacto",
+    "emailLink": "Correo electrónico",
     "flyerAlt": "Volante del Comite de Participacion Familiar",
     "contacts": [
       {
@@ -12,7 +13,7 @@
       },
       {
         "name": "Monica Cortes",
-        "role": "Coordinadora de K-8",
+        "role": "Coordinadora de Davis REACH Academy",
         "email": "Monica.Cortes@segueifl.org"
       },
       {
@@ -28,10 +29,10 @@
     ]
   },
   "foodPantry": {
-    "title": "Despensa de Alimentos de Segue",
+    "title": "Despensa de Alimentos da Davis REACH Academy",
     "heroAlt": "Despensa de alimentos",
     "galleryAlt": "Despensa de alimentos {{index}}",
-    "description": "La despensa de alimentos de Segue ofrece comidas nutritivas y suministros esenciales a estudiantes y familias que los necesitan. Nuestro objetivo es asegurar que todas las personas de nuestra comunidad tengan acceso a alimentos saludables, mientras fomentamos un entorno acogedor y de apoyo. Ya sea para comidas diarias o apoyo ocasional, nuestra despensa esta aqui para nutrir tanto el cuerpo como la mente."
+    "description": "La despensa de alimentos de Davis REACH Academy ofrece comidas nutritivas y suministros esenciales a estudiantes y familias que los necesitan. Nuestro objetivo es asegurar que todas las personas de nuestra comunidad tengan acceso a alimentos saludables, mientras fomentamos un entorno acogedor y de apoyo. Ya sea para comidas diarias o apoyo ocasional, nuestra despensa esta aqui para nutrir tanto el cuerpo como la mente."
   },
   "parentAndStudentHandbook": {
     "title": "Manual para Padres y Estudiantes",
@@ -54,19 +55,19 @@
 
     "safeEnvironment": {
       "title": "Creando un Entorno Seguro y de Apoyo",
-      "p1": "La seguridad y la estructura son esenciales para el éxito estudiantil. El Segue Institute for Learning aplica políticas claras y consistentes diseñadas para apoyar un ambiente de aprendizaje tranquilo y respetuoso. Desde las rutinas diarias hasta las expectativas de comportamiento, nuestro objetivo es crear un espacio donde cada estudiante se sienta seguro, valorado y apoyado.",
+      "p1": "La seguridad y la estructura son esenciales para el éxito estudiantil. Davis REACH Academy aplica políticas claras y consistentes diseñadas para apoyar un ambiente de aprendizaje tranquilo y respetuoso. Desde las rutinas diarias hasta las expectativas de comportamiento, nuestro objetivo es crear un espacio donde cada estudiante se sienta seguro, valorado y apoyado.",
       "p2": "El personal está capacitado en prácticas informadas sobre el trauma, técnicas de desescalamiento y protocolos de emergencia. Todos los visitantes son verificados al ingresar, y el personal está visible y accesible durante todo el día. Nuestros estudiantes saben lo que se espera de ellos y prosperan con esa claridad."
     },
 
     "admissions": {
       "title": "Política General de Admisión",
-      "p1": "El Segue Institute for Learning es una escuela pública autónoma gratuita que atiende a estudiantes de Central Falls en los grados K–8. Damos la bienvenida a todos los estudiantes elegibles sin importar su rendimiento académico, pruebas o antecedentes.",
+      "p1": "Davis REACH Academy es una escuela pública autónoma gratuita que atiende a estudiantes de Central Falls en los grados K-8. Damos la bienvenida a todos los estudiantes elegibles sin importar su rendimiento académico, pruebas o antecedentes.",
       "p2": "La admisión está abierta a estudiantes que estén al nivel de grado apropiado y residan en Central Falls al momento de la solicitud. Las solicitudes fuera de Central Falls se consideran inválidas para el sorteo."
     },
 
     "eo": {
       "title": "Declaración de Igualdad de Oportunidades",
-      "p1": "El Segue Institute for Learning se compromete a mantener un entorno laboral y educativo libre de discriminación por motivos de raza, color, religión, origen nacional, identidad de género, orientación sexual, discapacidad y otras categorías protegidas.",
+      "p1": "Davis REACH Academy se compromete a mantener un entorno laboral y educativo libre de discriminación por motivos de raza, color, religión, origen nacional, identidad de género, orientación sexual, discapacidad y otras categorías protegidas.",
       "p2": "Se prohíben estrictamente las represalias contra las personas que denuncien o participen en investigaciones de discriminación.",
 
       "complaintTitle": "Para presentar una queja por discriminación, contacte:",
@@ -77,12 +78,12 @@
   },
   "mcKinneyVentoAct": {
     "title": "Ley McKinney Vento",
-    "schoolName": "Segue Institute for Learning",
+    "schoolName": "Davis REACH Academy",
     "policyCode": "8.c. Educación de Niños sin Hogar",
     "policyTitle": "Política de la Ley McKinney Vento",
     "sectionTitle": "Educación de Niños sin Hogar",
 
-    "introP1": "El Segue Institute for Learning se compromete a garantizar que los niños y jóvenes sin hogar tengan igual acceso a la educación pública gratuita y apropiada como los demás estudiantes. Esta institución cumple con la Ley federal McKinney-Vento y trabaja para eliminar barreras al éxito académico.",
+    "introP1": "Davis REACH Academy se compromete a garantizar que los niños y jóvenes sin hogar tengan igual acceso a la educación pública gratuita y apropiada como los demás estudiantes. Esta institución cumple con la Ley federal McKinney-Vento y trabaja para eliminar barreras al éxito académico.",
 
     "introP2": "Se define como ‘niños y jóvenes sin hogar’ a aquellos que no tienen una residencia fija, regular y adecuada durante la noche, o que viven en refugios, hoteles, viviendas temporales o lugares no diseñados para residencia habitual.",
 

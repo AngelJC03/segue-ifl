@@ -23,12 +23,12 @@
 
 
 .segue-pledge-title {
-  /* font-family: 'Playbill', sans-serif; */
   font-size: 3rem;
   margin-bottom: 20px;
   margin-top: 20px;
   color: rgb(128, 0, 0);
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  text-align: center;
 }
 
 .segue-pledge-text {

@@ -43,7 +43,7 @@ function Footer() {
           </p>
           <p>
             {t('footer.emailLabel')}:{' '}
-            <a href="mailto:information@segueifl.org">information@segueifl.org</a>
+            <a href="mailto:information@segueifl.org">{t('footer.emailValue')}</a>
           </p>
           <p>{t('footer.socialLabel')}</p>
           <div className="social-icons">

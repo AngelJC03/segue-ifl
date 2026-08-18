@@ -13,7 +13,7 @@ function CenteredLogo() {
     >
       <img
         src={segueLogo}
-        alt="Segue Logo"
+        alt="Davis REACH Academy Logo"
         style={{
           height: '175px', // adjust size as needed
           width: 'auto',
