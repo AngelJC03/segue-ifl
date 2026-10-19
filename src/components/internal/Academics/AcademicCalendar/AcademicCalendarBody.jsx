@@ -2,8 +2,9 @@
 import './AcademicCalendarBody.css';
 import FadeIn from '../../../fadeinsection/FadeIn';
 import CenteredLogo from '../../../CenteredLogo';
-import academicCalendarImage from '../../../../assets/images/academic-calendar-photos/calendar.jpg';
-import calendarPDF from '../../../../assets/images/academic-calendar-photos/calendarPDF.pdf';
+import academicCalendarImagePage1 from '../../../../assets/images/academic-calendar-photos/2026-2027calendar.jpg';
+import academicCalendarImagePage2 from '../../../../assets/images/academic-calendar-photos/2026-2027calendarP2.jpg';
+import calendarPDF from '../../../../assets/images/academic-calendar-photos/2026-2027calendarpdf.pdf';
 import { useTranslation } from '../../../../hooks/useTranslation';
 
 function AcademicCalendarBody() {
@@ -18,7 +19,8 @@ function AcademicCalendarBody() {
                     <div className="academic-calendar-content">
                         <p>{t('academicCalendar.description')}</p>
                         <div className="academic-calendar-image-container"> 
-                            <img src={academicCalendarImage} alt={t('academicCalendar.imageAlt')} className="academic-calendar-image"/>
+                            <img src={academicCalendarImagePage1} alt={`${t('academicCalendar.imageAlt')} (page 1)`} className="academic-calendar-image"/>
+                            <img src={academicCalendarImagePage2} alt={`${t('academicCalendar.imageAlt')} (page 2)`} className="academic-calendar-image"/>
                         </div>
                          <p>
                             <a href={calendarPDF} target="_blank" rel="noopener noreferrer">
